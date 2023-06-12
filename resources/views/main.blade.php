@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>
-            Luxex - Hotel Booking Template
+            Vanward Securities
         </title>
         <meta content="" name="description">
         <meta content="" name="author">
@@ -54,10 +54,10 @@
                     <div class="logo">
                         <a class="navbar-brand logo" href="#">
                             <!-- logo light start -->
-                            <img alt="Logo" class="logo-light" src="{{ asset('main/img/logo-light.png') }}">
+                            <img alt="Logo" class="logo-light" src="{{ asset('logo-word.png') }}">
                             <!-- logo light end -->
                             <!-- logo dark start -->
-                            <img alt="Logo" class="logo-dark" src="{{ asset('main/img/logo-dark.png') }}">
+                            <img alt="Logo" class="logo-dark" src="{{ asset('logo.png') }}">
                             <!-- logo dark end -->
                         </a>
                     </div>
@@ -79,22 +79,18 @@
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="rooms.html">Rooms &amp; Suites</a>
+                                <a href="rooms.html">Wealth Management</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facilities <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="nav-close" href="restaurant.html">Restaurant</a></li>
-                                    <li><a class="nav-close" href="spa.html">Spa Center</a></li>
-                                    <li><a class="nav-close" href="fitness.html">Fitness Center</a></li>
-                                    <li><a class="nav-close" href="pool.html">Indoor Pool</a></li>
+                                    <li><a class="nav-close" href="#">Private Equity</a></li>
+                                    <li><a class="nav-close" href="#">Trust Services</a></li>
+                                    <li><a class="nav-close" href="#">Advisory</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="gallery.html">Gallery</a>
-                            </li>
-                            <li>
-                                <a href="blog.html">News</a>       
+                                <a href="gallery.html">FAQ</a>
                             </li>
                             <li>
                                 <a href="contact.html">Contact</a>
@@ -128,7 +124,7 @@
                                                 <!-- HTML5 video URL start -->
                                                 <video playsinline autoplay muted loop>
                                                     {{-- <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4"> --}}
-                                                        <source src="{{ asset('stock-market2.mp4') }}" type="video/mp4">
+                                                        <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4">
                                                 </video>
                                                 <!-- HTML5 video URL end -->
                                             </div>
@@ -149,7 +145,7 @@
                                                 <!-- divider end -->
                                                 <!-- section title start -->
                                                 <h1 class="hero-heading hero-heading-home fadeIn-element">
-                                                    Step Into Luxury
+                                                    VANWARD SECURITIES
                                                 </h1>
                                                 <!-- section title end -->
                                                 <!-- divider start -->
@@ -161,7 +157,7 @@
                                                         <div class="more-wraper-inner-home">
                                                             <i class="pulse"></i>
                                                             <div class="more-button-txt-center more-button-txt-center-home">
-                                                                <span>Explore rooms</span>
+                                                                <span>Explore services</span>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -191,114 +187,8 @@
             <!-- scroll indicator end -->
         </div>
         <!-- home end -->
-        <!-- separator start -->
-        <div class="section-all bg-dark" id="reservation-form-wrapper">
-            <!-- container start -->
-            <div class="container-fluid nopadding nopadding-xs">
-                <div class="extra-margin-container">
-                    <!-- row start -->
-                    <div class="row">
-                        <!-- col start -->
-                        <div class="col-lg-12">
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            <div class="the-line"></div>
-                            <!-- line end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- divider start -->
-                            <div class="divider-l visible-mobile-devices-2"></div>
-                            <!-- divider end -->
-                        </div>
-                        <!-- col end -->
-                    </div>
-                    <!-- row end -->
-                </div>
-            </div>
-            <!-- container end -->
-        </div>
-        <!-- separator end -->
-        <!-- reservation form wrapper start -->
-        <div class="reservation-form-wrapper">
-            <!-- reservation form start -->
-            <div class="reservation-wrapper">
-                <!-- container start -->
-                <div class="container">
-                    <div class="extra-margin-container">
-                        <div class="reservation-inner clearfix">
-                            <form action="reservation.php" id="form-2" method="post" name="send">
-                                <div class="col-1 c-1">
-                                    <div class="input-wrapper">
-                                        <label>Check-In</label>
-                                        <div class="input-inner">
-                                            <input class="requiredField-r checkin form-control input datepicker" id="checkin" name="checkin" placeholder="Check-In" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-1 c-2">
-                                    <div class="input-wrapper">
-                                        <label>Check-Out</label>
-                                        <div class="input-inner">
-                                            <input class="requiredField-r checkout form-control input datepicker" id="checkout" name="checkout" placeholder="Check-Out" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 c-3">
-                                    <div class="input-wrapper">
-                                        <label>Date</label>
-                                        <div class="input-inner input-inner-email">
-                                            <input class="requiredField-r email" id="email-r" name="email" placeholder="Email" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 c-4">
-                                    <div class="select-wrapper">
-                                        <label>Time</label>
-                                        <div class="select-inner">
-                                            <select class="requiredField-r time select2 select" id="time" name="time">
-                                                <option class="" value="" selected="selected">Time</option>
-                                                <option value="10:00 a.m.">10:00 a.m.</option>
-                                                <option value="11:00 a.m.">11:00 a.m.</option>
-                                                <option value="12:00 p.m.">12:00 p.m.</option>
-                                                <option value="1:00 p.m.">1:00 p.m.</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-2 c-5">
-                                    <div class="select-wrapper">
-                                        <label>Persons</label>
-                                        <div class="select-inner">
-                                            <select class="requiredField-r persons select2 select" id="persons" name="persons">
-                                                <option value="" selected="selected">Persons</option>
-                                                <option value="1 Person">1 Person</option>
-                                                <option value="2 Persons">2 Persons</option>
-                                                <option value="3 Persons">3 Persons</option>
-                                                <option value="4 Persons">4 Persons</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 c-6">
-                                    <button type="submit" class="reservation-button">Book now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <!-- container end -->
-            </div>
-            <!-- reservation form end -->
-        </div>
-        <!-- reservation form wrapper end -->
-        <!-- vertical lines start -->
-        <div class="vertical-lines-wrapper">
-            <div class="vertical-lines"></div>
-        </div>
-        <!-- vertical lines end -->
+       
+       
         <!-- about start -->
         <div id="about" class="section-all bg-dark">
             <!-- container start -->
@@ -343,7 +233,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="section-heading">
-                                                                        <span>01 </span> Our hotel
+                                                                        
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -351,7 +241,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="hero-heading hero-heading-dark">
-                                                                        The Luxex
+                                                                        About Us
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -360,8 +250,7 @@
                                                                     <!-- section txt start -->
                                                                     <div class="section-txt">
                                                                         <p>
-                                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                                                            ever since the 1500s.
+                                                                            At Vanward Securities, we take a unique approach to investing, providing customised strategies based on the goals of each client and our extensive knowledge of global markets and economies. Through our expert interpretation of multiple data sources, we identify suitable solutions for you, solutions that will strengthen your position.
                                                                         </p>
                                                                     </div>
                                                                     <!-- section txt end -->
@@ -369,11 +258,11 @@
                                                                     <div class="divider-l"></div>
                                                                     <!-- divider end -->      
                                                                     <!-- section txt start -->
-                                                                    <div class="blog-tag blog-tag-rooms">Make a reservation <span class="ion-ios-telephone"></span></div>
+                                                                    <div class="blog-tag blog-tag-rooms"> </div>
                                                                     <!-- divider start -->
                                                                     <div class="divider-s"></div>
                                                                     <!-- divider end --> 
-                                                                    <p><a class="link-effect" href="tel:1234567890">Call us at +123 456 7890</a></p>
+                                                                    <p><a class="link-effect" href="#"></a></p>
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
                                                                     <div class="divider-l visible-mobile-devices"></div>
@@ -430,7 +319,7 @@
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
                         <video playsinline autoplay muted loop>
-                            <source src="https://www.11-76.com/html5-videos-22/luxex/luxex.mp4" type="video/mp4">
+                            <source src="{{ asset('stock-market4.mp4') }}" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
                         <!-- parallax overlay start -->

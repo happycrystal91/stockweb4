@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
-            Vanward
+            Vanward Securities
         </title>  
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       
@@ -12,7 +12,7 @@
     <body>
         <div class="col-lg-12 text-center">
             <div class="p-2">
-                <img src="{{ asset('main/img/logo-dark.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('logo2.png') }}" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-lg-12">
