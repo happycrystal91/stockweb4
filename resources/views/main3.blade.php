@@ -11,8 +11,8 @@
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
         <!-- ex nihilo || September 2022 -->
         <!-- style start -->
-        <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css">
+        <link href="css/plugins.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
         <!-- style end -->
         <!-- google fonts start -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
@@ -21,14 +21,14 @@
     </head>
     <body>
         <!-- preloader start -->
-        {{-- <div class="preloader-bg"></div>
+        <div class="preloader-bg"></div>
         <div id="preloader">
             <div id="preloader-status">
                 <div class="preloader-position loader">
                     <span></span>
                 </div>
             </div>
-        </div> --}}
+        </div>
         <!-- preloader end -->
         <!-- tst line start -->
         <div class="tst-line-t"></div>
@@ -52,12 +52,12 @@
                 <div class="navbar-header fadeIn-element">
                     <!-- logo start -->
                     <div class="logo">
-                        <a class="navbar-brand logo" href="#">
+                        <a class="navbar-brand logo" href="index.html">
                             <!-- logo light start -->
-                            <img alt="Logo" class="logo-light" src="{{ asset('logo-word.png') }}">
+                            <img alt="Logo" class="logo-light" src="img/logo-light.png">
                             <!-- logo light end -->
                             <!-- logo dark start -->
-                            <img alt="Logo" class="logo-dark" src="{{ asset('logo.png') }}">
+                            <img alt="Logo" class="logo-dark" src="img/logo-dark.png">
                             <!-- logo dark end -->
                         </a>
                     </div>
@@ -79,18 +79,22 @@
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="rooms.html">Wealth Management</a>
+                                <a href="rooms.html">Rooms &amp; Suites</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Facilities <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="nav-close" href="#">Private Equity</a></li>
-                                    <li><a class="nav-close" href="#">Trust Services</a></li>
-                                    <li><a class="nav-close" href="#">Advisory</a></li>
+                                    <li><a class="nav-close" href="restaurant.html">Restaurant</a></li>
+                                    <li><a class="nav-close" href="spa.html">Spa Center</a></li>
+                                    <li><a class="nav-close" href="fitness.html">Fitness Center</a></li>
+                                    <li><a class="nav-close" href="pool.html">Indoor Pool</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="gallery.html">FAQ</a>
+                                <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">News</a>       
                             </li>
                             <li>
                                 <a href="contact.html">Contact</a>
@@ -123,8 +127,7 @@
                                             <div class="swiper-slide-inner-bg bg-img-1 overlay overlay-dark">
                                                 <!-- HTML5 video URL start -->
                                                 <video playsinline autoplay muted loop>
-                                                    {{-- <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4"> --}}
-                                                        <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4">
+                                                    <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4">
                                                 </video>
                                                 <!-- HTML5 video URL end -->
                                             </div>
@@ -145,7 +148,7 @@
                                                 <!-- divider end -->
                                                 <!-- section title start -->
                                                 <h1 class="hero-heading hero-heading-home fadeIn-element">
-                                                    VANWARD SECURITIES
+                                                    Step Into Luxury
                                                 </h1>
                                                 <!-- section title end -->
                                                 <!-- divider start -->
@@ -157,7 +160,7 @@
                                                         <div class="more-wraper-inner-home">
                                                             <i class="pulse"></i>
                                                             <div class="more-button-txt-center more-button-txt-center-home">
-                                                                <span>Explore services</span>
+                                                                <span>Explore rooms</span>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -179,7 +182,7 @@
             </div>
             <!-- hero bg end -->
             <!-- scroll indicator start -->
-            <div class="scroll-indicator">
+            <div class="scroll-indicator scroll-indicator-home">
                 <div class="scroll-indicator-wrapper">
                     <div class="scroll-line fadeIn-element"></div>
                 </div>
@@ -187,8 +190,114 @@
             <!-- scroll indicator end -->
         </div>
         <!-- home end -->
-       
-       
+        <!-- separator start -->
+        <div id="reservation-form-wrapper" class="section-all bg-dark reservation-form-wrapper-home">
+            <!-- container start -->
+            <div class="container-fluid nopadding nopadding-xs">
+                <div class="extra-margin-container">
+                    <!-- row start -->
+                    <div class="row">
+                        <!-- col start -->
+                        <div class="col-lg-12">
+                            <!-- divider start -->
+                            <div class="divider-l"></div>
+                            <!-- divider end -->
+                            <!-- line start -->
+                            <div class="the-line"></div>
+                            <!-- line end -->
+                            <!-- divider start -->
+                            <div class="divider-l"></div>
+                            <!-- divider end -->
+                            <!-- divider start -->
+                            <div class="divider-l visible-mobile-devices-2"></div>
+                            <!-- divider end -->
+                        </div>
+                        <!-- col end -->
+                    </div>
+                    <!-- row end -->
+                </div>
+            </div>
+            <!-- container end -->
+        </div>
+        <!-- separator end -->
+        <!-- reservation form wrapper start -->
+        <div>
+            <!-- reservation form start -->
+            <div class="reservation-wrapper reservation-wrapper-home fadeIn-element">
+                <!-- container start -->
+                <div class="container">
+                    <div class="extra-margin-container">
+                        <div class="reservation-inner clearfix">
+                            <form action="reservation.php" id="form-2" class="form-2" method="post" name="send">
+                                <div class="col-1 c-1">
+                                    <div class="input-wrapper">
+                                        <label>Check-In</label>
+                                        <div class="input-inner">
+                                            <input class="requiredField-r checkin form-control input datepicker" id="checkin" name="checkin" placeholder="Check-In" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1 c-2">
+                                    <div class="input-wrapper">
+                                        <label>Check-Out</label>
+                                        <div class="input-inner">
+                                            <input class="requiredField-r checkout form-control input datepicker" id="checkout" name="checkout" placeholder="Check-Out" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 c-3">
+                                    <div class="input-wrapper">
+                                        <label>Date</label>
+                                        <div class="input-inner input-inner-email">
+                                            <input class="requiredField-r email" id="email-r" name="email" placeholder="Email" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 c-4">
+                                    <div class="select-wrapper">
+                                        <label>Time</label>
+                                        <div class="select-inner">
+                                            <select class="requiredField-r time select2 select" id="time" name="time">
+                                                <option class="" value="" selected="selected">Time</option>
+                                                <option value="10:00 a.m.">10:00 a.m.</option>
+                                                <option value="11:00 a.m.">11:00 a.m.</option>
+                                                <option value="12:00 p.m.">12:00 p.m.</option>
+                                                <option value="1:00 p.m.">1:00 p.m.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 c-5">
+                                    <div class="select-wrapper">
+                                        <label>Persons</label>
+                                        <div class="select-inner">
+                                            <select class="requiredField-r persons select2 select" id="persons" name="persons">
+                                                <option value="" selected="selected">Persons</option>
+                                                <option value="1 Person">1 Person</option>
+                                                <option value="2 Persons">2 Persons</option>
+                                                <option value="3 Persons">3 Persons</option>
+                                                <option value="4 Persons">4 Persons</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 c-6">
+                                    <button type="submit" class="reservation-button">Book now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- container end -->
+            </div>
+            <!-- reservation form end -->
+        </div>
+        <!-- reservation form wrapper end -->
+        <!-- vertical lines start -->
+        <div class="vertical-lines-wrapper">
+            <div class="vertical-lines"></div>
+        </div>
+        <!-- vertical lines end -->
         <!-- about start -->
         <div id="about" class="section-all bg-dark">
             <!-- container start -->
@@ -233,7 +342,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="section-heading">
-                                                                        
+                                                                        <span>01 </span> Our hotel
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -241,7 +350,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="hero-heading hero-heading-dark">
-                                                                        About Us
+                                                                        The Luxex
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -250,7 +359,8 @@
                                                                     <!-- section txt start -->
                                                                     <div class="section-txt">
                                                                         <p>
-                                                                            At Vanward Securities, we take a unique approach to investing, providing customised strategies based on the goals of each client and our extensive knowledge of global markets and economies. Through our expert interpretation of multiple data sources, we identify suitable solutions for you, solutions that will strengthen your position.
+                                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                                                                            ever since the 1500s.
                                                                         </p>
                                                                     </div>
                                                                     <!-- section txt end -->
@@ -258,11 +368,11 @@
                                                                     <div class="divider-l"></div>
                                                                     <!-- divider end -->      
                                                                     <!-- section txt start -->
-                                                                    <div class="blog-tag blog-tag-rooms"> </div>
+                                                                    <div class="blog-tag blog-tag-rooms">Make a reservation <span class="ion-ios-telephone"></span></div>
                                                                     <!-- divider start -->
                                                                     <div class="divider-s"></div>
                                                                     <!-- divider end --> 
-                                                                    <p><a class="link-effect" href="#"></a></p>
+                                                                    <p><a class="link-effect" href="tel:1234567890">Call us at +123 456 7890</a></p>
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
                                                                     <div class="divider-l visible-mobile-devices"></div>
@@ -319,7 +429,7 @@
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
                         <video playsinline autoplay muted loop>
-                            <source src="{{ asset('stock-market5.mp4') }}" type="video/mp4">
+                            <source src="https://www.11-76.com/html5-videos-22/luxex/luxex.mp4" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
                         <!-- parallax overlay start -->
@@ -375,7 +485,16 @@
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
-                            
+                            <!-- button start -->
+                            <div class="more-wraper-center">
+                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
+                                    <div class="more-button-bg-center more-button-circle"></div>
+                                    <div class="more-button-txt-center">
+                                        <span>Watch Video</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- button end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
@@ -1649,7 +1768,7 @@
                 <div class="row footer-credits">
                     <!-- footer logo start -->
                     <div class="footer-credits-logo">
-                        <a href="#"><img alt="Logo Footer" src="logo.png"></a>
+                        <a href="#"><img alt="Logo Footer" src="img/logo-footer.png"></a>
                     </div>
                     <!-- footer logo end -->
                     <!-- divider start -->
@@ -1750,8 +1869,8 @@
         </div>
         <!-- photoSwipe background end -->
         <!-- scripts start -->
-        <script src="{{ asset('js/plugins.js') }}"></script> 
-        <script src="{{ asset('js/luxex.js') }}"></script>
+        <script src="js/plugins.js"></script> 
+        <script src="js/luxex.js"></script>
         <!-- scripts end -->
     </body>
 </html>
