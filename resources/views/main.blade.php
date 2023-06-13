@@ -340,8 +340,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
+                                                Build lasting expansion
                                             </blockquote>
                                         </div>
                                     </div>
@@ -352,7 +351,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
+                                                Collaboration with us
                                             </blockquote>
                                         </div>
                                     </div>
@@ -363,8 +362,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
+                                                Dependable and responsive service and support
                                             </blockquote>
                                         </div>
                                     </div>
@@ -417,17 +415,12 @@
                 <div class="row">
                     <!-- col start -->
                     <div class="col-lg-12">
-                        <!-- section title start -->
-                        <h2 class="section-heading">
-                            <span>02 </span> Inside the
-                        </h2>
-                        <!-- section title end -->
                         <!-- divider start -->
                         <div class="divider-m"></div>
                         <!-- divider end -->
                         <!-- section title start -->
                         <h2 class="hero-heading hero-heading-dark">
-                            Rooms &amp; Suites
+                           Our Services
                         </h2>
                         <!-- section title end -->
                     </div>
@@ -475,22 +468,14 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="star-wrapper">
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                    </div>
-                                    <!-- section subtitle end -->
+                                  
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
                                     <!-- section title start -->
                                     <h2>
-                                        Deluxe<br>
-                                        Double Room
+                                        Private<br>
+                                        Equity
                                     </h2>
                                     <!-- section title end -->
                                     <!-- divider start -->
@@ -498,8 +483,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        We provide our clients with access to global markets, and our team is available to assist you in navigating the vast array of available investment vehicles. Additionally, our personal advisors collaborate closely with clients to determine the most suitable options given their circumstances.
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -507,7 +491,7 @@
                                     <!-- divider end -->
                                     <!-- button start -->
                                     <div class="more-wraper-center">
-                                        <a href="rooms-single.html">
+                                        <a href="#">
                                             <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                                             <div class="more-button-txt-center more-button-txt-center-close">
                                                 <span>Details</span>
@@ -537,22 +521,14 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="star-wrapper">
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                    </div>
-                                    <!-- section subtitle end -->
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
                                     <!-- section title start -->
                                     <h2>
-                                        Luxury<br>
-                                        Suite
+                                        Trust<br>
+                                        Services
                                     </h2>
                                     <!-- section title end -->
                                     <!-- divider start -->
@@ -560,8 +536,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        As seasoned trustees and executors, we collaborate with clients and their advisors to administer all types of trusts, from simple living trusts to complex estate planning vehicles propelled by tax considerations. We also provide specialised services for retirement and charitable foundations.
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -569,7 +544,7 @@
                                     <!-- divider end -->
                                     <!-- button start -->
                                     <div class="more-wraper-center">
-                                        <a href="rooms-single.html">
+                                        <a href="#">
                                             <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                                             <div class="more-button-txt-center more-button-txt-center-close">
                                                 <span>Details</span>
@@ -611,22 +586,14 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="star-wrapper">
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                    </div>
-                                    <!-- section subtitle end -->
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
                                     <!-- section title start -->
                                     <h2>
-                                        Standard<br>
-                                        Double Room
+                                        Hedge<br>
+                                        Funds
                                     </h2>
                                     <!-- section title end -->
                                     <!-- divider start -->
@@ -634,8 +601,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        With global access to hedge funds, we offer our clients unrivalled opportunities, and our team is here to ensure your success. Our extensive expertise in this field enables us to assist clients in selecting the optimal hedge fund for their portfolios.
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -643,7 +609,7 @@
                                     <!-- divider end -->
                                     <!-- button start -->
                                     <div class="more-wraper-center">
-                                        <a href="rooms-single.html">
+                                        <a href="#">
                                             <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                                             <div class="more-button-txt-center more-button-txt-center-close">
                                                 <span>Details</span>
@@ -673,22 +639,14 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="star-wrapper">
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                    </div>
-                                    <!-- section subtitle end -->
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
                                     <!-- section title start -->
                                     <h2>
-                                        Family<br>
-                                        Suite
+                                        Real<br>
+                                        Estate
                                     </h2>
                                     <!-- section title end -->
                                     <!-- divider start -->
@@ -696,8 +654,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        Real estate market performance is inextricably linked to local economies, and we leverage our global network to research and analyse economic data to comprehend market direction and gain insights that inform our investment strategies. 
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -705,7 +662,7 @@
                                     <!-- divider end -->
                                     <!-- button start -->
                                     <div class="more-wraper-center">
-                                        <a href="rooms-single.html">
+                                        <a href="#">
                                             <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                                             <div class="more-button-txt-center more-button-txt-center-close">
                                                 <span>Details</span>
@@ -747,22 +704,12 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="star-wrapper">
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                        <span class="ion-ios-star"></span>
-                                    </div>
-                                    <!-- section subtitle end -->
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
                                     <!-- section title start -->
                                     <h2>
-                                        Standard<br>
-                                        Single Room
+                                        Commodities
                                     </h2>
                                     <!-- section title end -->
                                     <!-- divider start -->
@@ -770,8 +717,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        We provide our clients with access to a vast selection of hard and soft commodities by leveraging our global reach and networks to offer you the opportunities. With an understanding of our client's position and the true value of commodity options, we aim to discover portfolio-improving solutions.
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -779,7 +725,7 @@
                                     <!-- divider end -->
                                     <!-- button start -->
                                     <div class="more-wraper-center">
-                                        <a href="rooms-single.html">
+                                        <a href="#">
                                             <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                                             <div class="more-button-txt-center more-button-txt-center-close">
                                                 <span>Details</span>
@@ -858,8 +804,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
+                                                To accumulate any wealth, you must invest at a growth rate higher than inflation.
                                             </blockquote>
                                         </div>
                                     </div>
@@ -870,7 +815,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
+                                                You must start investing as early as possible. Yesterday was better than today, and today is better than tomorrow. Don’t wait for a significant market drop.
                                             </blockquote>
                                         </div>
                                     </div>
@@ -881,8 +826,7 @@
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
+                                                Expect the best. Prepare for the worst. Capitalize on what comes.
                                             </blockquote>
                                         </div>
                                     </div>
@@ -893,16 +837,7 @@
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
-                            <!-- button start -->
-                            <div class="more-wraper-center">
-                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
-                                    <div class="more-button-bg-center more-button-circle"></div>
-                                    <div class="more-button-txt-center">
-                                        <span>Watch Video</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- button end -->
+                            
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
@@ -1656,26 +1591,7 @@
                     <div class="divider-l"></div>
                     <!-- divider end -->
                     <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- social icons start -->
-                        <div class="social-icons">
-                            <ul>
-                                <li>
-                                    <a class="ion-social-twitter" href="#"><span>Twitter</span></a>
-                                </li>
-                                <li>
-                                    <a class="ion-social-facebook" href="#"><span>Facebook</span></a>
-                                </li>
-                                <li>
-                                    <a class="ion-social-instagram" href="#"><span>Instagram</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- social icons end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
+                   
                     <!-- col end -->
                     <!-- col start -->
                     <div class="col-lg-12">
