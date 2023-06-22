@@ -12,7 +12,8 @@
     <body>
         <div class="col-lg-12 text-center">
             <div class="p-2">
-                <img src="{{ asset('logo2.png') }}" class="img-fluid" alt="">
+                {{-- <img src="{{ asset('logo2.png') }}" class="img-fluid" alt=""> --}}
+                <img src="{{ asset('logo.gif') }}" class="img-fluid" alt="" style="width:250px;">
             </div>
         </div>
         <div class="col-lg-12">
