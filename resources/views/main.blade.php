@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>
-            Vanward Securities
+            Vanward International
         </title>
         <meta content="" name="description">
         <meta content="" name="author">
@@ -73,27 +73,31 @@
                         <!-- menu start -->
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="https://vanwardintl.com">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="https://en.vanwardintl.com/#ourFirm">Our Firm</a>
                             </li>
                             <li>
-                                <a href="rooms.html">Wealth Management</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="nav-close" href="#">Private Equity</a></li>
-                                    <li><a class="nav-close" href="#">Trust Services</a></li>
-                                    <li><a class="nav-close" href="#">Advisory</a></li>
-                                </ul>
+                                <a href="https://en.vanwardintl.com/#careers">Careers</a>
                             </li>
                             <li>
-                                <a href="gallery.html">FAQ</a>
+                                <a href="https://en.vanwardintl.com/#sustainability">Sustainability</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="https://en.vanwardintl.com/#privateBanking">Private Banking</a>
+                            </li>
+                            <li>
+                                <a href="https://en.vanwardintl.com/#investmentManagement">Investment Management</a>
+                            </li>
+                            <li>
+                                <a href="https://en.vanwardintl.com/#investorServices">Investor Services</a>
+                            </li>
+                            <li>
+                                <a href="https://en.vanwardintl.com/#contact">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="https://app.vanwardintl.com/en/accounts/login/">Client Login</a>
                             </li>
                         </ul>
                         <!-- menu end -->
@@ -145,7 +149,7 @@
                                                 <!-- divider end -->
                                                 <!-- section title start -->
                                                 <h1 class="hero-heading hero-heading-home fadeIn-element">
-                                                    VANWARD SECURITIES
+                                                    VANWARD INTERNATIONAL
                                                 </h1>
                                                 <!-- section title end -->
                                                 <!-- divider start -->
@@ -250,7 +254,7 @@
                                                                     <!-- section txt start -->
                                                                     <div class="section-txt">
                                                                         <p>
-                                                                            At Vanward Securities, we take a unique approach to investing, providing customised strategies based on the goals of each client and our extensive knowledge of global markets and economies. Through our expert interpretation of multiple data sources, we identify suitable solutions for you, solutions that will strengthen your position.
+                                                                            At Vanward International, we take a unique approach to investing, providing customised strategies based on the goals of each client and our extensive knowledge of global markets and economies. Through our expert interpretation of multiple data sources, we identify suitable solutions for you, solutions that will strengthen your position.
                                                                         </p>
                                                                     </div>
                                                                     <!-- section txt end -->
@@ -854,587 +858,7 @@
             <!-- container end -->
         </div>
         <!-- video testimonials end -->
-        <!-- facilities start -->
-        <div id="facilities" class="section-all bg-light">
-            <!-- container start -->
-            <div class="container">
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                        <!-- line start -->
-                        <div class="the-line"></div>
-                        <!-- line end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- section title start -->
-                        <h2 class="section-heading">
-                            <span>03 </span> Explore our
-                        </h2>
-                        <!-- section title end -->
-                        <!-- divider start -->
-                        <div class="divider-m"></div>
-                        <!-- divider end -->
-                        <!-- section title start -->
-                        <h2 class="hero-heading hero-heading-dark">
-                            Facilities
-                        </h2>
-                        <!-- section title end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                        <!-- line start -->
-                        <div class="the-line"></div>
-                        <!-- line end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
-            </div>
-            <!-- container end -->
-            <!-- container start -->
-            <div class="container-fluid nopadding">
-                <!-- carousel start -->
-                <div class="owl-carousel owl-carousel-facilities">
-                    <!-- halve start -->
-                    <div class="halves">
-                        <!-- halve IMG start -->
-                        <div class="half post-bg-all facilities-bg-1 all-bg-right"></div>
-                        <a class="popup-photo" href="img/facilities/1.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
-                        </a>
-                        <!-- halve IMG end -->
-                        <!-- halve TXT start -->
-                        <div class="half half-color half-color-invert">
-                            <!-- row start -->
-                            <div class="row post-all-txt">
-                                <!-- col start -->
-                                <div class="col-md-12">
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section title start -->
-                                    <h2>
-                                        Restaurant
-                                    </h2>
-                                    <!-- section title end -->
-                                    <!-- divider start -->
-                                    <div class="divider-m"></div>
-                                    <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="blog-tag">Opening hours: 9:00 am to 10:00 pm</div>
-                                    <!-- section subtitle end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section txt start -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    </p>
-                                    <!-- section txt end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- button start -->
-                                    <div class="more-wraper-center">
-                                        <a href="restaurant.html">
-                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
-                                            <div class="more-button-txt-center more-button-txt-center-close">
-                                                <span>Details</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- button end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                </div>
-                                <!-- col end -->
-                            </div>
-                            <!-- row end -->
-                        </div>
-                        <!-- halve TXT end -->
-                    </div>
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    <div class="halves">
-                        <!-- halve TXT start -->
-                        <div class="half half-color half-color-invert">
-                            <!-- row start -->
-                            <div class="row post-all-txt">
-                                <!-- col start -->
-                                <div class="col-md-12">
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section title start -->
-                                    <h2>
-                                        Spa Center
-                                    </h2>
-                                    <!-- section title end -->
-                                    <!-- divider start -->
-                                    <div class="divider-m"></div>
-                                    <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="blog-tag">Opening hours: 9:00 am to 10:00 pm</div>
-                                    <!-- section subtitle end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section txt start -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    </p>
-                                    <!-- section txt end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- button start -->
-                                    <div class="more-wraper-center">
-                                        <a href="spa.html">
-                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
-                                            <div class="more-button-txt-center more-button-txt-center-close">
-                                                <span>Details</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- button end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                </div>
-                                <!-- col end -->
-                            </div>
-                            <!-- row end -->
-                        </div>
-                        <!-- halve TXT end -->
-                        <!-- halve IMG start -->
-                        <div class="half post-bg-all facilities-bg-2 all-bg-left"></div>
-                        <a class="popup-photo" href="img/facilities/2.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
-                        </a>
-                        <!-- halve IMG end -->
-                    </div>
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    <div class="halves">
-                        <!-- halve IMG start -->
-                        <div class="half post-bg-all facilities-bg-3 all-bg-right"></div>
-                        <a class="popup-photo" href="img/facilities/3.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
-                        </a>
-                        <!-- halve IMG end -->
-                        <!-- halve TXT start -->
-                        <div class="half half-color half-color-invert">
-                            <!-- row start -->
-                            <div class="row post-all-txt">
-                                <!-- col start -->
-                                <div class="col-md-12">
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section title start -->
-                                    <h2>
-                                        Fitness Center
-                                    </h2>
-                                    <!-- section title end -->
-                                    <!-- divider start -->
-                                    <div class="divider-m"></div>
-                                    <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="blog-tag">Opening hours: 9:00 am to 10:00 pm</div>
-                                    <!-- section subtitle end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section txt start -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    </p>
-                                    <!-- section txt end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- button start -->
-                                    <div class="more-wraper-center">
-                                        <a href="fitness.html">
-                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
-                                            <div class="more-button-txt-center more-button-txt-center-close">
-                                                <span>Details</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- button end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                </div>
-                                <!-- col end -->
-                            </div>
-                            <!-- row end -->
-                        </div>
-                        <!-- halve TXT end -->
-                    </div>
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    <div class="halves">
-                        <!-- halve TXT start -->
-                        <div class="half half-color half-color-invert">
-                            <!-- row start -->
-                            <div class="row post-all-txt">
-                                <!-- col start -->
-                                <div class="col-md-12">
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section title start -->
-                                    <h2>
-                                        Indoor Pool
-                                    </h2>
-                                    <!-- section title end -->
-                                    <!-- divider start -->
-                                    <div class="divider-m"></div>
-                                    <!-- divider end -->
-                                    <!-- section subtitle start -->
-                                    <div class="blog-tag">Opening hours: 9:00 am to 10:00 pm</div>
-                                    <!-- section subtitle end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- section txt start -->
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                    </p>
-                                    <!-- section txt end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                    <!-- button start -->
-                                    <div class="more-wraper-center">
-                                        <a href="pool.html">
-                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
-                                            <div class="more-button-txt-center more-button-txt-center-close">
-                                                <span>Details</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- button end -->
-                                    <!-- divider start -->
-                                    <div class="divider-l"></div>
-                                    <!-- divider end -->
-                                </div>
-                                <!-- col end -->
-                            </div>
-                            <!-- row end -->
-                        </div>
-                        <!-- halve TXT end -->
-                        <!-- halve IMG start -->
-                        <div class="half post-bg-all facilities-bg-4 all-bg-left"></div>
-                        <a class="popup-photo" href="img/facilities/4.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
-                        </a>
-                        <!-- halve IMG end -->
-                    </div>
-                    <!-- halve end -->
-                </div>
-                <!-- carousel end -->
-                <!-- divider start -->
-                <div class="divider-l"></div>
-                <!-- divider end -->
-                <!-- owl nav start -->
-                <div class="owl-nav owl-nav-custom-facilities"></div>
-                <!-- owl nav end -->
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                        <!-- line start -->
-                        <div class="the-line"></div>
-                        <!-- line end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
-            </div>
-            <!-- container end -->
-        </div>
-        <!-- facilities end -->
-        <!-- gallery start -->
-        <div id="gallery" class="section-all bg-dark">
-            <!-- container start -->
-            <div class="container">
-                <div class="extra-margin-container">
-                    <!-- row start -->
-                    <div class="row">
-                        <!-- col start -->
-                        <div class="col-lg-12">
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            <div class="the-line"></div>
-                            <!-- line end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                        </div>
-                        <!-- col end -->
-                    </div>
-                    <!-- row end -->
-                    <!-- row start -->
-                    <div class="row">
-                        <!-- col start -->
-                        <div class="col-lg-12">
-                            <!-- section title start -->
-                            <h2 class="section-heading">
-                                <span>04 </span> Check out the
-                            </h2>
-                            <!-- section title end -->
-                            <!-- divider start -->
-                            <div class="divider-m"></div>
-                            <!-- divider end -->
-                            <!-- section title start -->
-                            <h2 class="hero-heading hero-heading-dark">
-                                Photo Gallery
-                            </h2>
-                            <!-- section title end -->
-                        </div>
-                        <!-- col end -->
-                    </div>
-                    <!-- row end -->
-                    <!-- row start -->
-                    <div class="row">
-                        <!-- col start -->
-                        <div class="col-lg-12">
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            <div class="the-line"></div>
-                            <!-- line end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                        </div>
-                        <!-- col end -->
-                    </div>
-                    <!-- row end -->
-                </div>
-            </div>
-            <!-- container end -->
-        </div>
-        <!-- gallery end -->
-        <!-- gallery IMG start -->
-        <div id="gallery-img" class="bg-light">
-            <!-- divider start -->
-            <div class="divider-m-2"></div>
-            <!-- divider end -->
-            <!-- container start -->
-            <div class="container-fluid">
-                <!-- row start -->
-                <div class="row">
-                    <!-- photoSwipe start -->
-                    <div class="legendary-gallery">
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x913" href="photoswipe/photos/large/1.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/1.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 1</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x896" href="photoswipe/photos/large/2.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/2.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 2</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x853" href="photoswipe/photos/large/3.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/3.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 3</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x853" href="photoswipe/photos/large/4.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/4.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 4</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x854" href="photoswipe/photos/large/5.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/5.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 5</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                        <!-- gallery item start -->
-                        <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
-                            <a data-size="1280x853" href="photoswipe/photos/large/6.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/6.jpg"></a>
-                            <figcaption>
-                                <span class="img-caption">Item description 6</span>
-                                <div class="hover-effect"></div>
-                                <div class="hover-icons">
-                                    <a class="ion-plus" href="#"></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        <!-- gallery item end -->
-                    </div>
-                    <!-- photoSwipe end -->
-                </div>
-                <!-- row end -->
-            </div>
-            <!-- container end -->
-        </div>
-        <!-- gallery IMG end -->
-        <!-- parallax IMG start -->
-        <div id="parallax-image" class="section-all">
-            <!-- container start -->
-            <div class="container-fluid">
-                <!-- row start -->
-                <div class="row">
-                    <!-- parallax wrapper start -->
-                    <div class="parallax parallax-all parallax-image-bg-1" data-parallax-speed="0.75">
-                        <!-- parallax overlay start -->
-                        <div class="parallax-overlay"></div>
-                        <!-- parallax overlay end -->
-                        <!-- parallax content start -->
-                        <div class="parallax-content">
-                            <!-- line start -->
-                            <div class="the-line the-line-light"></div>
-                            <!-- line end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- testimonials start -->
-                            <div class="owl-carousel owl-carousel-testimonials">
-                                <!-- testimonials quote start -->
-                                <div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                <div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                <div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- testimonials quote end -->
-                            </div>
-                            <!-- testimonials end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- button start -->
-                            <div class="more-wraper-center">
-                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
-                                    <div class="more-button-bg-center more-button-circle"></div>
-                                    <div class="more-button-txt-center">
-                                        <span>Watch Video</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- button end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            <div class="the-line the-line-light"></div>
-                            <!-- line end -->
-                        </div>
-                        <!-- parallax content end -->
-                    </div>
-                    <!-- parallax wrapper end -->
-                </div>
-                <!-- row end -->
-            </div>
-            <!-- container end -->
-        </div>
-        <!-- parallax IMG end -->
+        
         <!-- contact start -->
         <div id="contact" class="section-all bg-light">
             <!-- container start -->
@@ -1469,8 +893,8 @@
                             <!-- HTML5 video URL end -->
                             <!-- page title start -->
                             <div class="parallax-title-content">
-                                The<br>
-                                Luxex
+                                Vanward<br>
+                                International
                             </div>
                             <!-- page title end -->
                         </div>
@@ -1532,7 +956,7 @@
                             <!-- section TXT start -->
                             <div class="section-txt-2">
                                 <p>
-                                    <a class="link-effect" href="mailto:contact@domainname.com">contact@domainname.com</a>
+                                    <a class="link-effect" href="mailto:info@vanwardintl.com">info@vanwardintl.com</a>
                                 </p>
                             </div>
                             <!-- section TXT end -->
@@ -1559,68 +983,23 @@
                     </div>
                 </div>
                 <!-- row end -->
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                        <!-- line start -->
-                        <div class="the-line"></div>
-                        <!-- line end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
             </div>
             <!-- container end -->
             <!-- container start -->
-            <div class="container-fluid">
-                <!-- row start -->
-                <div class="row footer-credits">
-                    <!-- footer logo start -->
-                    <div class="footer-credits-logo">
-                        <a href="#"><img alt="Logo Footer" src="logo.png"></a>
-                    </div>
-                    <!-- footer logo end -->
-                    <!-- divider start -->
-                    <div class="divider-l"></div>
-                    <!-- divider end -->
-                    <!-- col start -->
-                   
-                    <!-- col end -->
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- copyright start -->
-                        <div class="copyright">
-                            &copy; All Rights Reserved.
-                        </div>
-                        <!-- copyright end -->
-                    </div>
-                    <!-- col end -->
+            <div class="footer" style="margin-top: 40px !important;">
+                <div class="container">
+                        <p style="font-weight: bold;">
+                           Important Information
+                        </p>
+                        <p>
+                            All investing is subject to risk including the possible loss of the money you invest.
+                        </p>
+                        <p>
+                            *Vanward International is owned by its funds, which are owned by Vanward International's fund shareholder clients.
+                        </p>
+                  
+                        <p>Vanward International © 2023</p>
                 </div>
-                <!-- row end -->
-                <!-- row start -->
-                <div class="row">
-                    <!-- col start -->
-                    <div class="col-lg-12">
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                        <!-- line start -->
-                        <div class="the-line"></div>
-                        <!-- line end -->
-                        <!-- divider start -->
-                        <div class="divider-l"></div>
-                        <!-- divider end -->
-                    </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
             </div>
             <!-- container end -->
         </div>
