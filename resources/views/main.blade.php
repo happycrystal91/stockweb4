@@ -219,7 +219,7 @@
                     <div class="row">
                         <!-- col start -->
                         <div class="col-lg-12">
-                            <div class="post-list">
+                            <div class="post-list" style="background-color: black;">
                                 <div class="post-list-content-wrapper">
                                     <div class="post-list-wrapper">
                                         <!-- section item start -->
@@ -227,7 +227,7 @@
                                             <div class="container-custom post-list-item-container">
                                                 <div class="row post-list-row">
                                                     <div class="col-lg-4-custom col-md-6-custom offset-lg-1-custom">
-                                                        <div class="post-list-content post-list-content-reverse">
+                                                        <div class="post-list-content post-list-content-reverse" style="background-color: #ffebcd;">
                                                             <!-- row start -->
                                                             <div class="row">
                                                                 <!-- col start -->
