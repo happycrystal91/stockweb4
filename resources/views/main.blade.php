@@ -46,7 +46,7 @@
         <!-- container end -->
         <!-- border top end -->
         <!-- navigation start -->
-        <nav class="navbar navbar-fixed-top navbar-bg-switch">
+        <nav class="navbar navbar-fixed-top navbar-bg-switch"  style="background-color: black;">
             <!-- container start -->
             <div class="container-fluid nopadding">
                 <div class="navbar-header fadeIn-element">
@@ -54,7 +54,7 @@
                     <div class="logo">
                         <a class="navbar-brand logo" href="#">
                             <!-- logo light start -->
-                            <img alt="Logo" class="logo-light" src="{{ asset('logo-2.png') }}" style="width:200px;>
+                            <img alt="Logo" class="logo-light" src="{{ asset('logo-2.png') }}" style="width:200px;">
                             <!-- logo light end -->
                             <!-- logo dark start -->
                             <img alt="Logo" class="logo-dark" src="{{ asset('logo-2.png') }}" style="width:200px;">
