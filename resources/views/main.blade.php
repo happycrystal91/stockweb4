@@ -127,8 +127,8 @@
                                             <div class="swiper-slide-inner-bg bg-img-1 overlay overlay-dark">
                                                 <!-- HTML5 video URL start -->
                                                 <video playsinline autoplay muted loop>
-                                                    <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4">
-                                                        {{-- <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4"> --}}
+                                                    {{-- <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4"> --}}
+                                                        <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4">
                                                 </video>
                                                 <!-- HTML5 video URL end -->
                                             </div>
