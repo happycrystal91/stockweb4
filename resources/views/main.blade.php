@@ -54,10 +54,10 @@
                     <div class="logo">
                         <a class="navbar-brand logo" href="#">
                             <!-- logo light start -->
-                            <img alt="Logo" class="logo-light" src="{{ asset('logo-2.png') }}" style="width:200px;">
+                            <img alt="Logo" class="logo-light" src="{{ asset('logo-2.png') }}" style="width:200px; margin-top: -25px;">
                             <!-- logo light end -->
                             <!-- logo dark start -->
-                            <img alt="Logo" class="logo-dark" src="{{ asset('logo-2.png') }}" style="width:200px;">
+                            <img alt="Logo" class="logo-dark" src="{{ asset('logo-2.png') }}" style="width:200px; margin-top: 25px;">
                             <!-- logo dark end -->
                         </a>
                     </div>
