@@ -197,7 +197,7 @@
         <div id="about" class="section-all bg-dark">
             <!-- container start -->
             <div class="container-fluid nopadding nopadding-xs">
-                <div class="extra-margin-container">
+                <div class="extra-margin-container" style="background-color: black;">
                     <!-- row start -->
                     <div class="row">
                         <!-- col start -->
@@ -332,7 +332,7 @@
                         <!-- parallax content start -->
                         <div class="parallax-content">
                             <!-- line start -->
-                            <div class="the-line the-line-light"></div>
+                            {{-- <div class="the-line the-line-light"></div> --}}
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
@@ -382,7 +382,7 @@
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            <div class="the-line the-line-light"></div>
+                            {{-- <div class="the-line the-line-light"></div> --}}
                             <!-- line end -->
                         </div>
                         <!-- parallax content end -->
@@ -390,9 +390,26 @@
                     <!-- parallax wrapper end -->
                 </div>
                 <!-- row end -->
-            </div>
+            </div>            
             <!-- container end -->
         </div>
+         <!-- row start -->
+                    <div class="row">
+                        <!-- col start -->
+                        <div class="col-lg-12">
+                            <!-- divider start -->
+                            <div class="divider-l"></div>
+                            <!-- divider end -->
+                            <!-- line start -->
+                            <div class="the-line"></div>
+                            <!-- line end -->
+                            <!-- divider start -->
+                            <div class="divider-l"></div>
+                            <!-- divider end -->
+                        </div>
+                        <!-- col end -->
+                    </div>
+                    <!-- row end -->
         <!-- video testimonials end -->
         <!-- rooms start -->
         <div id="rooms" class="section-all bg-dark">
