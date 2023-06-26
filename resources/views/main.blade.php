@@ -194,10 +194,10 @@
        
        
         <!-- about start -->
-        <div id="about" class="section-all bg-dark">
+        <div id="about" class="section-all bg-dark" style="background-color: black;">
             <!-- container start -->
             <div class="container-fluid nopadding nopadding-xs">
-                <div class="extra-margin-container" style="background-color: black;">
+                <div class="extra-margin-container">
                     <!-- row start -->
                     <div class="row">
                         <!-- col start -->
@@ -314,7 +314,7 @@
         </div>
         <!-- about end -->
         <!-- video testimonials start -->
-        <div id="video-testimonials" class="section-all">
+        <div id="video-testimonials" class="section-all bg-dark" >
             <!-- container start -->
             <div class="container-fluid">
                 <!-- row start -->
@@ -374,16 +374,6 @@
                                 <!-- testimonials quote end -->
                             </div>
                             <!-- testimonials end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            {{-- <div class="the-line the-line-light"></div> --}}
-                            <!-- line end -->
                         </div>
                         <!-- parallax content end -->
                     </div>
@@ -393,26 +383,10 @@
             </div>            
             <!-- container end -->
         </div>
-         <!-- row start -->
-                    <div class="row">
-                        <!-- col start -->
-                        <div class="col-lg-12">
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                            <!-- line start -->
-                            <div class="the-line"></div>
-                            <!-- line end -->
-                            <!-- divider start -->
-                            <div class="divider-l"></div>
-                            <!-- divider end -->
-                        </div>
-                        <!-- col end -->
-                    </div>
-                    <!-- row end -->
+        
         <!-- video testimonials end -->
         <!-- rooms start -->
-        <div id="rooms" class="section-all bg-dark">
+        <div id="rooms" class="section-all bg-dark" style="background-color: black;">
             <!-- container start -->
             <div class="container">
                 <!-- row start -->
@@ -877,7 +851,7 @@
         <!-- video testimonials end -->
         
         <!-- contact start -->
-        <div id="contact" class="section-all bg-light">
+        <div id="contact" class="section-all bg-light" style="background-color: black;">
             <!-- container start -->
             <div class="container-fluid">
                 <!-- row start -->
