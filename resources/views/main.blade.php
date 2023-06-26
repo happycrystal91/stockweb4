@@ -127,8 +127,8 @@
                                             <div class="swiper-slide-inner-bg bg-img-1 overlay overlay-dark">
                                                 <!-- HTML5 video URL start -->
                                                 <video playsinline autoplay muted loop>
-                                                    {{-- <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4"> --}}
-                                                        <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4">
+                                                    <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4">
+                                                        {{-- <source src="{{ asset('stock-market3.mp4') }}" type="video/mp4"> --}}
                                                 </video>
                                                 <!-- HTML5 video URL end -->
                                             </div>
@@ -459,8 +459,8 @@
                     <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-1 all-bg-right"></div>
-                        <a class="popup-photo" href="img/rooms/rooms-single/1.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
+                        <a class="popup-photo" href="{{ asset('private-equity.jpg') }}">
+                            <div class="image-caption">Private Equity</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
@@ -567,8 +567,8 @@
                         <!-- halve TXT end -->
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-2 all-bg-left"></div>
-                        <a class="popup-photo" href="img/rooms/rooms-single/2.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
+                        <a class="popup-photo" href="{{ asset('trust-services.jpg') }}" >
+                            <div class="image-caption">Trust Services</div>
                         </a>
                         <!-- halve IMG end -->
                     </div>
@@ -577,8 +577,8 @@
                     <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-3 all-bg-right"></div>
-                        <a class="popup-photo" href="img/rooms/rooms-single/3.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
+                        <a class="popup-photo" href="{{ asset('hedge-funds.jpg') }}">
+                            <div class="image-caption">Hedge Funds</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
@@ -685,8 +685,8 @@
                         <!-- halve TXT end -->
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-4 all-bg-left"></div>
-                        <a class="popup-photo" href="img/rooms/rooms-single/4.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
+                        <a class="popup-photo" href="{{ asset('real-estate.jpg') }}">
+                            <div class="image-caption">Real Estate</div>
                         </a>
                         <!-- halve IMG end -->
                     </div>
@@ -695,8 +695,8 @@
                     <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-5 all-bg-right"></div>
-                        <a class="popup-photo" href="img/rooms/rooms-single/5.jpg" title="IMG Description">
-                            <div class="image-caption">Image Description</div>
+                        <a class="popup-photo" href="{{ asset('commodities.jpg') }}" >
+                            <div class="image-caption">Commodities</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
