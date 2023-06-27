@@ -35,6 +35,126 @@
                 }
             }		
         </style>
+
+<style>
+    #loader {
+      width: 70px;
+      height: 70px;
+      animation: loading 2s linear infinite;
+    }
+
+    .loader-logo {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 50%;
+      height: auto;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes loading {
+      0% {
+        width: 0;
+      }
+      50% {
+        width: 50%;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+
+    .navbar-brand {
+      font-size: 1.4em;
+    }
+    .navbar-dark .navbar-nav a.nav-link {
+      color: #ffffff;
+      font-size: 1.1em;
+    }
+    .dropdown-menu {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border: none;
+      border-radius: 0;
+      padding: 0.7em;
+    }
+    @media only screen and (min-width: 992px) {
+      .dropdown:hover .dropdown-menu {
+        display: flex;
+      }
+      .dropdown-menu.show {
+        display: flex;
+      }
+    }
+    .dropdown-menu ul {
+      list-style: none;
+      padding: 0;
+    }
+    .dropdown-menu li .dropdown-item {
+      color: gray;
+      font-size: 1em;
+      padding: 0.5em 1em;
+    }
+    .dropdown-menu li .dropdown-item:hover {
+      background-color: #f1f1f1;
+    }
+    /* .dropdown-menu li:first-child a {
+      font-weight: bold;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      color: #516beb;
+    } */
+    .dropdown-menu li:first-child a:hover {
+      background-color: #f1f1f1;
+    }
+    @media only screen and (max-width: 992px) {
+      .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+      }
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1140px) {
+      .dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
+      }
+    }
+
+    .dropdown-menu {
+      border-radius: 0;
+      border: none;
+      padding: 0.5em;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+    .dropdown-menu ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .dropdown-menu li a {
+      color: gray;
+      padding: 0.5em 1em;
+    }
+    /* .dropdown-menu li:first-child a {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #516beb;
+    } */
+    @media screen and (min-width: 993px) {
+      .dropdown:hover .dropdown-menu {
+        display: flex;
+      }
+      .dropdown-menu.show {
+        display: flex;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      .dropdown-menu.show {
+        max-height: 60vh;
+        overflow-y: scroll;
+      }
+    }
+  </style>
     </head>
     <body>
         <div class="loading-bar" id="loader">
@@ -48,9 +168,71 @@
             </div>
         </div>
         <div class="col-lg-12">
-            <div class="offset-lg-3 col-lg-6 offset-lg-3">
-                <div class="row text-center">
-                    <div id="chartdiv"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row text-center">
+                        <div id="chartdiv"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 p-4">
+                        <div class="">
+                          <!-- <h2><a onclick="countryAsia()">Asia Pacific</a></h2> -->
+                          <a
+                            class="btn btn-secondary dropdown-toggle"
+                            href="#"
+                            role="button"
+                            id="dropdownMenuLink"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Asia Pacific
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Australia</a></li>
+                            <li><a class="dropdown-item" href="#">China</a></li>
+                          </ul>
+            
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Europe
+                          </a>
+                          <div class="dropdown-menu">
+                            <ul>
+                              <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
+                              <li><a class="dropdown-item" href="#">Austria</a></li>
+                              <li><a class="dropdown-item" href="#">Belgium</a></li>
+                              <li><a class="dropdown-item" href="#">Denmark</a></li>
+                              <li><a class="dropdown-item" href="#">Finland</a></li>
+                              <li><a class="dropdown-item" href="#">France</a></li>
+                              <li><a class="dropdown-item" href="#">Germany</a></li>
+                            </ul>
+                            <ul>
+                              <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                              <li><a class="dropdown-item" href="#">Iceland</a></li>
+                              <li><a class="dropdown-item" href="#">Italy</a></li>
+                              <li><a class="dropdown-item" href="#">Liechtenstein</a></li>
+                              <li><a class="dropdown-item" href="#">Luxembourg</a></li>
+                              <li><a class="dropdown-item" href="#">Netherlands</a></li>
+                              <li><a class="dropdown-item" href="#">Norway</a></li>
+                            </ul>
+                            <ul>
+                              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                              <li><a class="dropdown-item" href="#">Portugal</a></li>
+                              <li><a class="dropdown-item" href="#">Spain</a></li>
+                              <li><a class="dropdown-item" href="#">Sweden</a></li>
+                              <li><a class="dropdown-item" href="#">Switzerland</a></li>
+                              <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+                            </ul>
+                          </div>
+                         
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
