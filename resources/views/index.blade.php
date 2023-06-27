@@ -342,7 +342,8 @@
           cont.children.push(
               am5.Label.new(root, {
                   centerY: am5.p50,
-                  text: "Map"
+                  text: "Map",
+                  fill: am5.color("#FFFFFF") //Text color
               })
           );
 
@@ -374,7 +375,8 @@
           cont.children.push(
               am5.Label.new(root, {
                   centerY: am5.p50,
-                  text: "Globe"
+                  text: "Globe",
+                  fill: am5.color("#FFFFFF") //Text color
               })
           );
 
@@ -402,7 +404,8 @@
                   geoJSON: am5geodata_worldLow
               })
           );
-
+         
+          // map color to white
           polygonSeries.set("fill", am5.color(0xffffff));
 
           // Create line series for trajectory lines
