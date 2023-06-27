@@ -170,7 +170,7 @@
         <div class="col-lg-12" style="padding-top: 20px;">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row text-center"   style="background-color: white; border-radius: 25px; margin:10px;">
+                    <div class="row text-center"   style="background-color: black; border-radius: 25px; margin:10px;">
                         <div id="chartdiv"></div>
                     </div>
                 </div>
