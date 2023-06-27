@@ -481,6 +481,36 @@
                   latitude: 3.1289,
                   longitude: 101.7216,
                   url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "London",
+                    latitude: 51.5002,
+                    longitude: -0.1262,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Paris",
+                    latitude: 48.8567,
+                    longitude: 2.351,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Luxembourg",
+                    latitude: 49.61,
+                    longitude: 6.1296,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Amsterdam",
+                    latitude: 52.3738,
+                    longitude: 4.891,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Moscow",
+                    latitude: 55.7558,
+                    longitude: 37.6176,
+                    url: "https://testweb2.vanwardintl.com/main2"
               }
           ];
 
