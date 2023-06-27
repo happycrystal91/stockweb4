@@ -156,26 +156,27 @@
     }
   </style>
     </head>
-    <body>
-        <div class="loading-bar" id="loader">
+    <body style="background-color: black;">
+        {{-- <div class="loading-bar" id="loader">
                 <img src="{{ asset('logo.gif') }}" class="loader-logo" >
                 <div class="progress"></div>
-        </div>
+        </div> --}}
         <div class="col-lg-12 text-center">
             <div class="p-2">
-                <img src="{{ asset('logo-1.png') }}" class="img-fluid" alt="" style="width:250px;">
+                <img src="{{ asset('logo-2.png') }}" class="img-fluid" alt="" style="width:250px;">
                
             </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-12" style="padding-top: 20px;">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row text-center">
+                    <div class="row text-center"   style="background-color: white; border-radius: 25px; margin:10px;">
                         <div id="chartdiv"></div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="col-lg-6 col-md-6 p-4">
+                        <p style="color:#ffffff;">Please select country :</p>
                         <div class="">
                           <!-- <h2><a onclick="countryAsia()">Asia Pacific</a></h2> -->
                           <a
@@ -189,12 +190,12 @@
                             Asia Pacific
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Australia</a></li>
+                            <li><a class="dropdown-item" href="https://testweb2.vanwardintl.com/main2">Australia</a></li>
                             <li><a class="dropdown-item" href="#">China</a></li>
                           </ul>
             
                           <a
-                            class="nav-link dropdown-toggle"
+                            class="btn btn-secondary dropdown-toggle"
                             href="#"
                             role="button"
                             data-bs-toggle="dropdown"
@@ -236,58 +237,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
-            <div class="row text-center">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    {{-- <img src="{{ asset('europe-icon-3.jpg') }}" class="img-fluid" alt=""> --}}
-                    <h2><a onclick="countryEurope()">Europe</a></h2>
-                </div>
-                <div class="col-md-4">
-                    {{-- <img src="{{ asset('southeast-asia-icon-4.jpg') }}" class="img-fluid" alt=""> --}}
-                    <h2><a onclick="countryAsia()">Asia Pacific</a></h2>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-        <div class="col-lg-12" id="countryEurope" style="display: none;">
-            <div class="row text-center">               
-                <div class="col-md-4">
-                    <p>Austria</p>
-                    <p>Belgium</p>
-                    <p>Denmark</p>
-                    <p>Finland</p>
-                    <p>France</p>
-                    <p>Germany</p>
-                </div>
-                <div class="col-md-4">
-                    <p><a href="{{ url('/main2') }}">Iceland</a></p>
-                    <p>Italy</p>
-                    <p>Liechtenstein</p>
-                    <p>Luxembourg</p>
-                    <p>Netherlands</p>
-                    <p>Norway</p>
-                </div>
-                <div class="col-md-4">
-                    <p>Portugal</p>
-                    <p>Spain</p>
-                    <p>Sweden</p>
-                    <p>Switzerland</p>
-                    <p>United Kingdom</p> 
-                </div>    
-            </div>
-        </div>
-        <div class="col-lg-12" id="countryAsia" style="display: none;">
-            <div class="row text-center">               
-                <div class="col-md-6">
-                    <p>Australia</p>
-                </div>
-                <div class="col-md-6">
-                    <p>China</p>
-                </div>
-            </div>
-        </div>
-        <script>
+        
+        {{-- <script>
             document.onreadystatechange = function () {
                 if (document.readyState !== "complete") {
                     document.querySelector(
@@ -301,7 +252,7 @@
                         "body").style.visibility = "visible";
                 }
             };
-        </script>
+        </script> --}}
     </body>
     <script>
        function countryEurope() {
