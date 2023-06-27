@@ -154,9 +154,12 @@
         overflow-y: scroll;
       }
     }
+    select option { 
+    line-height: 20px;
+}
   </style>
     </head>
-    <body style="background-color: black;">
+    <body style="background-color: #1E2445;">
         {{-- <div class="loading-bar" id="loader">
                 <img src="{{ asset('logo.gif') }}" class="loader-logo" >
                 <div class="progress"></div>
@@ -169,15 +172,36 @@
         </div>
         <div class="col-lg-12" style="padding-top: 20px;">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="row text-center"   style="background-color: black; border-radius: 25px; margin:10px;">
+                <div class="col-lg-8">
+                    <div class="row text-center"   style="background-color: #1E2445; border-radius: 25px; margin:10px;">
                         <div id="chartdiv"></div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <div class="col-lg-6 col-md-6 p-4">
+                        <p style="color:#ffffff;">Please select language :</p>
+                        <select name="" id="" class="btn btn-secondary dropdown-toggle">
+                          <option value="">English</option>
+                          <option value="">Spanish</option>
+                          <option value="">French</option>
+                          <option value="">Italian</option>
+                        </select>
+                        {{-- <a  href="#" class="btn btn-secondary dropdown-toggle"
+                        id="menuLanguage"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Choose language
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="menuLanguage">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish </a></li>
+                        <li><a class="dropdown-item" href="#">French </a></li>
+                        <li><a class="dropdown-item" href="#">Italian </a></li>
+                      </ul> --}}
+                      <br><br>
                         <p style="color:#ffffff;">Please select country :</p>
-                        <div class="">
+                        
                           <!-- <h2><a onclick="countryAsia()">Asia Pacific</a></h2> -->
                           <a
                             class="btn btn-secondary dropdown-toggle"
@@ -232,10 +256,26 @@
                             </ul>
                           </div>
                          
-                        </div>
+                        
                       </div>
                 </div>
             </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="row text-center" style="color: #ffffff;">
+           
+              <p style="font-weight: bold;">
+                 Important Information
+              </p>
+              <p>
+                  All investing is subject to risk including the possible loss of the money you invest.
+              </p>
+              <p>
+                  *Vanward International is owned by its funds, which are owned by Vanward International's fund shareholder clients.
+              </p>
+        
+              <p>Vanward International © 2023</p>
+          </div>
         </div>
         
         {{-- <script>
@@ -437,7 +477,8 @@
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
-                      fill: colorset.next(),
+                      // fill: colorset.next(),
+                      fill: am5.color("#F89F3C"),
                       strokeOpacity: 0
                   })
               );
@@ -447,7 +488,8 @@
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
-                      fill: colorset.next(),
+                      // fill: colorset.next(),
+                      fill: am5.color("#F89F3C"),
                       strokeOpacity: 0,
                       tooltipText: "{title}"
                   })
@@ -477,39 +519,117 @@
 
           var cities = [
               {
-                  title: "Kuala Lumpur",
-                  latitude: 3.1289,
-                  longitude: 101.7216,
+                  title: "Australia",
+                  latitude: -25.2743,
+                  longitude: 133.7751, 
                   url: "https://testweb2.vanwardintl.com/main2"
               },
               {
-                    title: "London",
-                    latitude: 51.5002,
-                    longitude: -0.1262,
+                    title: "China",
+                    latitude: 35.8616,
+                    longitude: 104.1953,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
-                    title: "Paris",
-                    latitude: 48.8567,
-                    longitude: 2.351,
+                    title: "Austria",
+                    latitude: 47.5162,
+                    longitude: 14.5500,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Belgium",
+                    latitude: 50.5038,
+                    longitude: 4.4699,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Denmark",
+                    latitude: 56.2639,
+                    longitude: 9.5017,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Finland",
+                    latitude: 61.9241,
+                    longitude: 25.7481,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "France",
+                    latitude: 46.2276,
+                    longitude: 2.2137,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Germany",
+                    latitude: 51.1656,
+                    longitude: 10.4515,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Iceland",
+                    latitude: 64.9630,
+                    longitude: -19.0208,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Italy",
+                    latitude: 41.8719,
+                    longitude: 12.5673,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Liechtenstein",
+                    latitude: 47.166,
+                    longitude: 9.5553,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
                     title: "Luxembourg",
-                    latitude: 49.61,
-                    longitude: 6.1296,
+                    latitude: 49.8152,
+                    longitude: 6.1295,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
-                    title: "Amsterdam",
-                    latitude: 52.3738,
-                    longitude: 4.891,
+                    title: "Netherlands",
+                    latitude: 52.1326,
+                    longitude: 5.2912,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
-                    title: "Moscow",
-                    latitude: 55.7558,
-                    longitude: 37.6176,
+                    title: "Norway",
+                    latitude: 60.4720,
+                    longitude: 8.4689,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Portugal",
+                    latitude: 39.3998,
+                    longitude: -8.2244,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Spain",
+                    latitude: 40.4636,
+                    longitude: -3.7492,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Sweden",
+                    latitude: 60.1281,
+                    longitude: 18.6435,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Switzerland",
+                    latitude: 46.8181,
+                    longitude: 8.2275,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "United Kingdom",
+                    latitude: 55.3780,
+                    longitude: -3.4359,
                     url: "https://testweb2.vanwardintl.com/main2"
               }
           ];
