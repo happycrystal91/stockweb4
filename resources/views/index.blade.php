@@ -369,6 +369,7 @@
                   backgroundSeries.mapPolygons.template.set("fillOpacity", 0.1);
               }
           });
+          
 
           cont.children.push(
               am5.Label.new(root, {
@@ -386,6 +387,8 @@
               strokeOpacity: 0
           });
 
+          
+
           // Add background polygon
           // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/#Background_polygon
           backgroundSeries.data.push({
@@ -399,6 +402,8 @@
                   geoJSON: am5geodata_worldLow
               })
           );
+
+          polygonSeries.set("fill", am5.color(0xffffff));
 
           // Create line series for trajectory lines
           // https://www.amcharts.com/docs/v5/charts/map-chart/map-line-series/
@@ -491,7 +496,7 @@
                   title: title
               });
           }
-
+          
           // Make stuff animate on load
           chart.appear(1000, 100);
 
