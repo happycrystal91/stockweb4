@@ -136,13 +136,7 @@
                                             <!-- swiper slider item txt start -->
                                             <div class="swiper-slide-inner-txt-2">
                                                 <!-- section subtitle start -->
-                                                <div class="star-wrapper fadeIn-element">
-                                                    <span class="ion-ios-star"></span>
-                                                    <span class="ion-ios-star"></span>
-                                                    <span class="ion-ios-star"></span>
-                                                    <span class="ion-ios-star"></span>
-                                                    <span class="ion-ios-star"></span>
-                                                </div>
+                                               
                                                 <!-- section subtitle end -->
                                                 <!-- divider start -->
                                                 <div class="divider-m"></div>
