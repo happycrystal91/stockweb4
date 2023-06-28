@@ -158,6 +158,106 @@
     line-height: 20px;
 }
   </style>
+  <style>
+h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.message {
+  background-color: #F89F3C;
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: auto;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+.word1, .word2, .word3 {
+  font-family: tahoma;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: auto;
+  }
+  30% {
+    top: 0.2rem;
+    width: auto;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: auto;
+  }
+  62% {
+    top: -4.5rem;
+    width: auto;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: auto;
+  }
+  95% {
+    top: -9rem;
+    width: auto;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+  </style>
     </head>
     <body style="background-color: #1E2445;">
         {{-- <div class="loading-bar" id="loader">
@@ -170,6 +270,18 @@
                
             </div>
         </div>
+        <div class="col-lg-12">
+          <div class="row text-center">
+            <h1> 
+              <div class="message">
+                <div class="word1">Welcome to</div>
+                <div class="word2">Bienvenue à</div>
+                <div class="word3">欢迎来到</div>
+              </div>
+              <span style="color: white;">Vanward International</span>
+            </h1>
+          </div>
+        </div>
         <div class="col-lg-12" style="padding-top: 20px;">
             <div class="row">
                 <div class="col-lg-8">
@@ -179,7 +291,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="col-lg-6 col-md-6 p-4">
-                        <p style="color:#ffffff;">Please select language :</p>
+                        <p style="color:#ffffff;">Welcome to Vanward International</p>
+                        <p style="color:#ffffff;">Please select your language :</p>
                         <select name="" id="" class="btn btn-secondary dropdown-toggle">
                           <option value="">English</option>
                           <option value="">Spanish</option>
@@ -655,6 +768,5 @@
 
 
       }); // end am5.ready()
-  </script>
-    
+  </script>    
     </html>
