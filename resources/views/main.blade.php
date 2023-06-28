@@ -317,7 +317,7 @@
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
                         <video playsinline autoplay muted loop>
-                            <source src="{{ asset('stock-market5.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('stock-market6.mp4') }}" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
                         <!-- parallax overlay start -->
@@ -772,7 +772,7 @@
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
                         <video playsinline autoplay muted loop>
-                            <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-2.mp4" type="video/mp4">
+                            <source src="{{ asset('stock-market7.mp4') }}" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
                         <!-- parallax overlay start -->
@@ -873,7 +873,7 @@
                         <div class="parallax-title">
                             <!-- HTML5 video URL start -->
                             <video playsinline autoplay muted loop>
-                                <source src="https://www.11-76.com/html5-videos-22/luxex/luxex.mp4" type="video/mp4">
+                                <source src="{{ asset('stock-market5.mp4') }}" type="video/mp4">
                             </video>
                             <!-- HTML5 video URL end -->
                             <!-- page title start -->
