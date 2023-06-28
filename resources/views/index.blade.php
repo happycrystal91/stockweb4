@@ -159,103 +159,24 @@
 }
   </style>
   <style>
-h1 {
-  color: #333;
-  font-family: tahoma;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1.5;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
+.headtext{
+    font-size: 600%;
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-h1 span {
-  font-size: 40px;
-  margin-left: 50px;
+#text2{
+    animation-delay: 2s;
 }
 
-.message {
-  background-color: #F89F3C;
-  color: #fff;
-  display: block;
-  font-weight: 900;
-  overflow: hidden;
-  position: absolute;
-  padding-left: 0.5rem;
-  top: 0.2rem;
-  left: auto;
-  animation: openclose 5s ease-in-out infinite;
+#text3{
+    animation-delay: 10s;
 }
-
-.word1, .word2, .word3 {
-  font-family: tahoma;
-}
-
-@keyframes openclose {
-  0% {
-    top: 0.2rem;
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-    width: auto;
-  }
-  30% {
-    top: 0.2rem;
-    width: auto;
-  }
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-  38% {
-    top: -4.5rem;
-    
-  }
-  48% {
-    top: -4.5rem;
-    width: auto;
-  }
-  62% {
-    top: -4.5rem;
-    width: auto;
-  }
-  66% {
-    top: -4.5rem;
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  86% {
-    top: -9rem;
-    width: auto;
-  }
-  95% {
-    top: -9rem;
-    width: auto;
-  }
-  98% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
-  }
+@keyframes head {
+    0% {font-size:600%; opacity:1;}
+    50% {font-size:0; opacity:0;}
+    100% {font-size:600%;opacity:1;}
 }
   </style>
     </head>
@@ -271,15 +192,10 @@ h1 span {
             </div>
         </div>
         <div class="col-lg-12">
-          <div class="row text-center">
-            <h1> 
-              <div class="message">
-                <div class="word1">Welcome to</div>
-                <div class="word2">Bienvenue à</div>
-                <div class="word3">欢迎来到</div>
-              </div>
-              <span style="color: white;">Vanward International</span>
-            </h1>
+          <div class="row text-center" style="color:white;">
+            <h1 class="headtext" id="text1">Welcome to Vanward International</h1>
+            <h1 class="headtext" id="text2">Bienvenue à Vanward International</h1>
+            <h1 class="headtext" id="text3">欢迎来到 Vanward International</h1>
           </div>
         </div>
         <div class="col-lg-12" style="padding-top: 20px;">
@@ -769,4 +685,5 @@ h1 span {
 
       }); // end am5.ready()
   </script>    
+ 
     </html>

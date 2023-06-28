@@ -46,7 +46,7 @@
         <!-- container end -->
         <!-- border top end -->
         <!-- navigation start -->
-        <nav class="navbar navbar-fixed-top navbar-bg-switch"  style="background-color: black;">
+        <nav class="navbar navbar-fixed-top navbar-bg-switch"  style="background-color: #1E2445">
             <!-- container start -->
             <div class="container-fluid nopadding">
                 <div class="navbar-header fadeIn-element">
@@ -194,7 +194,7 @@
        
        
         <!-- about start -->
-        <div id="about" class="section-all bg-dark" style="background-color: black;">
+        <div id="about" class="section-all bg-dark" style="background-color: #1E2445">
             <!-- container start -->
             <div class="container-fluid nopadding nopadding-xs">
                 <div class="extra-margin-container">
@@ -219,7 +219,7 @@
                     <div class="row">
                         <!-- col start -->
                         <div class="col-lg-12">
-                            <div class="post-list" style="background-color: black;">
+                            <div class="post-list" style="background-color: #1E2445">
                                 <div class="post-list-content-wrapper">
                                     <div class="post-list-wrapper">
                                         <!-- section item start -->
@@ -386,7 +386,7 @@
         
         <!-- video testimonials end -->
         <!-- rooms start -->
-        <div id="rooms" class="section-all bg-dark" style="background-color: black;">
+        <div id="rooms" class="section-all bg-dark" style="background-color: #1E2445">
             <!-- container start -->
             <div class="container">
                 <!-- row start -->
@@ -851,7 +851,7 @@
         <!-- video testimonials end -->
         
         <!-- contact start -->
-        <div id="contact" class="section-all bg-light" style="background-color: black;">
+        <div id="contact" class="section-all bg-light" style="background-color: #1E2445">
             <!-- container start -->
             <div class="container-fluid">
                 <!-- row start -->
