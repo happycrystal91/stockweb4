@@ -159,24 +159,34 @@
 }
   </style>
   <style>
-.headtext{
-    font-size: 600%;
-    animation-name: head;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+.slider {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
 }
 
-#text2{
-    animation-delay: 2s;
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
-#text3{
-    animation-delay: 10s;
+.slide.active {
+  opacity: 1;
+  animation: slideAnimation 5s infinite;
 }
-@keyframes head {
-    0% {font-size:600%; opacity:1;}
-    50% {font-size:0; opacity:0;}
-    100% {font-size:600%;opacity:1;}
+
+@keyframes slideAnimation {
+  0%, 100% {
+    opacity: 0;
+  }
+  20%, 80% {
+    opacity: 1;
+  }
 }
   </style>
     </head>
@@ -192,10 +202,16 @@
             </div>
         </div>
         <div class="col-lg-12">
-          <div class="row text-center" style="color:white;">
-            <h1 class="headtext" id="text1">Welcome to Vanward International</h1>
-            <h1 class="headtext" id="text2">Bienvenue à Vanward International</h1>
-            <h1 class="headtext" id="text3">欢迎来到 Vanward International</h1>
+          <div class="slider text-center" style="color: white; padding-top:20px;">
+            <div class="slide">
+              <h1>Welcome to Vanward International</h1>
+            </div>
+            <div class="slide">
+              <h1>Bienvenue à Vanward International</h1>
+            </div>
+            <div class="slide">
+              <h1>欢迎来到 Vanward International</h1>
+            </div>
           </div>
         </div>
         <div class="col-lg-12" style="padding-top: 20px;">
@@ -207,7 +223,6 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="col-lg-6 col-md-6 p-4">
-                        <p style="color:#ffffff;">Welcome to Vanward International</p>
                         <p style="color:#ffffff;">Please select your language :</p>
                         <select name="" id="" class="btn btn-secondary dropdown-toggle">
                           <option value="">English</option>
@@ -685,5 +700,23 @@
 
       }); // end am5.ready()
   </script>    
- 
+ <script>
+  var slides = document.querySelectorAll('.slide');
+  var currentSlide = 0;
+  
+  function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    slides[index].classList.add('active');
+    currentSlide = index;
+  }
+  
+  function nextSlide() {
+    var nextIndex = (currentSlide + 1) % slides.length;
+    showSlide(nextIndex);
+  }
+  
+  // Start the slideshow
+  showSlide(0);
+  setInterval(nextSlide, 5000);
+  </script>
     </html>
