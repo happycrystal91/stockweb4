@@ -73,11 +73,19 @@
       font-size: 1.1em;
     }
     .dropdown-menu {
+      background-color: #F89F3C;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       border: none;
       border-radius: 0;
       padding: 0.7em;
     }
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #F89F3C !important;
+        border-color: #F89F3C !important;
+    }
+
     @media only screen and (min-width: 992px) {
       .dropdown:hover .dropdown-menu {
         display: flex;
@@ -91,22 +99,25 @@
       padding: 0;
     }
     .dropdown-menu li .dropdown-item {
-      color: gray;
+      color: #ffffff;
+      background-color: #F89F3C;
       font-size: 1em;
       padding: 0.5em 1em;
     }
     .dropdown-menu li .dropdown-item:hover {
-      background-color: #f1f1f1;
+      background-color: #f5be7f;
     }
-    /* .dropdown-menu li:first-child a {
-      font-weight: bold;
-      font-size: 1.1em;
-      text-transform: uppercase;
-      color: #516beb;
-    } */
-    .dropdown-menu li:first-child a:hover {
-      background-color: #f1f1f1;
+
+    select option:checked {
+      background-color: #f5be7f !important; 
+      color: #ffffff !important; 
     }
+
+    select option:hover {
+      background-color: #f5be7f !important; 
+      color: #ffffff !important; 
+    }
+    
     @media only screen and (max-width: 992px) {
       .dropdown-menu.show {
         flex-wrap: wrap;
@@ -133,7 +144,7 @@
     }
 
     .dropdown-menu li a {
-      color: gray;
+      color: rgb(248, 60, 60);
       padding: 0.5em 1em;
     }
     /* .dropdown-menu li:first-child a {
@@ -234,25 +245,13 @@
                 <div class="col-lg-4">
                     <div class="col-lg-12 col-md-12 p-4">
                         <p style="color:#ffffff;">Please select your language :</p>
-                        <select name="" id="" class="btn btn-secondary dropdown-toggle">
+                        <select id="dropSelectLanguage" class="btn btn-secondary">
                           <option value="">English</option>
                           <option value="">Spanish</option>
                           <option value="">French</option>
                           <option value="">Italian</option>
                         </select>
-                        {{-- <a  href="#" class="btn btn-secondary dropdown-toggle"
-                        id="menuLanguage"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Choose language
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="menuLanguage">
-                        <li><a class="dropdown-item" href="#">English</a></li>
-                        <li><a class="dropdown-item" href="#">Spanish </a></li>
-                        <li><a class="dropdown-item" href="#">French </a></li>
-                        <li><a class="dropdown-item" href="#">Italian </a></li>
-                      </ul> --}}
+                        
                       <br><br>
                         <p style="color:#ffffff;">Please select your country :</p>
                         
@@ -289,7 +288,6 @@
                           </a>
                           <div class="dropdown-menu">
                             <ul>
-                              <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
                               <li><a class="dropdown-item" href="#">Austria</a></li>
                               <li><a class="dropdown-item" href="#">Belgium</a></li>
                               <li><a class="dropdown-item" href="#">Czech Republic (Czechia)</a></li>

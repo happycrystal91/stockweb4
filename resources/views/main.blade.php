@@ -156,7 +156,7 @@
                                                         <div class="more-wraper-inner-home">
                                                             <i class="pulse"></i>
                                                             <div class="more-button-txt-center more-button-txt-center-home">
-                                                                <span>Explore services</span>
+                                                                <span>Become a client</span>
                                                             </div>
                                                         </div>
                                                     </a>

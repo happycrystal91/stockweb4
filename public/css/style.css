@@ -8066,8 +8066,8 @@ a.button-effect::before,
     -webkit-opacity: 0;
     filter: alpha(opacity=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    /* border: 1px solid #fff; */
-    border: 1px solid #F89F3C;
+    border: 1px solid #fff;
+    /* border: 1px solid #F89F3C; */
     border-radius: 50%;
     background-color: transparent;
 }
