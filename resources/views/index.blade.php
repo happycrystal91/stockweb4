@@ -253,7 +253,7 @@
                         <li><a class="dropdown-item" href="#">Italian </a></li>
                       </ul> --}}
                       <br><br>
-                        <p style="color:#ffffff;">Please select country :</p>
+                        <p style="color:#ffffff;">Please select your country :</p>
                         
                           <!-- <h2><a onclick="countryAsia()">Asia Pacific</a></h2> -->
                           <a
@@ -291,13 +291,16 @@
                               <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
                               <li><a class="dropdown-item" href="#">Austria</a></li>
                               <li><a class="dropdown-item" href="#">Belgium</a></li>
+                              <li><a class="dropdown-item" href="#">Czech Republic (Czechia)</a></li>
                               <li><a class="dropdown-item" href="#">Denmark</a></li>
+                              <li><a class="dropdown-item" href="#">Estonia</a></li>
                               <li><a class="dropdown-item" href="#">Finland</a></li>
                               <li><a class="dropdown-item" href="#">France</a></li>
                               <li><a class="dropdown-item" href="#">Germany</a></li>
                             </ul>
                             <ul>
-                              <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                              <li><a class="dropdown-item" href="#">Greece</a></li>
+                              <li><a class="dropdown-item" href="#">Hungary</a></li>
                               <li><a class="dropdown-item" href="#">Iceland</a></li>
                               <li><a class="dropdown-item" href="#">Italy</a></li>
                               <li><a class="dropdown-item" href="#">Liechtenstein</a></li>
@@ -306,8 +309,10 @@
                               <li><a class="dropdown-item" href="#">Norway</a></li>
                             </ul>
                             <ul>
-                              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                              <li><a class="dropdown-item" href="#">Poland</a></li>
                               <li><a class="dropdown-item" href="#">Portugal</a></li>
+                              <li><a class="dropdown-item" href="#">Slovakia</a></li>
+                              <li><a class="dropdown-item" href="#">Slovenia</a></li>
                               <li><a class="dropdown-item" href="#">Spain</a></li>
                               <li><a class="dropdown-item" href="#">Sweden</a></li>
                               <li><a class="dropdown-item" href="#">Switzerland</a></li>
@@ -651,9 +656,21 @@
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
+                    title: "Czech Republic",
+                    latitude: 49.8174,
+                    longitude: 15.4729,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
                     title: "Denmark",
                     latitude: 56.2639,
                     longitude: 9.5017,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Estonia",
+                    latitude: 58.5952,
+                    longitude: 25.0136,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
@@ -672,6 +689,18 @@
                     title: "Germany",
                     latitude: 51.1656,
                     longitude: 10.4515,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Greece",
+                    latitude: 39.0742,
+                    longitude: 21.8243,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Hungary",
+                    latitude: 47.1624,
+                    longitude: 19.5033,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
@@ -711,9 +740,27 @@
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
+                    title: "Poland",
+                    latitude: 51.9194,
+                    longitude: 19.1451,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
                     title: "Portugal",
                     latitude: 39.3998,
                     longitude: -8.2244,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Slovakia",
+                    latitude: 48.6690,
+                    longitude: 19.6990,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Slovenia",
+                    latitude: 46.1512,
+                    longitude: 14.9954,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
