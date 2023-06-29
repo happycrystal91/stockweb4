@@ -142,9 +142,9 @@
                                                 <div class="divider-m"></div>
                                                 <!-- divider end -->
                                                 <!-- section title start -->
-                                                <h1 class="hero-heading hero-heading-home fadeIn-element">
+                                                {{-- <h1 class="hero-heading hero-heading-home fadeIn-element">
                                                     VANWARD INTERNATIONAL
-                                                </h1>
+                                                </h1> --}}
                                                 <!-- section title end -->
                                                 <!-- divider start -->
                                                 <div class="divider-m"></div>
