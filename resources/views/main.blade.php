@@ -1033,5 +1033,11 @@
         <script src="{{ asset('js/plugins.js') }}"></script> 
         <script src="{{ asset('js/luxex.js') }}"></script>
         <!-- scripts end -->
+        
+        <script type="module">
+            import { followingDotCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+          
+            new followingDotCursor();
+          </script>
     </body>
 </html>
