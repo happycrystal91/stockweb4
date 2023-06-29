@@ -695,7 +695,8 @@ strong {
     -webkit-box-shadow: 0 0 15px rgba(196, 196, 196, .35);
     -moz-box-shadow: 0 0 15px rgba(196, 196, 196, .35);
     box-shadow: 0 0 15px rgba(196, 196, 196, .35);
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
+    background: #1E2445;
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     -ms-transition: all .4s ease-out;
