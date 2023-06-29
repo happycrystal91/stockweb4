@@ -19,9 +19,7 @@
             "text/css">
         <!-- google fonts end -->
     </head>
-   
     <body>
-        <div id="app"/>
         <!-- preloader start -->
         {{-- <div class="preloader-bg"></div>
         <div id="preloader">
@@ -48,7 +46,7 @@
         <!-- container end -->
         <!-- border top end -->
         <!-- navigation start -->
-        <nav class="navbar navbar-fixed-top navbar-bg-switch" >
+        <nav class="navbar navbar-fixed-top navbar-bg-switch"  >
             <!-- container start -->
             <div class="container-fluid nopadding">
                 <div class="navbar-header fadeIn-element">
@@ -1036,5 +1034,4 @@
         <script src="{{ asset('js/luxex.js') }}"></script>
         <!-- scripts end -->
     </body>
-
 </html>
