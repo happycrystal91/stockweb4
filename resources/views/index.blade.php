@@ -215,11 +215,11 @@
             </div>
             <div class="slide">
               <h1>Bienvenue à Vanward International</h1>
-              <p style="color:#F89F3C;">Veuillez sélectionner votre langue et votre pays.</p>
+              <p style="color:#F89F3C;">Veuillez sélectionner votre langue et votre pays</p>
             </div>
             <div class="slide">
               <h1>欢迎来到 Vanward International</h1>
-              <p style="color:#F89F3C;">请选择您的语言和国家。</p>
+              <p style="color:#F89F3C;">请选择您的语言和国家</p>
             </div>
           </div>
         </div>
