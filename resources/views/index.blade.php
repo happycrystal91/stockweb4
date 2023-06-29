@@ -189,8 +189,14 @@
   }
 }
   </style>
+  
     </head>
     <body style="background-color: #1E2445;">
+      
+
+
+
+
         {{-- <div class="loading-bar" id="loader">
                 <img src="{{ asset('logo.gif') }}" class="loader-logo" >
                 <div class="progress"></div>
@@ -257,13 +263,16 @@
                           >
                             Asia Pacific
                           </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="https://testweb2.vanwardintl.com/main2">Australia</a></li>
-                            <li><a class="dropdown-item" href="#">China</a></li>
-                            <li><a class="dropdown-item" href="#">Japan</a></li>
-                            <li><a class="dropdown-item" href="#">New Zealand</a></li>
-                            <li><a class="dropdown-item" href="#">United Arab Emirates</a></li>
-                          </ul>
+                          <div class="dropdown-menu">
+                            <ul aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="https://testweb2.vanwardintl.com/main2">Australia</a></li>
+                              <li><a class="dropdown-item" href="#">China</a></li>
+                              <li><a class="dropdown-item" href="#">Japan</a></li>
+                              <li><a class="dropdown-item" href="#">New Zealand</a></li>
+                              <li><a class="dropdown-item" href="#">United Arab Emirates</a></li>
+                            </ul>
+                          </div>
+                        
             
                           <a
                             class="btn btn-secondary dropdown-toggle"
@@ -740,4 +749,5 @@
   showSlide(0);
   setInterval(nextSlide, 5000);
   </script>
+  
     </html>
