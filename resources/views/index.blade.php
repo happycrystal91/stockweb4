@@ -211,12 +211,15 @@
           <div class="slider text-center" style="color: white; padding-top:20px;">
             <div class="slide">
               <h1>Welcome to Vanward International</h1>
+              <p style="color:#F89F3C;">Please select your language and country</p>
             </div>
             <div class="slide">
               <h1>Bienvenue à Vanward International</h1>
+              <p style="color:#F89F3C;">Veuillez sélectionner votre langue et votre pays.</p>
             </div>
             <div class="slide">
               <h1>欢迎来到 Vanward International</h1>
+              <p style="color:#F89F3C;">请选择您的语言和国家。</p>
             </div>
           </div>
         </div>
@@ -228,7 +231,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="col-lg-6 col-md-6 p-4">
+                    <div class="col-lg-12 col-md-12 p-4">
                         <p style="color:#ffffff;">Please select your language :</p>
                         <select name="" id="" class="btn btn-secondary dropdown-toggle">
                           <option value="">English</option>
@@ -261,7 +264,7 @@
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
-                            Asia Pacific
+                            Asia Pacific / Australia / Middle East
                           </a>
                           <div class="dropdown-menu">
                             <ul aria-labelledby="dropdownMenuLink">
@@ -273,7 +276,7 @@
                             </ul>
                           </div>
                         
-            
+                          
                           <a
                             class="btn btn-secondary dropdown-toggle"
                             href="#"
@@ -311,7 +314,38 @@
                               <li><a class="dropdown-item" href="#">United Kingdom</a></li>
                             </ul>
                           </div>
-                         
+
+                          <p></p>
+
+                          <a
+                          class="btn btn-secondary dropdown-toggle"
+                          href="#"
+                          role="button"
+                          id="dropdownMenuLink"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          North America / South America
+                        </a>
+                        <div class="dropdown-menu">
+                          <ul aria-labelledby="dropdownMenuLink">
+                          </ul>
+                        </div>
+
+                        <a
+                          class="btn btn-secondary dropdown-toggle"
+                          href="#"
+                          role="button"
+                          id="dropdownMenuLink"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Africa
+                        </a>
+                        <div class="dropdown-menu">
+                          <ul aria-labelledby="dropdownMenuLink">
+                          </ul>
+                        </div>
                         
                       </div>
                 </div>
