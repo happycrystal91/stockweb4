@@ -9,7 +9,8 @@
         <meta content="" name="author">
         <meta content="" name="keywords">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-        <!-- ex nihilo || September 2022 -->
+     
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <!-- style start -->
         <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css">
