@@ -260,6 +260,9 @@
                           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="https://testweb2.vanwardintl.com/main2">Australia</a></li>
                             <li><a class="dropdown-item" href="#">China</a></li>
+                            <li><a class="dropdown-item" href="#">Japan</a></li>
+                            <li><a class="dropdown-item" href="#">New Zealand</a></li>
+                            <li><a class="dropdown-item" href="#">United Arab Emirates</a></li>
                           </ul>
             
                           <a
@@ -572,6 +575,24 @@
                     title: "China",
                     latitude: 35.8616,
                     longitude: 104.1953,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "Japan",
+                    latitude: 36.2048,
+                    longitude: 138.2529,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "New Zealand",
+                    latitude: -40.9005,
+                    longitude: 174.8859,
+                    url: "https://testweb2.vanwardintl.com/main2"
+              },
+              {
+                    title: "United Arab Emirates",
+                    latitude: 23.4240,
+                    longitude: 53.8478,
                     url: "https://testweb2.vanwardintl.com/main2"
               },
               {
