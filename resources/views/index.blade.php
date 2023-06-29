@@ -451,6 +451,9 @@
           // https://www.amcharts.com/docs/v5/getting-started/#Root_element
           var root = am5.Root.new("chartdiv");
 
+          /* remove amchart logo */
+          root._logo.dispose();
+
           // Set themes
           // https://www.amcharts.com/docs/v5/concepts/themes/
           root.setThemes([am5themes_Animated.new(root)]);
