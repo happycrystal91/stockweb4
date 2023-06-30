@@ -19,6 +19,17 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
             "text/css">
         <!-- google fonts end -->
+        
+        <style>
+            .trail { /* className for the trail elements */
+                position: absolute;
+                height: 6px; width: 6px;
+                border-radius: 3px;
+                background: #F89F3C;
+                position: absolute;
+                z-index: 999999;
+            }
+        </style>
     </head>
     <body>
         <!-- preloader start -->
@@ -152,7 +163,7 @@
                                                 <!-- divider end -->
                                                 <!-- button start -->
                                                 <div class="more-wraper-center more-wraper-center-home fadeIn-element">
-                                                    <a class="button button-effect" href="#rooms">
+                                                    <a class="button button-effect" href="https://app.vanwardintl.com/en/applications/create/">
                                                         <div class="more-wraper-inner-home">
                                                             <i class="pulse"></i>
                                                             <div class="more-button-txt-center more-button-txt-center-home">
@@ -1035,10 +1046,76 @@
         <script src="{{ asset('js/luxex.js') }}"></script>
         <!-- scripts end -->
         
-        <script type="module">
-            import { followingDotCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
-          
-            new followingDotCursor();
+        <script>
+            // dots is an array of Dot objects,
+// mouse is an object used to track the X and Y position
+   // of the mouse, set with a mousemove event listener below
+var dots = [],
+    mouse = {
+      x: 0,
+      y: 0
+    };
+
+// The Dot object used to scaffold the dots
+var Dot = function() {
+  this.x = 0;
+  this.y = 0;
+  this.node = (function(){
+    var n = document.createElement("div");
+    n.className = "trail";
+    document.body.appendChild(n);
+    return n;
+  }());
+};
+// The Dot.prototype.draw() method sets the position of 
+  // the object's <div> node
+Dot.prototype.draw = function() {
+  this.node.style.left = this.x + "px";
+  this.node.style.top = this.y + "px";
+};
+
+// Creates the Dot objects, populates the dots array
+for (var i = 0; i < 12; i++) {
+  var d = new Dot();
+  dots.push(d);
+}
+
+// This is the screen redraw function
+function draw() {
+  // Make sure the mouse position is set everytime
+    // draw() is called.
+  var x = mouse.x,
+      y = mouse.y;
+  
+  // This loop is where all the 90s magic happens
+  dots.forEach(function(dot, index, dots) {
+    var nextDot = dots[index + 1] || dots[0];
+    
+    dot.x = x;
+    dot.y = y;
+    dot.draw();
+    x += (nextDot.x - dot.x) * .6;
+    y += (nextDot.y - dot.y) * .6;
+
+  });
+}
+
+addEventListener("mousemove", function(event) {
+  //event.preventDefault();
+  mouse.x = event.pageX;
+  mouse.y = event.pageY;
+});
+
+// animate() calls draw() then recursively calls itself
+  // everytime the screen repaints via requestAnimationFrame().
+function animate() {
+  draw();
+  requestAnimationFrame(animate);
+}
+
+// And get it started by calling animate().
+animate();
+
           </script>
     </body>
 </html>
