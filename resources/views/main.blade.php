@@ -27,7 +27,7 @@
                 border-radius: 3px;
                 background: #F89F3C;
                 position: absolute;
-                z-index: 999999;
+                z-index: 9;
             }
         </style>
     </head>
