@@ -459,7 +459,7 @@
 
           // Create the map chart
           // https://www.amcharts.com/docs/v5/charts/map-chart/
-          var chart = root.container.childrpush(
+          var chart = root.container.children.push(
               am5map.MapChart.new(root, {
                   panX: "rotateX",
                   panY: "translateY",
@@ -467,7 +467,7 @@
               })
           );
 
-          var cont = chart.childrpush(
+          var cont = chart.children.push(
               am5.Container.new(root, {
                   layout: root.horizontalLayout,
                   x: 20,
@@ -476,7 +476,7 @@
           );
 
           // Add labels and controls
-          cont.childrpush(
+          cont.children.push(
               am5.Label.new(root, {
                   centerY: am5.p50,
                   text: "Map",
@@ -484,7 +484,7 @@
               })
           );
 
-          var switchButton = cont.childrpush(
+          var switchButton = cont.children.push(
               am5.Button.new(root, {
                   themeTags: ["switch"],
                   centerY: am5.p50,
@@ -509,7 +509,7 @@
           });
           
 
-          cont.childrpush(
+          cont.children.push(
               am5.Label.new(root, {
                   centerY: am5.p50,
                   text: "Globe",
@@ -570,7 +570,7 @@
 
 
 
-              var circle = container.childrpush(
+              var circle = container.children.push(
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
@@ -581,7 +581,7 @@
               );
 
 
-              var circle2 = container.childrpush(
+              var circle2 = container.children.push(
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
