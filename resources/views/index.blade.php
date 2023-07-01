@@ -268,7 +268,7 @@
                           </a>
                           <div class="dropdown-menu">
                             <ul aria-labelledby="dropdownMenuLink">
-                              <li><a class="dropdown-item" href="https://en.vanwardintl.com/home">Australia</a></li>
+                              <li><a class="dropdown-item" href="https://vanwardintl.com/home">Australia</a></li>
                               <li><a class="dropdown-item" href="#">China</a></li>
                               <li><a class="dropdown-item" href="#">Japan</a></li>
                               <li><a class="dropdown-item" href="#">New Zealand</a></li>
@@ -459,7 +459,7 @@
 
           // Create the map chart
           // https://www.amcharts.com/docs/v5/charts/map-chart/
-          var chart = root.container.children.push(
+          var chart = root.container.childrpush(
               am5map.MapChart.new(root, {
                   panX: "rotateX",
                   panY: "translateY",
@@ -467,7 +467,7 @@
               })
           );
 
-          var cont = chart.children.push(
+          var cont = chart.childrpush(
               am5.Container.new(root, {
                   layout: root.horizontalLayout,
                   x: 20,
@@ -476,7 +476,7 @@
           );
 
           // Add labels and controls
-          cont.children.push(
+          cont.childrpush(
               am5.Label.new(root, {
                   centerY: am5.p50,
                   text: "Map",
@@ -484,7 +484,7 @@
               })
           );
 
-          var switchButton = cont.children.push(
+          var switchButton = cont.childrpush(
               am5.Button.new(root, {
                   themeTags: ["switch"],
                   centerY: am5.p50,
@@ -509,7 +509,7 @@
           });
           
 
-          cont.children.push(
+          cont.childrpush(
               am5.Label.new(root, {
                   centerY: am5.p50,
                   text: "Globe",
@@ -570,7 +570,7 @@
 
 
 
-              var circle = container.children.push(
+              var circle = container.childrpush(
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
@@ -581,7 +581,7 @@
               );
 
 
-              var circle2 = container.children.push(
+              var circle2 = container.childrpush(
                   am5.Circle.new(root, {
                       radius: 4,
                       tooltipY: 0,
@@ -619,175 +619,175 @@
                   title: "Australia",
                   latitude: -25.2743,
                   longitude: 133.7751, 
-                  url: "https://en.vanwardintl.com/home"
+                  url: "https://vanwardintl.com/home"
               },
               {
                     title: "China",
                     latitude: 35.8616,
                     longitude: 104.1953,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Japan",
                     latitude: 36.2048,
                     longitude: 138.2529,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "New Zealand",
                     latitude: -40.9005,
                     longitude: 174.8859,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "United Arab Emirates",
                     latitude: 23.4240,
                     longitude: 53.8478,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Austria",
                     latitude: 47.5162,
                     longitude: 14.5500,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Belgium",
                     latitude: 50.5038,
                     longitude: 4.4699,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Czech Republic",
                     latitude: 49.8174,
                     longitude: 15.4729,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Denmark",
                     latitude: 56.2639,
                     longitude: 9.5017,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Estonia",
                     latitude: 58.5952,
                     longitude: 25.0136,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Finland",
                     latitude: 61.9241,
                     longitude: 25.7481,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "France",
                     latitude: 46.2276,
                     longitude: 2.2137,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Germany",
                     latitude: 51.1656,
                     longitude: 10.4515,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Greece",
                     latitude: 39.0742,
                     longitude: 21.8243,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Hungary",
                     latitude: 47.1624,
                     longitude: 19.5033,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Iceland",
                     latitude: 64.9630,
                     longitude: -19.0208,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Italy",
                     latitude: 41.8719,
                     longitude: 12.5673,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Liechtenstein",
                     latitude: 47.166,
                     longitude: 9.5553,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Luxembourg",
                     latitude: 49.8152,
                     longitude: 6.1295,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Netherlands",
                     latitude: 52.1326,
                     longitude: 5.2912,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Norway",
                     latitude: 60.4720,
                     longitude: 8.4689,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Poland",
                     latitude: 51.9194,
                     longitude: 19.1451,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Portugal",
                     latitude: 39.3998,
                     longitude: -8.2244,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Slovakia",
                     latitude: 48.6690,
                     longitude: 19.6990,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Slovenia",
                     latitude: 46.1512,
                     longitude: 14.9954,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Spain",
                     latitude: 40.4636,
                     longitude: -3.7492,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Sweden",
                     latitude: 60.1281,
                     longitude: 18.6435,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "Switzerland",
                     latitude: 46.8181,
                     longitude: 8.2275,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               },
               {
                     title: "United Kingdom",
                     latitude: 55.3780,
                     longitude: -3.4359,
-                    url: "https://en.vanwardintl.com/home"
+                    url: "https://vanwardintl.com/home"
               }
           ];
 
