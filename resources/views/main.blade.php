@@ -162,11 +162,11 @@
                                                 <div class="divider-m"></div>
                                                 <!-- divider end -->
                                                 <!-- button start -->
-                                                <div class="more-wraper-center more-wraper-center-home fadeIn-element">
+                                                <div class="more-wraper-center more-wraper-center-home fadeIn-element" >
                                                     <a class="button button-effect" href="https://app.vanwardintl.com/en/applications/create/">
                                                         <div class="more-wraper-inner-home">
                                                             <i class="pulse"></i>
-                                                            <div class="more-button-txt-center more-button-txt-center-home">
+                                                            <div class="more-button-txt-center more-button-txt-center-home" style="position: absolute; z-index: 9;">
                                                                 <span>Become a client</span>
                                                             </div>
                                                         </div>
