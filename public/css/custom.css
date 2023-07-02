@@ -1,0 +1,37 @@
+/* Mega Box Container */
+
+.mega-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+/* Menu Column */
+
+.menu-column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* Menu Items */
+
+.menu-item {
+    margin-bottom: 10px;
+}
+
+
+/* Submenu */
+
+.submenu {
+    display: none;
+}
+
+
+/* Show submenu on hover */
+
+.menu-item:hover .submenu {
+    display: block;
+}

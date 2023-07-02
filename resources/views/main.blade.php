@@ -14,6 +14,7 @@
         <!-- style start -->
         <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/custom.css') }}" media="all" rel="stylesheet" type="text/css">
         <!-- style end -->
         <!-- google fonts start -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
@@ -99,17 +100,22 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle disabled-custom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Private Banking <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="nav-close" href="restaurant.html">Restaurant</a></li>
-                                    <li><a class="nav-close" href="spa.html">Spa Center</a></li>
-                                    <li><a class="nav-close" href="fitness.html">Fitness Center</a></li>
-                                    <li><a class="nav-close" href="pool.html">Indoor Pool</a></li>
+                                    <li><a class="nav-close" href="#">Investment Advisory</a></li>
+                                    <li><a class="nav-close" href="#">Wealth Planning</a></li>
+                                    <li><a class="nav-close" href="#">Philanthropic Advisory</a></li>
+                                    <li><a class="nav-close" href="#">Trust Services</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="https://en.vanwardintl.com/#investmentManagement">Investment Management</a>
                             </li>
-                            <li>
-                                <a href="https://en.vanwardintl.com/#investorServices">Investor Services</a>
+                            <li class="menu-item">
+                                <a href="#">Menu 1</a>
+                                <div class="submenu">
+                                  <a href="#">Submenu 1</a>
+                                  <a href="#">Submenu 2</a>
+                                  <a href="#">Submenu 3</a>
+                                </div>
                             </li>
                             <li>
                                 <a href="https://en.vanwardintl.com/#contact">Contact Us</a>
@@ -940,7 +946,7 @@
                             <!-- divider end -->
                             <!-- section TXT start -->
                             <div class="section-txt-2">
-                                <p>ex Inc. Touchdown Dr 1176</p>
+                                <p>Unit 1112, The Metropolis Tower, 10 Metroplis Drive, Hung Hom, Hong Kong</p>
                             </div>
                             <!-- section TXT end -->
                             <!-- divider start -->
@@ -978,7 +984,7 @@
                             <!-- divider end -->
                             <!-- section TXT start -->
                             <div class="section-txt-2">
-                                <p>+123 456 7890</p>
+                                <p></p>
                             </div>
                             <!-- section TXT end -->
                         </div>
