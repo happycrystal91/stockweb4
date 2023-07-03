@@ -9,7 +9,7 @@
         <meta content="" name="author">
         <meta content="" name="keywords">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-
+     
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <!-- style start -->
         <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
@@ -20,7 +20,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
             "text/css">
         <!-- google fonts end -->
-
+        
         <style>
             .trail { /* className for the trail elements */
                 position: absolute;
@@ -77,163 +77,7 @@
                     <!-- logo end -->
                 </div>
                 <!-- main navigation start -->
-
-                    <div class="wrapper">
-                        <input type="radio" name="slider" id="menu-btn">
-                        <input type="radio" name="slider" id="close-btn">
-                        <ul class="nav-links">
-                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-                        <li><a class="main-menu" href="#">Home</a></li>
-                        <li>
-                            <a class="main-menu" href="#" class="desktop-item">Our Firm <span class="caret"></span></a>
-                            <input type="checkbox" id="showDrop">
-                            <label for="showDrop" class="mobile-item">Our Firm</label>
-                            <ul class="drop-menu">
-                                <li><a href="#">The Partnership</a></li>
-                                <li><a href="#">Our Mission & Profile</a></li>
-                                <li><a href="#">Sustainability</a></li>
-                                <li><a href="#">Philanthropy</a></li>
-                                <li><a href="#">Policies & Disclosures</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="main-menu" href="#" class="desktop-item">Careers <span class="caret"></span></a>
-                            <input type="checkbox" id="showDrop">
-                            <label for="showDrop" class="mobile-item">Careers</label>
-                            <ul class="drop-menu">
-                                <li><a href="#">What We Look For</a></li>
-                                <li><a href="#">Total Rewards</a></li>
-                                <li><a href="#">Life At Vanward</a></li>
-                                <li><a href="#">Cares</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="main-menu" href="#" class="desktop-item">Private Banking <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Private Banking</label>
-                            <div class="mega-box">
-                                <div class="content">
-                                    <div class="row">
-                                        <a class="header" href="#">Private Wealth Management</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Investment Advisory</a></li>
-                                            <li><a href="#">Wealth Planning</a></li>
-                                            <li><a href="#">Philanthropic Advisory</a></li>
-                                            <li><a href="#">Trust Services</a></li>
-                                            <li><a href="#">Private Client Lending</a></li>
-                                            <li><a href="#">Center For Women & Wealth</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a href="#" class="header">Corporate Advisory & Banking</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Corporate Advisory</a></li>
-                                            <li><a href="#">Corporate Banking</a></li>
-                                            <li><a href="#">Center For Family Business</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a href="#" class="header">Private Equity</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">About Vanward</a></li>
-                                            <li><a href="#">Investment Profile</a></li>
-                                            <li><a href="#">Investment Strategy & Transaction Types</a></li>
-                                            <li><a href="#">Select Portfolio Companies</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="main-menu" href="#" class="desktop-item">Investment Management <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Investment Management</label>
-                            <div class="mega-box">
-                                <div class="content">
-                                    <div class="row">
-                                        <a class="header" href="#">Public Equity</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">US Large Cap Equity</a></li>
-                                            <li><a href="#">Global Equity</a></li>
-                                            <li><a href="#">US Small & Mid-Cap Equity</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a class="header" href="#">Fixed Income</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Taxable Fixed Income Strategies</a></li>
-                                            <li><a href="#">Tax-Exempt Fixed Income Strategy</a></li>
-                                            <li><a href="#">US TIPS Strategy</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a class="header" href="#">Open Account</a>
-                                        <ul class="mega-links">
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="main-menu" href="#" class="desktop-item">Investor Services <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Investor Services</label>
-                            <div class="mega-box">
-                                <div class="content">
-                                    <div class="row">
-                                        <a class="header" href="#">Custody & Fund Services</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Custody</a></li>
-                                            <li><a href="#">Depositary & Trustee</a></li>
-                                            <li><a href="#">Fund Accounting</a></li>
-                                            <li><a href="#">Fund Administration</a></li>
-                                            <li><a href="#">Transfer Agency</a></li>
-                                            <li><a href="#">Global Tax</a></li>
-                                            <li><a href="#">Collateral Management</a></li>
-                                            <li><a href="#">Fund Order & Custody</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a class="header" href="#">Specialist Expertise</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Cross-Border Funds</a></li>
-                                            <li><a href="#">US Funds</a></li>
-                                            <li><a href="#">Consultants & Advisors</a></li>
-                                            <li><a href="#">Distribution & Intelligence</a></li>
-                                            <li><a href="#">Alternative Funds</a></li>
-                                            <li><a href="#">Exchange Traded Funds</a></li>
-                                            <li><a href="#">Insurance</a></li>
-                                            <li><a href="#">Regulatory Intelligence</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a class="header" href="#">Markets</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Foreign Exchange</a></li>
-                                            <li><a href="#">Active FX Execution</a></li>
-                                            <li><a href="#">InfoFX</a></li>
-                                            <li><a href="#">Currency Hedging</a></li>
-                                            <li><a href="#">Securities Lending</a></li>
-                                            <li><a href="#">Market Intelligence</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="row">
-                                        <a class="header" href="#">Investment Operations & Technology Solutions</a>
-                                        <ul class="mega-links">
-                                            <li><a href="#">Technology Services</a></li>
-                                            <li><a href="#">Middle Office Outsourcing</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                            <li><a class="main-menu" href="#">Contact Us</a></li>
-                            <li><a class="main-menu" href="#">Client Login</a></li>
-                        </ul>
-                        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-                    </div>
-
-                {{-- <div class="main-navigation fadeIn-element">
+                <div class="main-navigation fadeIn-element">
                     <div class="navbar-header">
                         <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle
                         navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
@@ -268,9 +112,9 @@
                             <li class="menu-item">
                                 <a href="#">Menu 1 <span class="caret"></span></a>
                                 <div class="submenu">
-                                    <a href="#">Submenu 1</a>
-                                    <a href="#">Submenu 2</a>
-                                    <a href="#">Submenu 3</a>
+                                  <a href="#">Submenu 1</a>
+                                  <a href="#">Submenu 2</a>
+                                  <a href="#">Submenu 3</a>
                                 </div>
                             </li>
                             <li>
@@ -282,8 +126,7 @@
                         </ul>
                         <!-- menu end -->
                     </div>
-                </div> --}}
-
+                </div>
                 <!-- main navigation end -->
             </div>
             <!-- container end -->
@@ -317,7 +160,7 @@
                                             <!-- swiper slider item txt start -->
                                             <div class="swiper-slide-inner-txt-2">
                                                 <!-- section subtitle start -->
-
+                                               
                                                 <!-- section subtitle end -->
                                                 <!-- divider start -->
                                                 <div class="divider-m"></div>
@@ -348,7 +191,7 @@
                                     </div>
                                     <!-- swiper slider item end -->
                                 </div>
-                                <!-- swiper wrapper end -->
+                                <!-- swiper wrapper end -->   
                             </div>
                             <!-- swiper container end -->
                         </div>
@@ -366,8 +209,8 @@
             <!-- scroll indicator end -->
         </div>
         <!-- home end -->
-
-
+       
+       
         <!-- about start -->
         <div id="about" class="section-all bg-dark" style="background-color: #1E2445">
             <!-- container start -->
@@ -412,7 +255,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="section-heading">
-
+                                                                        
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -435,12 +278,12 @@
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
                                                                     <div class="divider-l"></div>
-                                                                    <!-- divider end -->
+                                                                    <!-- divider end -->      
                                                                     <!-- section txt start -->
                                                                     <div class="blog-tag blog-tag-rooms"> </div>
                                                                     <!-- divider start -->
                                                                     <div class="divider-s"></div>
-                                                                    <!-- divider end -->
+                                                                    <!-- divider end --> 
                                                                     <p><a class="link-effect" href="#"></a></p>
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
@@ -555,10 +398,10 @@
                     <!-- parallax wrapper end -->
                 </div>
                 <!-- row end -->
-            </div>
+            </div>            
             <!-- container end -->
         </div>
-
+        
         <!-- video testimonials end -->
         <!-- rooms start -->
         <div id="rooms" class="section-all bg-dark" style="background-color: #1E2445">
@@ -638,7 +481,7 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-
+                                  
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
@@ -691,7 +534,7 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
@@ -756,7 +599,7 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
@@ -809,7 +652,7 @@
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
-
+                                   
                                     <!-- divider start -->
                                     <div class="divider-m"></div>
                                     <!-- divider end -->
@@ -824,7 +667,7 @@
                                     <!-- divider end -->
                                     <!-- section txt start -->
                                     <p>
-                                        Real estate market performance is inextricably linked to local economies, and we leverage our global network to research and analyse economic data to comprehend market direction and gain insights that inform our investment strategies.
+                                        Real estate market performance is inextricably linked to local economies, and we leverage our global network to research and analyse economic data to comprehend market direction and gain insights that inform our investment strategies. 
                                     </p>
                                     <!-- section txt end -->
                                     <!-- divider start -->
@@ -1007,7 +850,7 @@
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
-
+                            
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
@@ -1024,7 +867,7 @@
             <!-- container end -->
         </div>
         <!-- video testimonials end -->
-
+        
         <!-- contact start -->
         <div id="contact" class="section-all bg-light" style="background-color: #1E2445">
             <!-- container start -->
@@ -1163,7 +1006,7 @@
                         <p>
                             *Vanward International is owned by its funds, which are owned by Vanward International's fund shareholder clients.
                         </p>
-
+                  
                         <p>Vanward International © 2023</p>
                 </div>
             </div>
@@ -1211,10 +1054,10 @@
         </div>
         <!-- photoSwipe background end -->
         <!-- scripts start -->
-        <script src="{{ asset('js/plugins.js') }}"></script>
+        <script src="{{ asset('js/plugins.js') }}"></script> 
         <script src="{{ asset('js/luxex.js') }}"></script>
         <!-- scripts end -->
-
+        
         <script>
             // dots is an array of Dot objects,
 // mouse is an object used to track the X and Y position
@@ -1236,7 +1079,7 @@ var Dot = function() {
     return n;
   }());
 };
-// The Dot.prototype.draw() method sets the position of
+// The Dot.prototype.draw() method sets the position of 
   // the object's <div> node
 Dot.prototype.draw = function() {
   this.node.style.left = this.x + "px";
@@ -1255,11 +1098,11 @@ function draw() {
     // draw() is called.
   var x = mouse.x,
       y = mouse.y;
-
+  
   // This loop is where all the 90s magic happens
   dots.forEach(function(dot, index, dots) {
     var nextDot = dots[index + 1] || dots[0];
-
+    
     dot.x = x;
     dot.y = y;
     dot.draw();
