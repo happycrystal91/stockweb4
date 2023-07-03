@@ -110,7 +110,7 @@
                                 <a href="https://en.vanwardintl.com/#investmentManagement">Investment Management</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#">Menu 1</a>
+                                <a href="#">Menu 1 <span class="caret"></span></a>
                                 <div class="submenu">
                                   <a href="#">Submenu 1</a>
                                   <a href="#">Submenu 2</a>
