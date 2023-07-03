@@ -10,28 +10,28 @@
 
 /* Menu Column */
 
-.menu-column {
+/* .menu-column {
     flex: 1;
     padding: 10px;
-}
+} */
 
 
 /* Menu Items */
 
-.menu-item {
+/* .menu-item {
     margin-bottom: 10px;
-}
+} */
 
 
 /* Submenu */
 
-.submenu {
+/* .submenu {
     display: none;
-}
+} */
 
 
 /* Show submenu on hover */
 
-.menu-item:hover .submenu {
+/* .menu-item:hover .submenu {
     display: block;
-}
+} */
