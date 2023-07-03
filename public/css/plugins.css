@@ -3,7 +3,7 @@
 */
 
 
-/* 
+/*
   1. Bootstrap v3.3.7
   2. Select2 4.1.0-rc.0
   3. Ionicons, v2.0.0
@@ -5056,7 +5056,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-header {
-        float: left
+        justify-content: space-between;
     }
 }
 
@@ -12709,7 +12709,7 @@ button.close {
 
 
 /*
-	
+
 	1. Buttons
 
  */
@@ -13025,7 +13025,7 @@ a.pswp__share--download:hover {
 
 
 /*
-	
+
 	4. Caption
 
  */
@@ -13129,8 +13129,8 @@ a.pswp__share--download:hover {
 }
 
 .pswp--css_animation .pswp__preloader__cut {
-    /* 
-			The idea of animating inner circle is based on Polymer ("material") loading indicator 
+    /*
+			The idea of animating inner circle is based on Polymer ("material") loading indicator
 			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
 		*/
     position: relative;
@@ -13219,7 +13219,7 @@ a.pswp__share--download:hover {
 
 
 /*
-	
+
 	6. Additional styles
 
  */

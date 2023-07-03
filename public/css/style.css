@@ -1022,11 +1022,11 @@ nav{
     opacity: 1;
     }
     .wrapper{
+        right: 0;
         position: relative;
         /* max-width: 1300px; */
-        /* padding: 60px 50px; */
+        padding: 60px 50px;
         height: 70px;
-        line-height: 70px;
         margin: auto;
         display: flex;
         align-items: center;
@@ -1083,9 +1083,9 @@ nav{
     }
     .mega-box{
         position: absolute;
+        width: 65%;
         right: 0;
-        width: 60%;
-        padding: 0 20px;
+        padding: 0 30px;
         top: 85px;
         opacity: 0;
         visibility: hidden;
@@ -1116,10 +1116,10 @@ nav{
         border-radius: 0px;;
     }
     .content .row .mega-links{
-        margin-left: 0px;
+        /* border-top  : 1px solid rgba(255,255,255,0.09); */
     }
     .row .mega-links li{
-        padding: 0 0px;
+        padding: 0 20px;
     }
     .row .mega-links li a{
         padding: 0px;
@@ -1146,6 +1146,7 @@ nav{
     @media screen and (max-width: 970px) {
         .wrapper .btn{
         display: block;
+        z-index: 9999;
         }
         .wrapper .nav-links{
         position: fixed;

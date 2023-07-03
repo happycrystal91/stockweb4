@@ -75,9 +75,7 @@
                         </a>
                     </div>
                     <!-- logo end -->
-                </div>
                 <!-- main navigation start -->
-
                     <div class="wrapper">
                         <input type="radio" name="slider" id="menu-btn">
                         <input type="radio" name="slider" id="close-btn">
@@ -232,6 +230,7 @@
                         </ul>
                         <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
                     </div>
+                </div>
 
                 {{-- <div class="main-navigation fadeIn-element">
                     <div class="navbar-header">
