@@ -15,6 +15,7 @@
         <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/custom.css') }}" media="all" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- style end -->
         <!-- google fonts start -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
@@ -80,7 +81,7 @@
                         <input type="radio" name="slider" id="menu-btn">
                         <input type="radio" name="slider" id="close-btn">
                         <ul class="nav-links">
-                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
                         <li><a class="main-menu" href="#">Home</a></li>
                         <li>
                             <a class="main-menu desktop-item" href="#">Our Firm <span class="caret"></span></a>
@@ -228,7 +229,7 @@
                             <li><a class="main-menu" href="#">Contact Us</a></li>
                             <li><a class="main-menu" href="#">Client Login</a></li>
                         </ul>
-                        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                        <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
                     </div>
                 </div>
 
