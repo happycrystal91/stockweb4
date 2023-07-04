@@ -9,7 +9,7 @@
         <meta content="" name="author">
         <meta content="" name="keywords">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-     
+
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <!-- style start -->
         <link href="{{ asset('css/plugins.css') }}" media="all" rel="stylesheet" type="text/css">
@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CMontserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type=
             "text/css">
         <!-- google fonts end -->
-        
+
         <style>
             .trail { /* className for the trail elements */
                 position: absolute;
@@ -158,14 +158,14 @@
                                                 <!-- divider start -->
                                                 <div class="divider-m"></div>
                                                 <!-- divider end -->
-                                                
+
                                             </div>
                                             <!-- swiper slider item txt end -->
                                         </div>
                                     </div>
                                     <!-- swiper slider item end -->
                                 </div>
-                                <!-- swiper wrapper end -->   
+                                <!-- swiper wrapper end -->
                             </div>
                             <!-- swiper container end -->
                         </div>
@@ -193,9 +193,9 @@
                     As we are not influenced by external shareholders, our interests are completely aligned with those of our clients. Our success is derived from the success of our clients. We prioritize a personalized approach to conducting business, placing emphasis on prudent risk management and always keeping our clients' reputation and best interests at the forefront of all our actions.
                 </p>
             </div>
-            
+
        </div>
-       
+
         <!-- about start -->
         <div id="about" class="section-all bg-dark" style="background-color: #1E2445">
             <!-- container start -->
@@ -240,7 +240,7 @@
                                                                     <!-- divider end -->
                                                                     <!-- section title start -->
                                                                     <h2 class="section-heading">
-                                                                        
+
                                                                     </h2>
                                                                     <!-- section title end -->
                                                                     <!-- divider start -->
@@ -264,12 +264,12 @@
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
                                                                     <div class="divider-l"></div>
-                                                                    <!-- divider end -->      
+                                                                    <!-- divider end -->
                                                                     <!-- section txt start -->
                                                                     <div class="blog-tag blog-tag-rooms"> </div>
                                                                     <!-- divider start -->
                                                                     <div class="divider-s"></div>
-                                                                    <!-- divider end --> 
+                                                                    <!-- divider end -->
                                                                     <p><a class="link-effect" href="#"></a></p>
                                                                     <!-- section txt end -->
                                                                     <!-- divider start -->
@@ -317,9 +317,9 @@
             <!-- container end -->
         </div>
         <!-- about end -->
-       
 
-        
+
+
         <!-- contact start -->
         <div id="contact" class="section-all bg-light" style="background-color: #1E2445">
             <!-- container start -->
@@ -397,7 +397,7 @@
                         <p>
                             *Vanward International is owned by its funds, which are owned by Vanward International's fund shareholder clients.
                         </p>
-                  
+
                         <p>Vanward International © 2023</p>
                 </div>
             </div>
@@ -445,10 +445,10 @@
         </div>
         <!-- photoSwipe background end -->
         <!-- scripts start -->
-        <script src="{{ asset('js/plugins.js') }}"></script> 
+        <script src="{{ asset('js/plugins.js') }}"></script>
         <script src="{{ asset('js/luxex.js') }}"></script>
         <!-- scripts end -->
-        
+
         <script>
             // dots is an array of Dot objects,
 // mouse is an object used to track the X and Y position
@@ -470,7 +470,7 @@ var Dot = function() {
     return n;
   }());
 };
-// The Dot.prototype.draw() method sets the position of 
+// The Dot.prototype.draw() method sets the position of
   // the object's <div> node
 Dot.prototype.draw = function() {
   this.node.style.left = this.x + "px";
@@ -489,11 +489,11 @@ function draw() {
     // draw() is called.
   var x = mouse.x,
       y = mouse.y;
-  
+
   // This loop is where all the 90s magic happens
   dots.forEach(function(dot, index, dots) {
     var nextDot = dots[index + 1] || dots[0];
-    
+
     dot.x = x;
     dot.y = y;
     dot.draw();

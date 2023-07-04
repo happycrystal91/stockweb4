@@ -1,5 +1,8 @@
 <?php
 return [
+    // new template short phrases
+    'details' => 'Details',
+
     // common / short phrases
     "email"                                 => "info@vanwardintl.com",
     "past events"                           => "Past Events",
@@ -251,16 +254,15 @@ return [
     "japan" => "Japan",
 
     // private banking
-    "private banking title 1"   => "Private Banking",
     "private banking desc 1"    => "At Vanward, our exclusive mission within Private Banking is to assist private business owners and wealthy individuals with the generational administration of
                                     their wealth, ensuring its creation, transfer, preservation, and growth. We provide impartial financial and investment advice to corporate and
                                     individual clients, as well as facilitate access to debt and equity capital. Our dedication to superior service fosters enduring relationships
                                     based on trust, allowing us to be a dependable financial partner for our clients.",
     "private banking heading 1" => "Private Wealth Management",
-    "private banking heading 2" => "Corporate Advisory & Banking",
-    "private banking heading 3" => "Private Equity",
     "private banking caption 1" => "By combining our deeply ingrained investment culture with insightful wealth planning and exemplary service, we offer our clients the most deliberate and comprehensive long-term investment experience possible.",
+    "private banking heading 2" => "Corporate Advisory & Banking",
     "private banking caption 2" => "We provide substantial privately held businesses with objective corporate finance advice and capital in order to help their proprietors achieve their business and personal objectives.",
+    "private banking heading 3" => "Private Equity",
     "private banking caption 3" => "As active investors in lower middle-market private equity, we seek to support and partner with talented management teams and owner-operators by providing individualised junior capital solutions.",
 
     // private_wealth_management
