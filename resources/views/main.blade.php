@@ -81,6 +81,7 @@
                         <input type="radio" name="slider" id="menu-btn">
                         <input type="radio" name="slider" id="close-btn">
                         <ul class="nav-links">
+                            <!-- close btn for mobile view -->
                         <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
                         <li><a class="main-menu" href="#">Home</a></li>
                         <li>
@@ -229,6 +230,7 @@
                             <li><a class="main-menu" href="#">Contact Us</a></li>
                             <li><a class="main-menu" href="#">Client Login</a></li>
                         </ul>
+                        <!-- bar btn for mobile view -->
                         <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>
                     </div>
                 </div>
