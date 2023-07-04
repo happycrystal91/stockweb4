@@ -1083,7 +1083,7 @@ nav{
     }
     .mega-box{
         position: absolute;
-        width: 65%;
+        width: 100%;
         right: 0;
         padding: 0 30px;
         top: 85px;
@@ -1095,13 +1095,13 @@ nav{
         padding: 25px 20px;
         display: flex;
         font-weight: 500;
-        width: 100%;
+        width: 80%;
         text-align: center;
         justify-content: space-around;
     }
-    .mega-box .content .row{
-        width: calc(50% - 30px);
-        line-height: 45px;
+    .mega-box .content .row .mega-links{
+        /* width: calc(50% - 30px); */
+        line-height: 35px;
     }
     .content .row img{
         width: 100%;
@@ -1113,17 +1113,19 @@ nav{
         font-size: 14px;
         font-weight: 700;
         border-bottom  : 1px solid gray;
-        border-radius: 0px;;
+        border-radius: 0px;
+        margin: 0 15px;
     }
     .content .row .mega-links{
         /* border-top  : 1px solid rgba(255,255,255,0.09); */
+        margin-left: 0px;
     }
     .row .mega-links li{
         padding: 0 20px;
     }
     .row .mega-links li a{
         padding: 0px;
-        padding: 0 20px;
+        padding: 0 10px;
         color: #d9d9d9;
         font-size: 12px;
         display: block;
@@ -1139,6 +1141,7 @@ nav{
     }
     .wrapper .btn.close-btn{
         position: absolute;
+        z-index: 9999;
         right: 30px;
         top: 10px;
     }
