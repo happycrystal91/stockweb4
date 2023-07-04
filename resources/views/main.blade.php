@@ -83,9 +83,9 @@
                         <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
                         <li><a class="main-menu" href="#">Home</a></li>
                         <li>
-                            <a class="main-menu" href="#" class="desktop-item">Our Firm <span class="caret"></span></a>
-                            <input type="checkbox" id="showDrop">
-                            <label for="showDrop" class="mobile-item">Our Firm</label>
+                            <a class="main-menu desktop-item" href="#">Our Firm <span class="caret"></span></a>
+                            <input type="checkbox" id="showDrop1">
+                            <label for="showDrop1" class="mobile-item">Our Firm<span class="caret"></label>
                             <ul class="drop-menu">
                                 <li><a href="#">The Partnership</a></li>
                                 <li><a href="#">Our Mission & Profile</a></li>
@@ -95,9 +95,9 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="main-menu" href="#" class="desktop-item">Careers <span class="caret"></span></a>
-                            <input type="checkbox" id="showDrop">
-                            <label for="showDrop" class="mobile-item">Careers</label>
+                            <a class="main-menu desktop-item" href="#">Careers <span class="caret"></span></a>
+                            <input type="checkbox" id="showDrop2">
+                            <label for="showDrop2" class="mobile-item">Careers<span class="caret"></label>
                             <ul class="drop-menu">
                                 <li><a href="#">What We Look For</a></li>
                                 <li><a href="#">Total Rewards</a></li>
@@ -106,9 +106,9 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="main-menu" href="#" class="desktop-item">Private Banking <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Private Banking</label>
+                            <a class="main-menu desktop-item" href="#">Private Banking <span class="caret"></span></a>
+                            <input type="checkbox" id="showMega1">
+                            <label for="showMega1" class="mobile-item">Private Banking<span class="caret"></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
@@ -143,9 +143,9 @@
                             </div>
                         </li>
                         <li>
-                            <a class="main-menu" href="#" class="desktop-item">Investment Management <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Investment Management</label>
+                            <a class="main-menu desktop-item" href="#">Investment Management <span class="caret"></span></a>
+                            <input type="checkbox" id="showMega2">
+                            <label for="showMega2" class="mobile-item">Investment Management<span class="caret"></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
@@ -173,9 +173,9 @@
                             </div>
                         </li>
                         <li>
-                            <a class="main-menu" href="#" class="desktop-item">Investor Services <span class="caret"></span></a>
-                            <input type="checkbox" id="showMega">
-                            <label for="showMega" class="mobile-item">Investor Services</label>
+                            <a class="main-menu desktop-item" href="#">Investor Services <span class="caret"></span></a>
+                            <input type="checkbox" id="showMega3">
+                            <label for="showMega3" class="mobile-item">Investor Services<span class="caret"></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
