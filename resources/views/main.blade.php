@@ -65,8 +65,8 @@
             <div class="container-fluid nopadding">
                 <div class="navbar-header fadeIn-element">
                     <!-- logo start -->
-                    <div class="logo">
-                        <a class="navbar-brand logo" href="#">
+                    <div class="logo" id="logo">
+                        <a class="navbar-brand -link" href="#">
                             <!-- logo light start -->
                             <img alt="Logo" class="logo-light" src="{{ asset('logo-2.png') }}" style="width:200px; margin-top: -25px;">
                             <!-- logo light end -->
@@ -76,18 +76,20 @@
                         </a>
                     </div>
                     <!-- logo end -->
-                <!-- main navigation start -->
+
+                    <!-- main navigation start -->
                     <div class="wrapper">
                         <input type="radio" name="slider" id="menu-btn">
                         <input type="radio" name="slider" id="close-btn">
                         <ul class="nav-links">
                             <!-- close btn for mobile view -->
-                        <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-                        <li><a class="main-menu" href="#">Home</a></li>
+                            <img alt="Logo" class="logo-light" id="logo-mobile" src="{{ asset('logo-2.png') }}">
+                            <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+                            <li><a class="main-menu" href="#">Home</a></li>
                         <li>
                             <a class="main-menu desktop-item" href="#">Our Firm <span class="caret"></span></a>
                             <input type="checkbox" id="showDrop1">
-                            <label for="showDrop1" class="mobile-item">Our Firm<span class="caret"></label>
+                            <label for="showDrop1" class="mobile-item">Our Firm <span class="caret"></span></label>
                             <ul class="drop-menu">
                                 <li><a href="#">The Partnership</a></li>
                                 <li><a href="#">Our Mission & Profile</a></li>
@@ -99,7 +101,7 @@
                         <li>
                             <a class="main-menu desktop-item" href="#">Careers <span class="caret"></span></a>
                             <input type="checkbox" id="showDrop2">
-                            <label for="showDrop2" class="mobile-item">Careers<span class="caret"></label>
+                            <label for="showDrop2" class="mobile-item">Careers <span class="caret"></span></label>
                             <ul class="drop-menu">
                                 <li><a href="#">What We Look For</a></li>
                                 <li><a href="#">Total Rewards</a></li>
@@ -110,7 +112,7 @@
                         <li>
                             <a class="main-menu desktop-item" href="#">Private Banking <span class="caret"></span></a>
                             <input type="checkbox" id="showMega1">
-                            <label for="showMega1" class="mobile-item">Private Banking<span class="caret"></label>
+                            <label for="showMega1" class="mobile-item">Private Banking <span class="caret"></span></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
@@ -147,7 +149,7 @@
                         <li>
                             <a class="main-menu desktop-item" href="#">Investment Management <span class="caret"></span></a>
                             <input type="checkbox" id="showMega2">
-                            <label for="showMega2" class="mobile-item">Investment Management<span class="caret"></label>
+                            <label for="showMega2" class="mobile-item">Investment Management <span class="caret"></span></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
@@ -177,7 +179,7 @@
                         <li>
                             <a class="main-menu desktop-item" href="#">Investor Services <span class="caret"></span></a>
                             <input type="checkbox" id="showMega3">
-                            <label for="showMega3" class="mobile-item">Investor Services<span class="caret"></label>
+                            <label for="showMega3" class="mobile-item">Investor Services <span class="caret"></span></label>
                             <div class="mega-box">
                                 <div class="content">
                                     <div class="row">
@@ -1215,78 +1217,9 @@
         <!-- scripts start -->
         <script src="{{ asset('js/plugins.js') }}"></script>
         <script src="{{ asset('js/luxex.js') }}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
         <!-- scripts end -->
 
-        <script>
-            // dots is an array of Dot objects,
-// mouse is an object used to track the X and Y position
-   // of the mouse, set with a mousemove event listener below
-var dots = [],
-    mouse = {
-      x: 0,
-      y: 0
-    };
 
-// The Dot object used to scaffold the dots
-var Dot = function() {
-  this.x = 0;
-  this.y = 0;
-  this.node = (function(){
-    var n = document.createElement("div");
-    n.className = "trail";
-    document.body.appendChild(n);
-    return n;
-  }());
-};
-// The Dot.prototype.draw() method sets the position of
-  // the object's <div> node
-Dot.prototype.draw = function() {
-  this.node.style.left = this.x + "px";
-  this.node.style.top = this.y + "px";
-};
-
-// Creates the Dot objects, populates the dots array
-for (var i = 0; i < 12; i++) {
-  var d = new Dot();
-  dots.push(d);
-}
-
-// This is the screen redraw function
-function draw() {
-  // Make sure the mouse position is set everytime
-    // draw() is called.
-  var x = mouse.x,
-      y = mouse.y;
-
-  // This loop is where all the 90s magic happens
-  dots.forEach(function(dot, index, dots) {
-    var nextDot = dots[index + 1] || dots[0];
-
-    dot.x = x;
-    dot.y = y;
-    dot.draw();
-    x += (nextDot.x - dot.x) * .6;
-    y += (nextDot.y - dot.y) * .6;
-
-  });
-}
-
-addEventListener("mousemove", function(event) {
-  //event.preventDefault();
-  mouse.x = event.pageX;
-  mouse.y = event.pageY;
-});
-
-// animate() calls draw() then recursively calls itself
-  // everytime the screen repaints via requestAnimationFrame().
-function animate() {
-  draw();
-  requestAnimationFrame(animate);
-}
-
-// And get it started by calling animate().
-animate();
-
-          </script>
     </body>
 </html>
