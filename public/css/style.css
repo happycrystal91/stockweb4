@@ -181,6 +181,7 @@
 .rooms-bg-5 {
     background-image: url(../commodities.jpg);
 }
+/* --- custom --- */
 
 
 /* 1.5. facilities IMG BACKGROUND */
@@ -2873,7 +2874,7 @@ a.link-effect:hover::after {
 }
 
 .bg-dark {
-    background: #f7f7f7;
+    background: #1E2445;       /*original = #f7f7f7*/
 }
 
 
