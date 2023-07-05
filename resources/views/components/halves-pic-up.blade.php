@@ -17,10 +17,10 @@
                 </p>
                 <div class="divider-l"></div>
                 <div class="more-wraper-center">
-                    <a href="#">
+                    <a href="{{ $url }}">
                         <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
                         <div class="more-button-txt-center more-button-txt-center-close">
-                            <a href=""><span>@lang('public.details')</span></a>
+                            <a href="{{ $url }}"><span>@lang('public.details')</span></a>
                         </div>
                     </a>
                 </div>

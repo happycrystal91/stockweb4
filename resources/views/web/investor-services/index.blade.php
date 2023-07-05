@@ -41,28 +41,28 @@
         <div class="owl-carousel owl-carousel-rooms">
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/custody-and-fund-services.jpeg'),
-                'url' => '#',
+                'url' => route('web.investor-services.custody_and_fund_services'),
                 'title' => __('public.custody & fund services'),
                 'caption' => __('public.investor services caption 1')
             ])
             @endcomponent
             @component('components.halves-pic-down', [
                 'imgurl' => url('/resource/specialist-expertise.jpeg'),
-                'url' => '#',
+                'url' => route('web.investor-services.specialist_expertise'),
                 'title' => __('public.specialist expertise'),
                 'caption' => __('public.investor services caption 2')
             ])
             @endcomponent
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/markets.jpeg'),
-                'url' => '#',
+                'url' => route('web.investor-services.markets'),
                 'title' => __('public.markets'),
                 'caption' => __('public.investor services caption 3')
             ])
             @endcomponent
             @component('components.halves-pic-down', [
                 'imgurl' => url('/resource/investment-operations-and-technology-solutions.jpeg'),
-                'url' => '#',
+                'url' => route('web.investor-services.investment_operations_and_technology_solutions'),
                 'title' => __('public.investment operations & technology'),
                 'caption' => __('public.investor services caption 2')
             ])

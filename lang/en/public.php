@@ -311,6 +311,7 @@ return [
                     collaborate across disciplines, and explore different roles. Our culture is results-oriented, meaning
                     that we focus on outcomes and value the impact you make. We believe in empowering our employees to live
                     their best lives, both personally and professionally.",
+    "careers caption 3" => "We believe in creating an environment where you can make a positive impact, both within our firm and in your community.",
     "careers 5" => "Talent Acquisition Support",
     "careers 6" => "If you are a job candidate and have a question about submitting an application, please email:",
 
@@ -323,7 +324,7 @@ return [
                     our clients. Our success is derived from the success of our clients. We prioritize a personalized
                     approach to conducting business, placing emphasis on prudent risk management and always keeping our
                     clients' reputation and best interests at the forefront of all our actions.",
-    "our firm 2" => "Our esteemed global leadership team",
-    "our firm 3" => "Enriching our clients, our people, and our communities through positive contributions",
-    "our firm 4" => "Demonstrating compassion for the community while fostering strong relationships with our colleagues.",
+    "our firm caption 1" => "Our esteemed global leadership team",
+    "our firm caption 2" => "Enriching our clients, our people, and our communities through positive contributions",
+    "our firm caption 3" => "Demonstrating compassion for the community while fostering strong relationships with our colleagues.",
 ];

@@ -41,21 +41,21 @@
         <div class="owl-carousel owl-carousel-rooms">
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/what-we-look-for.jpeg'),
-                'url' => '#',
+                'url' => route('web.careers.what_we_look_for'),
                 'title' => __('public.what we look for'),
                 'caption' => __('public.careers caption 1')
             ])
             @endcomponent
             @component('components.halves-pic-down', [
                 'imgurl' => url('/resource/rewarding-you.jpg'),
-                'url' => '#',
+                'url' => route('web.careers.total_rewards'),
                 'title' => __('public.rewarding you'),
                 'caption' => __('public.careers caption 2')
             ])
             @endcomponent
             @component('components.halves-pic-up', [
-                'imgurl' => url('/resource/rewarding-you.jpg'),
-                'url' => '#',
+                'imgurl' => url('/resource/life-here.jpeg'),
+                'url' => route('web.careers.life_here'),
                 'title' => __('public.life at vanward'),
                 'caption' => __('public.careers caption 3') //not yet exist
             ])

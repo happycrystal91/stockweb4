@@ -41,21 +41,21 @@
         <div class="owl-carousel owl-carousel-rooms">
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/the-partnership.jpg'),
-                'url' => '#',
+                'url' => route('web.our-firm.the_partnership'),
                 'title' => __('public.the partnership'),
                 'caption' => __('public.our firm caption 1')
             ])
             @endcomponent
             @component('components.halves-pic-down', [
                 'imgurl' => url('/resource/sustainability.jpg'),
-                'url' => '#',
+                'url' => route('web.our-firm.sustainability'),
                 'title' => __('public.sustainability'),
                 'caption' => __('public.our firm caption 2')
             ])
             @endcomponent
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/philanthropy.jpg'),
-                'url' => '#',
+                'url' => route('web.our-firm.philanthropy'),
                 'title' => __('public.philanthropy'),
                 'caption' => __('public.our firm caption 3') //not yet exist
             ])

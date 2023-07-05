@@ -57,23 +57,23 @@
         <div class="owl-carousel owl-carousel-rooms">
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/public-equity.jpeg'),
-                'url' => '#',
+                'url' => route('web.investment-management.public_equity'),
                 'title' => __('public.public equity'),
                 'caption' => __('public.investment management caption 1')
             ])
             @endcomponent
             @component('components.halves-pic-down', [
                 'imgurl' => url('/resource/fixed-income.jpeg'),
-                'url' => '#',
+                'url' => route('web.investment-management.fixed_income'),
                 'title' => __('public.fixed income'),
                 'caption' => __('public.investment management caption 2')
             ])
             @endcomponent
             @component('components.halves-pic-up', [
                 'imgurl' => url('/resource/open-account.jpeg'),
-                'url' => '#',
+                'url' => 'javascript:void(0)',
                 'title' => __('public.open account'),
-                'caption' => __('public.investment management caption 3') //not yet exist
+                'caption' => __('public.content unavailable') //not yet exist
             ])
             @endcomponent
         </div>
