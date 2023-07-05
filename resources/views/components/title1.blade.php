@@ -7,7 +7,7 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="swiper-slide-inner">
-                                    <div class="swiper-slide-inner-bg rooms-bg overlay overlay-dark" style="background-image: url('{{ $imgurl }}');">
+                                    <div class="swiper-slide-inner-bg overlay overlay-dark" style="background-image: url('{{ $imgurl }}');">
                                     </div>
                                     <div class="swiper-slide-inner-txt-2">
                                         <div class="divider-m"></div>

@@ -1,3 +1,7 @@
+:root {
+    --vanward-blue : #1E2445;
+}
+
 /*
   [CSS Index]
 */
@@ -704,7 +708,7 @@ strong {
     -moz-box-shadow: 0 0 15px rgba(196, 196, 196, .35);
     box-shadow: 0 0 15px rgba(196, 196, 196, .35);
     /* background: rgba(255, 255, 255, 1); */
-    background: #1E2445;
+    background: var(--vanward-blue);
     /* -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     -ms-transition: all .4s ease-out;
@@ -2611,7 +2615,7 @@ a.link-effect {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: inherit;
+    color: #F89F3C !important;
 }
 
 a.link-effect::after {
@@ -2874,7 +2878,7 @@ a.link-effect:hover::after {
 }
 
 .bg-dark {
-    background: #1E2445;       /*original = #f7f7f7*/
+    background: var(--vanward-blue);       /*original = #f7f7f7*/
 }
 
 
@@ -4070,9 +4074,16 @@ button {
     margin: 0;
     padding: 0;
     border: none;
-    background: #fff;
+    background: var(--vanward-blue);
 }
 
+div .para,
+.paragraph {
+    color: #fff !important;
+    font-family: inherit;
+    font-size: inherit;
+
+}
 
 /* news quote */
 
@@ -6177,7 +6188,7 @@ p a:visited,
 p a:active,
 p a:focus,
 .social-icons li a {
-    color: #5f5f5f!important;
+    /* color: #5f5f5f!important; */
 }
 
 body,
