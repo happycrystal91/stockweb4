@@ -1,28 +1,6 @@
 <?php
 return [
-    // private_wealth_management
-    "private wealth management caption 1" => "Our mission at Vanward is straightforward: to preserve and grow your wealth*. Our approach distinguishes us in this regard. We combine a deeply rooted investment culture with insightful wealth planning and exemplary service to provide you with the most deliberate and comprehensive private wealth management experience possible over the long term. Our client relationships are supported by the partnership structure's stability, longevity, and alignment of interests.",
-    "private wealth management caption 2" => "We take a value-oriented, long-term approach to investing with the goal of preserving and growing your wealth.",
-    "private wealth management caption 3" => "We assist our clients in addressing all aspects of their philanthropic plans and objectives in order to have a lasting, positive impact.",
-    "private wealth management caption 4" => "We provide you and your family with flexible, collateralized credit in the form of personal loans and credit lines.",
-    "private wealth management caption 5" => "Our highly skilled wealth planners collaborate with you and your advisors on trust and estate, tax, and financial planning matters to assist you in achieving your personal and financial objectives.",
-    "private wealth management caption 6" => "Our expertise in acting as trustee or executor for you and your family is central to our services.",
-    "private wealth management caption 7" => "Investment, planning, and philanthropic resources for women seeking to invest their wealth prudently.",
 
-    // corporate_advisory_and_banking
-    "corporate advisory and banking caption 1" => "As a long-standing, owner-operated partnership that has flourished since 1818, we have a comprehensive understanding of the challenges faced by private company owners and managers. This unique perspective, coupled with our unwavering commitment to putting the best interests of our clients first, fosters long-lasting relationships based on mutual trust. We are not motivated by short-term transactional gains; rather, our sole objective is to provide our clients with objective and insightful advice throughout their financial journeys.",
-    "corporate advisory and banking caption 2" => "The Corporate Advisory & Banking team is comprised of senior corporate finance experts with extensive experience collaborating with business owners and managers on M&A and financing transactions. We deliver the full scope of Vanward to our clients by collaborating effectively with subject matter experts throughout our Private Banking division and the firm.",
-    "corporate advisory and banking caption 3" => "We provide our clients with objective and actionable guidance to help them achieve their unique business and personal goals.",
-    "corporate advisory and banking caption 4" => "The provision of consulting services and capital to family business proprietors in order to assist them in addressing their unique challenges.",
-    "corporate advisory and banking caption 5" => "Capital with added value for substantial privately held U.S. companies with outstanding credit profiles.",
-
-    // private_equity
-    "private equity caption 1" => "Since 1996, Vanward private equity has invested over $2.5 billion in growth capital in privately held companies across a variety of industries. Vanward collaborates with high-caliber management teams guiding businesses through crucial growth and strategic development phases. We emphasise partnering with management teams and proprietors who wish to capitalise on the relationships, experience, and resources of a more than 200-year-old institution.",
-    "private equity caption 2" => "Vanward has experience investing in companies with enterprise values ranging from $50 million to $400 million in the lower middle market. Vanward is able to operate as a controlling or non-controlling investor and to structure investments as a combination of equity and subordinated debt securities.",
-    "private equity caption 3" => "A provider of development capital who offers highly customised capital solutions to businesses in the lower middle market.",
-    "private equity caption 4" => "Flexible investment mandate allowing for control and non-control transactions and a mix of debt and equity.",
-    "private equity caption 5" => "Investing in lower middle-market companies with strong business characteristics using a variety of transaction structures.",
-    "private equity caption 6" => "Companies that exemplify our commitment to a disciplined investment strategy and our willingness to partner with exceptional businesses.",
 
     // center for women and wealth
     "center for women and wealth caption 1" => "The Centre for Women and Wealth® (CW&W) is committed to engaging and assisting women in the wealth creation and management processes. We provide women with investment, planning, and philanthropic resources derived from our private banking clients' decades of experience. The CW&W seeks to cultivate an in-person and online community where women can share their experiences and offer guidance to future generations of female leaders.",

@@ -254,6 +254,7 @@ return [
     "new account policy"                => "New Account Policy",
     "USA patriot act"                   => "USA PATRIOT Act",
 
+    // LEVEL 1
     // private banking
     "private banking 1"    => "At Vanward, our exclusive mission within Private Banking is to assist private business owners and wealthy individuals with the generational administration of
                                     their wealth, ensuring its creation, transfer, preservation, and growth. We provide impartial financial and investment advice to corporate and
@@ -262,7 +263,6 @@ return [
     "private banking caption 1" => "By combining our deeply ingrained investment culture with insightful wealth planning and exemplary service, we offer our clients the most deliberate and comprehensive long-term investment experience possible.",
     "private banking caption 2" => "We provide substantial privately held businesses with objective corporate finance advice and capital in order to help their proprietors achieve their business and personal objectives.",
     "private banking caption 3" => "As active investors in lower middle-market private equity, we seek to support and partner with talented management teams and owner-operators by providing individualised junior capital solutions.",
-
     // investment management
     "investment management 1"   => "Vanward's mission is to be the greatest at long-term capital preservation and growth for our clients. We concentrate on scalable investment strategies in which our philosophy, methodology, and experience can produce distinctive outcomes. Vanward Investment Management has been managing equity and fixed income investments, and what sets us apart is our distinctive investment strategy.
                                     <br><br>
@@ -278,7 +278,6 @@ return [
     "investment management 9"   => "environmental, social and governance (ESG) considerations.",
     "investment management caption 1"  => "With an emphasis on capital preservation, Vanward's public equity strategies aim to generate attractive long-term investment returns across complete market cycles.",
     "investment management caption 2"  => "We offer taxable, tax-exempt, and inflation-indexed strategies that employ our distinctive investment philosophy and valuation methodology to generate long-term returns that surpass those of our competitors.",
-
     // investor services
     "investor services 1" => "Vanward Investor Services is dedicated to offering asset servicing and cutting-edge technology solutions
                             to leading global asset gatherers. We specifically concentrate on a select group of clients who seek an
@@ -297,7 +296,6 @@ return [
     "investor services caption 2" => "Providing specialist expertise servicing cross-border funds, alternatives, ETFs, and insurance firms",
     "investor services caption 3" => "Providing foreign exchange trading, currency administration, and securities lending solutions centered on execution quality and leading levels of operational efficiency, transparency, and client control.",
     "investor services caption 4" => "Making key components of our technology platform available to clients on a SaaS, IaaS, and fully outsourced basis.",
-
     // careers
     "careers 1" => "At Vanward, we highly value the perspectives and expertise of every employee. Our organizational
                     structure is designed to be flat, fostering a collaborative culture where the contributions of all team
@@ -314,7 +312,6 @@ return [
     "careers caption 3" => "We believe in creating an environment where you can make a positive impact, both within our firm and in your community.",
     "careers 5" => "Talent Acquisition Support",
     "careers 6" => "If you are a job candidate and have a question about submitting an application, please email:",
-
     // our firm
     "our firm 1" => "Vanward Asset Management Limited is an independently owned and operated financial services firm.
                     Our focus is on serving highly discerning individuals and institutions, offering specialized expertise
@@ -327,4 +324,29 @@ return [
     "our firm caption 1" => "Our esteemed global leadership team",
     "our firm caption 2" => "Enriching our clients, our people, and our communities through positive contributions",
     "our firm caption 3" => "Demonstrating compassion for the community while fostering strong relationships with our colleagues.",
+
+    // LEVEL 2
+    // private_wealth_management
+    "private wealth management 1" => "Our mission at Vanward is straightforward: to preserve and grow your wealth*. Our approach distinguishes us in this regard. We combine a deeply rooted investment culture with insightful wealth planning and exemplary service to provide you with the most deliberate and comprehensive private wealth management experience possible over the long term. Our client relationships are supported by the partnership structure's stability, longevity, and alignment of interests.",
+    "private wealth management 2" => "We take a value-oriented, long-term approach to investing with the goal of preserving and growing your wealth.",
+    "private wealth management 3" => "Our highly skilled wealth planners collaborate with you and your advisors on trust and estate, tax, and financial planning matters to assist you in achieving your personal and financial objectives.",
+    "private wealth management 4" => "We assist our clients in addressing all aspects of their philanthropic plans and objectives in order to have a lasting, positive impact.",
+    "private wealth management 5" => "Our expertise in acting as trustee or executor for you and your family is central to our services.",
+    "private wealth management 6" => "We provide you and your family with flexible, collateralized credit in the form of personal loans and credit lines.",
+    "private wealth management 7" => "Investment, planning, and philanthropic resources for women seeking to invest their wealth prudently.",
+
+    // corporate_advisory_and_banking
+    "corporate advisory & banking 1" => "As a long-standing, owner-operated partnership that has flourished since 1818, we have a comprehensive understanding of the challenges faced by private company owners and managers. This unique perspective, coupled with our unwavering commitment to putting the best interests of our clients first, fosters long-lasting relationships based on mutual trust. We are not motivated by short-term transactional gains; rather, our sole objective is to provide our clients with objective and insightful advice throughout their financial journeys.",
+    "corporate advisory & banking 2" => "The Corporate Advisory & Banking team is comprised of senior corporate finance experts with extensive experience collaborating with business owners and managers on M&A and financing transactions. We deliver the full scope of Vanward to our clients by collaborating effectively with subject matter experts throughout our Private Banking division and the firm.",
+    "corporate advisory & banking 3" => "We provide our clients with objective and actionable guidance to help them achieve their unique business and personal goals.",
+    "corporate advisory & banking 4" => "Capital with added value for substantial privately held U.S. companies with outstanding credit profiles.",
+    "corporate advisory & banking 5" => "The provision of consulting services and capital to family business proprietors in order to assist them in addressing their unique challenges.",
+
+    // private_equity
+    "private equity 1" => "Since 1996, Vanward private equity has invested over $2.5 billion in growth capital in privately held companies across a variety of industries. Vanward collaborates with high-caliber management teams guiding businesses through crucial growth and strategic development phases. We emphasise partnering with management teams and proprietors who wish to capitalise on the relationships, experience, and resources of a more than 200-year-old institution.",
+    "private equity 2" => "Vanward has experience investing in companies with enterprise values ranging from $50 million to $400 million in the lower middle market. Vanward is able to operate as a controlling or non-controlling investor and to structure investments as a combination of equity and subordinated debt securities.",
+    "private equity 3" => "A provider of development capital who offers highly customised capital solutions to businesses in the lower middle market.",
+    "private equity 4" => "Investing in lower middle-market companies with strong business characteristics using a variety of transaction structures.",
+    "private equity 5" => "Flexible investment mandate allowing for control and non-control transactions and a mix of debt and equity.",
+    "private equity 6" => "Companies that exemplify our commitment to a disciplined investment strategy and our willingness to partner with exceptional businesses.",
 ];
