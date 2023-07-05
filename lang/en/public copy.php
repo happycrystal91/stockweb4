@@ -344,76 +344,7 @@ return [
     "succession 7"  => "What regulations govern stock ownership and ownership transfers?",
 
 
-    // esg approach
-    "esg approach 1" => "Vanward's mission is to be the greatest at long-term capital preservation and growth for our clients.
-                        Vanward has conducted its own investment research with a concentration on the long-term
-                        preservation of capital and the prudent management of risk in relation to return. At the core of our
-                        investment process has always been the understanding that loss avoidance is the key to generating superior
-                        long-term investment returns.
-                        <br><br>
-                        We believe that incorporating environmental, social, and governance (ESG) criteria into our investment
-                        process improves our ability to manage risk and attain long-term goals. We believe that environmental,
-                        social, and governance (ESG) criteria are integral to our equity and fixed income investment processes.
-                        <br><br>
-                        Our investment strategy explicitly incorporates ESG criteria and is governed by a set of fundamental
-                        principles that are applied to the entirety of our investment portfolios. Together, they constitute a
-                        tried-and-true strategy that has established long-lasting client relationships and set us apart from our
-                        competitors.
-                        <br><br>",
-    "esg approach 2" => "Our investment principles:",
-    "esg approach 3" => "concentrate on asset preservation",
-    "esg approach 4" => "conduct fundamental, bottom-up research",
-    "esg approach 5" => "Invest with a long-term outlook",
-    "esg approach 6" => "Be resolute and patient",
-    "esg approach 7" => "adopt a value-based strategy",
-    "esg approach 8" => "The evaluation of ESG factors as part of our investment research process enables us to effectively evaluate the long-term sustainability and resilience of our companies and credits:",
-    "esg approach 9" => "Environmental – Entities that are judicious with their use of resources, cognizant of climate risks, and appropriately conscientious of their environmental impact may gain efficiencies that contribute to their profitability. They are also less likely to incur unanticipated liabilities that can diminish enterprise value.",
-    "esg approach 10" => "Social – Maintaining high standards for internal and external conduct can assist organisations in establishing robust cultures, generating improved long-term results for all stakeholders, and limiting adverse regulatory action.",
-    "esg approach 11" => "Analysing the quality of management teams, governance structures, and the framework of rules, practises, and incentives under which organisations operate are fundamental components of long-term viability. Our view is that well-managed businesses, whose management teams behave like owners, are more likely to manage resources efficiently, create long-term value for shareholders, safeguard creditor rights, and maintain access to credit markets. These are essential qualities of the enterprises we choose to own for our clients.",
-    "esg approach 12" => "ESG Integration: Integral to our bottom-up strategy:",
-    "esg approach 13" => "Our team of roughly 50 equity and fixed income investment professionals is responsible for integrating critical ESG criteria into our investment analysis and decision-making process.",
-    "esg approach 14" => "Each of our investment teams utilises a strategy-specific approach that is consistent with our investment philosophy and procedure.",
-    "esg approach 15" => "We commit to a thorough investigation of factors that could result in capital impairment. As with any other potential risk, if ESG-related risks are not adequately addressed and mitigated, it may influence our decision with regard to that security.",
-    "esg approach 16" => "Through our bottom-up research on companies and industries, robust engagement with management and issuers, and ongoing efforts to monitor the regulatory and governmental environment, we perpetually enhance our understanding of how well ESG factors are managed.",
-    "esg approach 17" => "Vanward provides global institutional and individual investors with investment management services. ESG criteria are thoroughly incorporated into our investment procedure. We have the ability to tailor investment solutions to the ESG objectives or screening preferences of individual clients.",
-    "esg approach 18" => "Vanward may be used as a generic term to refer to the entire company and/or its various subsidiaries. This information and any products or services may be issued or provided in multiple jurisdictions by subsidiaries that have been duly authorised and regulated. This content is for informational and reference purposes only; it does not constitute legal, tax, or investment advice, nor is it an offer to sell or a solicitation to purchase securities, services, or investment products. Any reference to tax matters is not intended to be used, and may not be used, to circumvent penalties under the U.S. Internal Revenue Code or other applicable tax regimes, or for promotion, marketing, or recommending services to third parties. All information has been obtained from what are believed to be reliable sources; however, its accuracy cannot be guaranteed and should not be relied upon. Without Vanward's permission, this content may not be reproduced, duplicated, or transmitted, nor may it be disclosed to third parties. All included trademarks and service marks belong to Vanward or their respective proprietors. © Vanward 2023. All privileges reserved.",
-    // fixed income
-    "fixed income 1" => "Vanward has managed fixed income strategies for public and private institutions and wealthy families. Our approach to fixed income can be summed up in a single sentence: we acquire durable credits* when they are offered at appealing yields. Our taxable, tax-exempt, and inflation-indexed investment strategies are founded on our distinctive investment philosophy and valuation methodology and are designed to generate attractive long-term returns.",
-    "fixed income 2" => "Our investment ethos is based on the following guiding principles:",
-    "fixed income 3" => "Historically, credit valuations in fixed income sectors offer recompense in excess of default-driven losses.",
-    "fixed income 4" => "The volatility of credit spreads exceeds that which is warranted by their underlying fundamentals, creating a favourable environment for active management.",
-    "fixed income 5" => "We believe that a patient, long-term approach is required to achieve superior total returns.",
-    "fixed income 6" => "Our strategy concentrates on issuers of debt in key market sectors, such as:",
-    "fixed income 7" => "Corporate debt",
-    "fixed income 8" => "Investing in asset-backed securities",
-    "fixed income 9" => "Investments in commercial mortgage-backed securities",
-    "fixed income 10" => "Municipal obligations",
-    "fixed income 11" => "Securities indexed to inflation",
-    "fixed income 12" => "Federal agencies",
-    "fixed income 13" => "Agency-backed mortgage securities",
-    "fixed income 14" => "U.S. Treasuries",
-    "fixed income 15" => "Learn how our bottom-up investment strategy incorporates",
-    "fixed income 16" => "environmental, social and governance (ESG) considerations.",
-    "fixed income 17" => "Independent credit research that identifies exceptional value across fixed-income sectors.",
-    "fixed income 18" => "Actively managed &Prime;Pure Play&Prime; strategy employed in the inflation-indexed market.",
-    "fixed income 19" => "Bottom-up credit research designed to identify subsectors of the U.S. municipal bond market with strong value.",
-    "fixed income 20" => "*Obligations such as bonds, notes, loans, leases and other forms of indebtedness issued by obligors other than the U.S. Government and its agencies, excluding Cash and Cash Equivalents, and tabulated at the level of the ultimate obligor or guarantor of the Obligation.",
-    // open account
-    "open account 1"    => "Our mission at Vanward is straightforward: to preserve and grow your wealth*. Our approach distinguishes us in this regard. We combine a deeply rooted investment culture with insightful wealth planning and exemplary service to provide you with the most deliberate and comprehensive private wealth management experience possible over the long term. Our client relationships are supported by the partnership structure's stability, longevity, and alignment of interests.",
-    // public equity
-    "public equity 1"   => "Vanward Investment Management employs what we consider to be a low-risk approach to equity investing, based on consistent, objective, and logical decision-making. Long-term attractive risk-adjusted returns are generated for our clients by applying a comprehensive set of investment criteria to our portfolio.",
-    "public equity 2"   => "Our guiding principles include:",
-    "public equity 3"   => "Invest in well-established, cash-generating companies that are market leaders in the provision of essential goods and services.",
-    "public equity 4"   => "At the time of purchase, investments must be acquired at a discount to our estimate of intrinsic value* (e.g., a margin of safety** in the stock price).",
-    "public equity 5"   => "Invest in a small number of companies in order to minimise the impact of unanticipated company-specific issues, and invest only in companies that meet stringent business and valuation criteria.",
-    "public equity 6"   => "Think like owners and administrators by holding stakes in businesses over a long period of time to increase wealth and decrease transaction costs.",
-    "public equity 7"   => "Learn how our bottom-up investment strategy incorporates",
-    "public equity 8"   => "environmental, social and governance (ESG) considerations.",
-    "public equity 9"   => "The domestic large-cap equity strategy seeks to invest primarily in established, cash-generating North American companies.",
-    "public equity 10"  => "A small- and mid-cap equity strategy that seeks to invest in a limited number of unpopular or under-followed companies.",
-    "public equity 11"  => "A global equity strategy that seeks to invest in prominent North American and international providers of essential goods and services.",
-    "public equity 12"  => "* Vanward's estimate of the cash that a business can generate and distribute to its shareholders over the remainder of its tenure.",
-    "public equity 13"  => "* *A margin of safety exists when there is a significant discount to intrinsic value at the time of purchase; we seek to purchase at 75% or less of our estimate of intrinsic value.",
+
     // global equity
     "global equity 1" => "Vanward Global Core Select, our global equity strategy, employs a discount to intrinsic value framework with
                         a long-term business ownership approach. We seek to acquire publicly traded equity securities of
@@ -600,27 +531,7 @@ return [
     "us tips strategy 9" => "These strategies involve out-of-index positions on the U.S. Treasury market and foreign sovereign inflation-indexed markets.",
 
 
-    // custody & fund services
-    "custody & fund services 1" => "Vanward offers a suite of asset servicing solutions designed to help institutional clients access and
-                                    navigate cross-border investing. As a specialist in managing the new and difficult, we have earned the trust
-                                    of the world’s most sophisticated asset gatherers to ensure timely settlement, accurate safekeeping and
-                                    reporting, and error-free administration of their most complex funds and asset types.
-                                    <br><br>
-                                    We are intently focused on risk management and protecting our clients' assets. We are committed to investing
-                                    in a best-in-class compliance and control infrastructure.
-                                    <br><br>
-                                    Clients benefit from our global service model and integrated technology platform designed to deliver a
-                                    measurably superior and consistent global client experience, and 100% client referenceability.",
-    "custody & fund services 2" => "Ensuring timely settlement, accurate safekeeping and reporting for our global client base.",
-    "custody & fund services 3" => "Supporting complex investment types, fee calculations, and service models across a fund domiciles and jurisdictions.",
-    "custody & fund services 4" => "Providing global transfer agency for asset managers distributing cross-border funds to institutional and wholesale investors.",
-    "custody & fund services 5" => "Insulating asset managers from the investments needed to comply with complex collateral requirements.",
-    "custody & fund services 6" => "Offering comprehensive depositary services for Luxembourg, Irish, Cayman and Hong Kong domiciled funds.",
-    "custody & fund services 7" => "Providing a comprehensive suite of administrative services with a flexible approach to support our clients’ needs.",
-    "custody & fund services 8" => "Working with our clients to structure the most beneficial tax treatment across a range of investment vehicles in 95+ markets.",
-    "custody & fund services 9" => "Order Processing and Custody Services for Vanward clients that buy and hold investment funds.",
-    "custody & fund services 10" => "Companies",
-    "custody & fund services 11" => "Companies",
+
     // collateral management
     "collateral management 1" => "Disruption to the derivatives market is underway as regulations such as the Dodd-Frank Act, European Market
                                 Infrastructure Regulation, and Basel III increase the scarcity of available collateral. This has intensified
@@ -828,15 +739,7 @@ return [
     "transfer agency 11" => "this offers a unique connectivity solution for distributor communications.",
     "transfer agency 12" => "Focus on Investor OnBoarding",
     "transfer agency 13" => "We focus on investor onboarding and ongoing servicing critical to an asset manager’s relationship with its underlying clients. We have a strong expertise in local business practices including AML/ KYC.",
-    // investment operations and technology solutions
-    "investment operations and technology solutions 1"  => "The increasing complexity of today's global markets has led many asset gatherers to seek a growing array of
-                                                            middle and back office solutions from custody and fund services providers. Whether it be the provision of
-                                                            technology services on a 'Software as a Service' (SaaS) basis or a more complete outsourcing capability,
-                                                            Vanward is committed to helping our clients make informed decisions about which strategies are best suited
-                                                            to their businesses. We believe in a modular implementation approach that allows clients to retain more
-                                                            control and minimize execution risk.",
-    "investment operations and technology solutions 2"  => "Making key components of Vanward’s technology platform available on a SaaS and IaaS basis.",
-    "investment operations and technology solutions 3"  => "Providing modular operational and technology outsourcing options that maximize client control and minimize risk.",
+
     // middle office outsourcing
     "middle office outsourcing 1" => "The middle office landscape is shifting dramatically as a result of evolving best practices, heightened
                                     institutional due diligence, and the expansion of alternative products and strategies. The need to generate
@@ -1006,25 +909,7 @@ return [
                                     largest and most sophisticated institutions in the world.",
     "global custody direct 2" => "Companies",
     "global custody direct 3" => "Companies",
-    // markets
-    "markets 1" => "Vanward Markets offers foreign exchange trading, currency hedging, and securities lending solutions to
-                    global asset gatherers.
-                    <br><br>
-                    Our strategy is to uncover opportunities and sources of value for our clients through a combination of
-                    market expertise, operational efficiency, pre-and post-trade transparency, and client control.
-                    <br><br>
-                    We believe in proactively providing our clients with new choices and execution options in areas of the
-                    industry that previously provided neither. This means giving our clients complete transparency into the
-                    entire transaction chain (pre-trade, point of execution, price and post-trade processing), along with an
-                    ability for clients to retain important elements of trading control.",
-    "markets 2" => "Supporting a continuum of operational and strategic foreign exchange trading requirements for global asset gatherers.",
-    "markets 3" => "Providing an automated, operationally efficient, effective FX execution tool for security related FX trading needs.",
-    "markets 4" => "Providing custodian neutral securities lending solutions focused on generating competitive risk adjusted returns on our clients’ own terms.",
-    "markets 5" => "Supporting our clients’ strategic FX requirements through Vanward’s principal FX trading desk and industry execution platforms.",
-    "markets 6" => "Structuring share class and portfolio hedging solutions for asset managers seeking an alternative to in-house management of rules-based FX hedging programs.",
-    "markets 7" => "Offering relevant insights on currency, economic and geopolitical developments, securities lending revenue drivers, and efficient operational and strategic FX programs.",
-    "markets 8" => "Companies",
-    "markets 9" => "Companies",
+
     // active fx execution
     "active fx execution 1" => "Vanward’s global foreign exchange desk provides a combination of competitive execution with a reliable and
     experienced sales team that is focused on servicing global asset managers and understanding their unique
@@ -1504,31 +1389,7 @@ return [
                                     responsible for any trading or investment decisions that the recipient makes after reviewing this report,
                                     and also agrees that Vanward and its affiliates bear no responsibility or liability for such decisions.",
     "terms and conditions 20" => "Companies",
-    // specialist expertise
-    "specialist expertise 1" => "Vanward focuses on providing specialist expertise to achieve deeper and long-lasting relationships with our
-                                clients, in areas where we feel we can add the most value.
-                                <br><br>
-                                By focusing on providing asset servicing to a select number of leading global asset gatherers, we have
-                                become specialists in cross-border asset servicing, and supporting the most complex asset classes and
-                                investment strategies.
-                                <br><br>
-                                Our experts add real value where it counts, whether it is better regulatory advice, quicker time to market
-                                for new products, operational solutions that lead to lower variable costs, or innovative technology
-                                solutions that lead to lower fixed costs.
-                                <br><br>
-                                We work with clients on what matters most to help them differentiate and grow their businesses in an
-                                increasingly crowded marketplace.",
-    "specialist expertise 2" => "Working with global asset managers to further their global investment and cross-border growth objectives.",
-    "specialist expertise 3" => "Partnering with intermediaries to better serve clients.",
-    "specialist expertise 4" => "Providing comprehensive fund services for all major alternative asset classes and strategies.",
-    "specialist expertise 5" => "Providing insurance expertise and strategic services to sophisticated global (re)insurers and asset managers.",
-    "specialist expertise 6" => "Working with asset managers to provide comprehensive modular solutions for US Funds that meet their evolving needs across the middle and back office.",
-    "specialist expertise 7" => "Providing distribution intelligence to assist asset managers in developing and executing their distribution strategies.",
-    "specialist expertise 8" => "Working with a diverse group of asset managers to introduce and administer global and regional ETF products.",
-    "specialist expertise 9" => "Keeping clients informed of market and regulatory requirements that impact their businesses.",
-    "specialist expertise 10" => "Companies",
-    "specialist expertise 11" => "Companies",
-    "specialist expertise 12" => "Companies",
+
     // alternative funds
     "alternative funds 1"   => "Vanward is a leading global service provider for alternative funds. Currently servicing over $275 billion*
                                 in alternative assets, we offer comprehensive custody, administration and related services for all major
