@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', '###pageTitleHere | Vanward International')
+@section('title', 'Our Firm | Vanward International')
 
 @section('content')
 

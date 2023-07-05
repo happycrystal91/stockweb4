@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             Vanward International
-        </title>  
+        </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
         <style>
             #loader {
                 width: 70px;
@@ -34,7 +34,7 @@
                 100% {
                     width: 100%;
                 }
-            }		
+            }
         </style>
 
 <style>
@@ -109,15 +109,15 @@
     }
 
     select option:checked {
-      background-color: #f5be7f !important; 
-      color: #ffffff !important; 
+      background-color: #f5be7f !important;
+      color: #ffffff !important;
     }
 
     select option:hover {
-      background-color: #f5be7f !important; 
-      color: #ffffff !important; 
+      background-color: #f5be7f !important;
+      color: #ffffff !important;
     }
-    
+
     @media only screen and (max-width: 992px) {
       .dropdown-menu.show {
         flex-wrap: wrap;
@@ -166,7 +166,7 @@
         overflow-y: scroll;
       }
     }
-    select option { 
+    select option {
     line-height: 20px;
 }
   </style>
@@ -201,10 +201,10 @@
   }
 }
   </style>
-  
+
     </head>
     <body style="background-color: #1E2445;">
-      
+
 
 
 
@@ -216,7 +216,7 @@
         <div class="col-lg-12 text-center">
             <div class="p-2">
                 <img src="{{ asset('logo-2.png') }}" class="img-fluid" alt="" style="width:250px;">
-               
+
             </div>
         </div>
         <div class="col-lg-12">
@@ -251,10 +251,10 @@
                           <option value="">French</option>
                           <option value="">Italian</option>
                         </select>
-                        
+
                       <br><br>
                         <p style="color:#ffffff;">Please select your country :</p>
-                        
+
                           <!-- <h2><a onclick="countryAsia()">Asia Pacific</a></h2> -->
                           <a
                             class="btn btn-secondary dropdown-toggle"
@@ -275,8 +275,8 @@
                               <li><a class="dropdown-item" href="#">United Arab Emirates</a></li>
                             </ul>
                           </div>
-                        
-                          
+
+
                           <a
                             class="btn btn-secondary dropdown-toggle"
                             href="#"
@@ -350,14 +350,14 @@
                           <ul aria-labelledby="dropdownMenuLink">
                           </ul>
                         </div>
-                        
+
                       </div>
                 </div>
             </div>
         </div>
         <div class="col-lg-12">
           <div class="row text-center" style="color: #ffffff;">
-           
+
               <p style="font-weight: bold;">
                  Important Information
               </p>
@@ -367,11 +367,11 @@
               <p>
                   *Vanward International is owned by its funds, which are owned by Vanward International's fund shareholder clients.
               </p>
-        
+
               <p>Vanward International © 2023</p>
           </div>
         </div>
-        
+
         {{-- <script>
             document.onreadystatechange = function () {
                 if (document.readyState !== "complete") {
@@ -400,7 +400,7 @@
             eur.style.display = "none";
             asia.style.display = "none";
         }
-      } 
+      }
       function countryAsia() {
         var eur = document.getElementById("countryEurope");
         var asia = document.getElementById("countryAsia");
@@ -412,7 +412,7 @@
             eur.style.display = "none";
             asia.style.display = "none";
         }
-      } 
+      }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Styles -->
@@ -423,13 +423,13 @@
       max-width: 100%;
     }
     </style>
-    
+
     <!-- Resources -->
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    
+
     <!-- Chart code -->
     <script>
       am5.ready(function() {
@@ -507,7 +507,7 @@
                   backgroundSeries.mapPolygons.template.set("fillOpacity", 0.1);
               }
           });
-          
+
 
           cont.children.push(
               am5.Label.new(root, {
@@ -526,7 +526,7 @@
               strokeOpacity: 0
           });
 
-          
+
 
           // Add background polygon
           // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/#Background_polygon
@@ -541,7 +541,7 @@
                   geoJSON: am5geodata_worldLow
               })
           );
-         
+
           // map color to white
           polygonSeries.set("fill", am5.color(0xffffff));
 
@@ -618,7 +618,7 @@
               {
                   title: "Australia",
                   latitude: -25.2743,
-                  longitude: 133.7751, 
+                  longitude: 133.7751,
                   url: "https://vanwardintl.com/home"
               },
               {
@@ -806,31 +806,31 @@
                   title: title
               });
           }
-          
+
           // Make stuff animate on load
           chart.appear(1000, 100);
 
 
       }); // end am5.ready()
-  </script>    
+  </script>
  <script>
   var slides = document.querySelectorAll('.slide');
   var currentSlide = 0;
-  
+
   function showSlide(index) {
     slides[currentSlide].classList.remove('active');
     slides[index].classList.add('active');
     currentSlide = index;
   }
-  
+
   function nextSlide() {
     var nextIndex = (currentSlide + 1) % slides.length;
     showSlide(nextIndex);
   }
-  
+
   // Start the slideshow
   showSlide(0);
   setInterval(nextSlide, 5000);
   </script>
-  
+
     </html>
