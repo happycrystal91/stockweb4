@@ -1044,7 +1044,7 @@ nav{
     .nav-links li a.main-menu:hover,
     .drop-menu li a:hover,
     .mega-links li a:hover{
-        background: #fff}
+        background: var(--vanward-orange)}
     .nav-links .mobile-item{
         display: none;
     }

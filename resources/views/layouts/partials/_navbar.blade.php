@@ -53,7 +53,7 @@
                         <div class="mega-box">
                             <div class="content">
                                 <div class="row">
-                                    <a class="header" href="#">Private Wealth Management</a>
+                                    <a class="header" href="{{ route('web.private-banking.private_wealth_management') }}">Private Wealth Management</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Investment Advisory</a></li>
                                         <li><a href="#">Wealth Planning</a></li>
@@ -64,7 +64,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a href="#" class="header">Corporate Advisory & Banking</a>
+                                    <a class="header" href="{{ route('web.private-banking.corporate_advisory_and_banking') }}">Corporate Advisory & Banking</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Corporate Advisory</a></li>
                                         <li><a href="#">Corporate Banking</a></li>
@@ -72,7 +72,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a href="#" class="header">Private Equity</a>
+                                    <a class="header" href="{{ route('web.private-banking.private_equity') }}">Private Equity</a>
                                     <ul class="mega-links">
                                         <li><a href="#">About Vanward</a></li>
                                         <li><a href="#">Investment Profile</a></li>
