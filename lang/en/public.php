@@ -255,7 +255,7 @@ return [
     "USA patriot act"                   => "USA PATRIOT Act",
 
     // private banking
-    "private banking para 1"    => "At Vanward, our exclusive mission within Private Banking is to assist private business owners and wealthy individuals with the generational administration of
+    "private banking 1"    => "At Vanward, our exclusive mission within Private Banking is to assist private business owners and wealthy individuals with the generational administration of
                                     their wealth, ensuring its creation, transfer, preservation, and growth. We provide impartial financial and investment advice to corporate and
                                     individual clients, as well as facilitate access to debt and equity capital. Our dedication to superior service fosters enduring relationships
                                     based on trust, allowing us to be a dependable financial partner for our clients.",

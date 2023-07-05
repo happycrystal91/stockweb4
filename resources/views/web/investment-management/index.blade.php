@@ -20,10 +20,7 @@
                             <div class="divider-l"></div>
                             <div class="para">
                                 <p class="paragraph">
-                                    Vanward's mission is to be the greatest at long-term capital preservation and growth for our clients. We concentrate on scalable investment strategies in which our philosophy, methodology, and experience can produce distinctive outcomes. Vanward Investment Management has been managing equity and fixed income investments, and what sets us apart is our distinctive investment strategy.
-                                    <br><br>
-                                    Our investment strategy is governed by a set of fundamental principles that are applied to the entirety of our investment portfolio. Together, they constitute a time-tested philosophy that has allowed us to establish long-lasting client relationships and set us apart from our competitors.
-                                    <br><br>
+                                    @lang('public.investment management 1')
                                     {{-- <ul>Our investment principles:
                                         <li>concentrate on asset preservation</li>
                                         <li>Value-based strategy</li>
