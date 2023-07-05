@@ -23,7 +23,7 @@
                     <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
                     <li><a class="main-menu" href="{{ url('/home') }}">Home</a></li>
                     <li>
-                        <a class="main-menu desktop-item" href="#">Our Firm <span class="caret"></span></a>
+                        <a class="main-menu desktop-item" href="{{ route('web.our-firm.index') }}">Our Firm <span class="caret"></span></a>
                         <input type="checkbox" id="showDrop1">
                         <label for="showDrop1" class="mobile-item">Our Firm <span class="caret"></span></label>
                         <ul class="drop-menu">
@@ -35,7 +35,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="#">Careers <span class="caret"></span></a>
+                        <a class="main-menu desktop-item" href="{{ route('web.careers.index') }}">Careers <span class="caret"></span></a>
                         <input type="checkbox" id="showDrop2">
                         <label for="showDrop2" class="mobile-item">Careers <span class="caret"></span></label>
                         <ul class="drop-menu">
@@ -84,7 +84,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="#">Investment Management <span
+                        <a class="main-menu desktop-item" href="{{ route('web.investment-management.index') }}">Investment Management <span
                                 class="caret"></span></a>
                         <input type="checkbox" id="showMega2">
                         <label for="showMega2" class="mobile-item">Investment Management <span
@@ -116,7 +116,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="#">Investor Services <span
+                        <a class="main-menu desktop-item" href="{{ route('web.investor-services.index') }}">Investor Services <span
                                 class="caret"></span></a>
                         <input type="checkbox" id="showMega3">
                         <label for="showMega3" class="mobile-item">Investor Services <span
