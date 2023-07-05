@@ -32,3 +32,20 @@ Route::prefix('private-banking')->as('web.private-banking.')->group(function () 
     Route::get('/private-wealth-management', function() { return view('web.private-banking.private_wealth_management'); })->name('private_wealth_management');
     Route::get('/corporate-advisory-and-banking', function() { return view('web.private-banking.corporate_advisory_and_banking'); })->name('corporate_advisory_and_banking');
 });
+
+// Investment Management
+Route::prefix('investment-management')->as('web.investment-management.')->group(function () {
+    Route::get('', function() { return view('web.investment-management.index'); })->name('index');
+});
+// Investor Services
+Route::prefix('investor-services')->as('web.investor-services.')->group(function () {
+    Route::get('', function() { return view('web.investor-services.index'); })->name('index');
+});
+// Careers
+Route::prefix('careers')->as('web.careers.')->group(function () {
+    Route::get('', function() { return view('web.careers.index'); })->name('index');
+});
+// Our Firm
+Route::prefix('our-firm')->as('web.our-firm.')->group(function () {
+    Route::get('', function() { return view('web.our-firm.index'); })->name('index');
+});
