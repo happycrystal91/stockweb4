@@ -47,7 +47,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.foreign exchange')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.foreign_exchange') }}" class="link-effect">@lang('public.foreign exchange')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.active fx execution')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.active_fx_execution') }}" class="link-effect">@lang('public.active fx execution')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.infofx')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.infofx') }}" class="link-effect">@lang('public.infofx')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.currency hedging')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.currency_hedging') }}" class="link-effect">@lang('public.currency hedging')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.securities lending')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.securities_lending') }}" class="link-effect">@lang('public.securities lending')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.market intelligence')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.markets.market_intelligence') }}" class="link-effect">@lang('public.market intelligence')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>

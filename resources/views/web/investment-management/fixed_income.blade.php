@@ -53,7 +53,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.taxable fixed income strategies')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.fixed-income.taxable_fixed_income_strategies') }}" class="link-effect">@lang('public.taxable fixed income strategies')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.tax-exempt fixed income strategy')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.fixed-income.tax_exempt_fixed_income_strategy') }}" class="link-effect">@lang('public.tax-exempt fixed income strategy')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.US TIPS strategy')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.fixed-income.us_tips_strategy') }}" class="link-effect">@lang('public.US TIPS strategy')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>

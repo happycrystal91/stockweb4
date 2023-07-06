@@ -47,7 +47,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.custody')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.custody') }}" class="link-effect">@lang('public.custody')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.depositary & trustee')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.depositary_and_trustee') }}" class="link-effect">@lang('public.depositary & trustee')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.fund accounting')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.fund_accounting') }}" class="link-effect">@lang('public.fund accounting')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.administration')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.fund_administration') }}" class="link-effect">@lang('public.administration')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.transfer agency')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.transfer_agency') }}" class="link-effect">@lang('public.transfer agency')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.global tax')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.global_tax') }}" class="link-effect">@lang('public.global tax')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.collateral management')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.collateral_management') }}" class="link-effect">@lang('public.collateral management')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.fund order & custody')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.custody-and-fund-services.fund_order_and_custody') }}" class="link-effect">@lang('public.fund order & custody')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>

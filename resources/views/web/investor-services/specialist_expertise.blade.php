@@ -47,7 +47,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.cross-border funds')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.cross_border_funds') }}" class="link-effect">@lang('public.cross-border funds')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.US funds')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.us_funds') }}" class="link-effect">@lang('public.US funds')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.consultants and advisors')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.consultants_and_advisors') }}" class="link-effect">@lang('public.consultants and advisors')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.distribution intelligence')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.distribution_intelligence') }}" class="link-effect">@lang('public.distribution intelligence')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.alternative funds')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.alternative_funds') }}" class="link-effect">@lang('public.alternative funds')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.exchange traded funds')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.exchange_traded_funds') }}" class="link-effect">@lang('public.exchange traded funds')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.insurance')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.insurance') }}" class="link-effect">@lang('public.insurance')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.regulatory intelligence')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.specialist-expertise.regulatory_intelligence') }}" class="link-effect">@lang('public.regulatory intelligence')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>

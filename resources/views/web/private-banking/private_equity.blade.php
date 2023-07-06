@@ -49,7 +49,7 @@
                         <div class="menu menu-visible" id="menu-1">
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.about vanward')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-equity.about_vanward') }}" class="link-effect">@lang('public.about vanward')</a></h3>
                                     {{-- <span class="item-divider"></span> --}}
                                     <span class="item-price"></span>
                                 </div>
@@ -58,7 +58,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.investment profile')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-equity.investment_profile') }}" class="link-effect">@lang('public.investment profile')</a></h3>
                                     {{-- <span class="item-divider"></span> --}}
                                     <span class="item-price"></span>
                                 </div>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.investment strategy & transaction types')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-equity.investment_strategy_and_transaction_types') }}" class="link-effect">@lang('public.investment strategy & transaction types')</a></h3>
                                     {{-- <span class="item-divider"></span> --}}
                                     <span class="item-price"></span>
                                 </div>
@@ -76,7 +76,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.select portfolio companies')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-equity.select_portfolio_companies') }}" class="link-effect">@lang('public.select portfolio companies')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>

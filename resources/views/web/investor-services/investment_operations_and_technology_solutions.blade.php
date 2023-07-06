@@ -47,7 +47,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.technology services')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.investment-operations-and-technology-solutions.technology_services') }}" class="link-effect">@lang('public.technology services')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.middle office outsourcing')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investor-services.investment-operations-and-technology-solutions.middle_office_outsourcing') }}" class="link-effect">@lang('public.middle office outsourcing')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>

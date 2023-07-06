@@ -48,7 +48,7 @@
                         <div class="menu menu-visible" id="menu-1">
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.corporate advisory')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.corporate-advisory-and-banking.corporate_advisory') }}" class="link-effect">@lang('public.corporate advisory')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -57,7 +57,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.corporate banking')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.corporate-advisory-and-banking.corporate_banking') }}" class="link-effect">@lang('public.corporate banking')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -66,7 +66,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.center for family business')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.corporate-advisory-and-banking.center_for_family_business') }}" class="link-effect">@lang('public.center for family business')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>

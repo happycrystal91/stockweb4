@@ -47,7 +47,7 @@
                         <div class="menu menu-visible" id="menu-1">
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.investment advisory')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.investment_advisory') }}" class="link-effect">@lang('public.investment advisory')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -58,7 +58,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.wealth planning')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.wealth_planning') }}" class="link-effect">@lang('public.wealth planning')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -69,7 +69,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.wealth planning')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.philanthropic_advisory') }}" class="link-effect">@lang('public.philanthropic advisory')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -80,7 +80,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.trust services')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.trust_services') }}" class="link-effect">@lang('public.trust services')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -91,7 +91,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.private client lending')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.private_client_landing') }}" class="link-effect">@lang('public.private client lending')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="item">
                                 <div class="item-wrapper">
-                                    <h3 class="item-name"><a href="#" class="link-effect">@lang('public.center for women & wealth')</a></h3>
+                                    <h3 class="item-name"><a href="{{ route('web.private-banking.private-wealth-management.center_for_women_and_wealth') }}" class="link-effect">@lang('public.center for women & wealth')</a></h3>
                                     <span class="item-divider"></span>
                                     <span class="item-price"></span>
                                 </div>

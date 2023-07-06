@@ -51,7 +51,7 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.US large cap equity')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.public-equity.us_large_cap_equity') }}" class="link-effect">@lang('public.US large cap equity')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.global equity')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.public-equity.global_equity') }}" class="link-effect">@lang('public.global equity')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.US small & mid-cap equity')</a></h3>
+                                <h3 class="item-name"><a href="{{ route('web.investment-management.public-equity.us_small_and_mid_cap_equity') }}" class="link-effect">@lang('public.US small & mid-cap equity')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
