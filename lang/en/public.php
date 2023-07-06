@@ -370,41 +370,7 @@ return [
     "investment advisory 16" => "Discipline and Tenacity",
     "investment advisory 17" => "We are patient investors. When nothing meets our investment criteria, we hold cash, and we have the conviction to sell when an investment no longer provides acceptable returns relative to its risk.",
     "investment advisory 18" => "*Based on our analysis of both tangible and ethereal factors, intrinsic value represents what we believe to be the value of a security. **A margin of safety exists when we believe there is a substantial discount to intrinsic value at the time of purchase – we strive to purchase at or below 75% of our estimate of intrinsic value.",
-    // philanthropic advisory
-    "philanthropic advisory paragraph 1" => "Philanthropy can be a means of giving back, assisting others and your community, setting an example for your family, and/or leaving a legacy. Because philanthropy is so personal and unique to individuals and families, it typically involves a number of considerations on a variety of topics, such as articulating a mission and determining the best legal structure, as well as selecting grant recipients and assessing impact.",
-    "philanthropic advisory paragraph 2" => "We assist our clients in addressing all aspects of their philanthropic plans and objectives, regardless of where they are in their philanthropic journey, so that they can have a positive and enduring impact on their causes, communities, and loved ones.",
-    // trust services
-    "trust services 1"  => "As experienced trustees and executors, we work with clients and their advisors to administer all types of trusts, from simple living trusts to complicated tax-driven estate planning vehicles. We also offer specialized retirement and charitable foundation services.
-                            <br><br>
-                            Our trust offices are located regionally in the U.S. and operated under a national charter, allowing for the local delivery of trust services. Vanward’s Delaware-headquartered trust company offers our clients access to a beneficiary friendly, tax-efficient jurisdiction for trust administration. The firm also maintains a trust company headquartered in the Cayman Islands, primarily to serve the needs of our non-U.S. clients.
-                            <br><br>",
-    "trust services 2"  => "Providing Continuity for Your Family",
-    "trust services 3"  => "By serving as trustee and/or executor, we provide our clients the continuity to help achieve their personal and financial goals over generations. Our comprehensive services include:",
-    "trust services 4"  => "trust and estate administration",
-    "trust services 5"  => "estate plan implementation",
-    "trust services 6"  => "fiduciary tax return preparation",
-    "trust services 7"  => "Delaware trustee services",
-    "trust services 8"  => "foundation management and administration",
-    "trust services 9"  => "fiduciary record-keeping and accounting",
-    "trust services 10" => "income tax planning for trusts, estates, grantors, and beneficiaries",
-    "trust services 11" => "IRA administration",
-    "trust services 12" => "Vanward and its affiliates do not provide legal advice and do not provide tax advice unless Private Banking Private Client Tax Services is engaged for tax return preparation services. Clients should consult with their legal or tax advisor before taking any action relating to the subject matter of this communication.",
-    // private client lending
-    "private client lending 1" => "We offer our customers flexible, secured lending in the form of personal loans and lines of credit. Typically, the proceeds are used to purchase real estate, invest in a business, acquire a valuable asset, or give gifts to family members. Our relationship teams collaborate with you and your family to implement financial strategies that will assist you in achieving your goals.",
-    "private client lending 2" => "Lending to Private Customers",
-    "private client lending 3" => "Deposit Services",
-    "private client lending 4" => "Currency exchange and currency reserve accounts",
-    "private client lending 5" => "Domestic and international electronic funds transfers",
-    "private client lending 6" => "Modular Lending Services",
-    "private client lending 7" => "Investment lines of credit",
-    "private client lending 8" => "Transitional and bridge loans",
-    "private client lending 9" => "Other individual loans",
-    "private client lending 10" => "Advantages of Secured Loans",
-    "private client lending 11" => "We provide advantageous advance rates on extensively held, freely tradable securities.",
-    "private client lending 12" => "Financial statements and tax returns are not required for loans secured by sufficient collateral.",
-    "private client lending 13" => "A client may acquire real estate liens for tax purposes.",
-    "private client lending 14" => "Due to tax concerns or timing issues, or to take advantage of interest deductions, clients may choose to borrow securities rather than liquidate them.",
-
+    
     // wealth planning
     "wealth planning 1" => "Our experienced wealth planners work closely with your legal and tax advisors to design and implement a wealth and estate plan that is driven by your personal goals and values and aligned with your overall investment strategy. This integrated approach allows us to proactively present you with appropriate planning opportunities as your wealth grows, your family changes over time, and the legislative and financial landscape shifts.",
     "wealth planning 2" => "Wealth Planning Advisory Services",
@@ -423,6 +389,59 @@ return [
     "wealth planning 15" => "assisting with the design, establishment, and administration of a family foundation",
     "wealth planning 16" => "advising on appropriate assets for charitable contributions",
     "wealth planning 17" => "identifying philanthropic vehicles to accomplish your family’s charitable giving goals",
+
+    // philanthropic advisory
+    "philanthropic advisory paragraph 1" => "Philanthropy can be a means of giving back, assisting others and your community, setting an example for your family, and/or leaving a legacy. Because philanthropy is so personal and unique to individuals and families, it typically involves a number of considerations on a variety of topics, such as articulating a mission and determining the best legal structure, as well as selecting grant recipients and assessing impact.",
+    "philanthropic advisory paragraph 2" => "We assist our clients in addressing all aspects of their philanthropic plans and objectives, regardless of where they are in their philanthropic journey, so that they can have a positive and enduring impact on their causes, communities, and loved ones.",
+    "philanthropic advisory paragraph 3" => "Getting Started",
+    "philanthropic advisory paragraph 4" => "Charting the Course",
+    "philanthropic advisory paragraph 5" => "Structure and Formation",
+    "philanthropic advisory paragraph 6" => "Advice on structuring your activities based on your current circumstances and the driving forces behind your philanthropy.",
+    "philanthropic advisory paragraph 7" => "Governance and Administration",
+    "philanthropic advisory paragraph 8" => "Support with determining the appropriate governance framework, compliance and other administrative policies and procedures.",
+    "philanthropic advisory paragraph 9" => "Strategy, Execution and Impact",
+    "philanthropic advisory paragraph 10" => "Guidance on strategic philanthropy and execution, including crafting a strategic plan, building an effective team, designing grants and measuring impact.",
+    "philanthropic advisory paragraph 11" => "Beyond Giving",
+    "philanthropic advisory paragraph 12" => "Assistance with aligning your philanthropic mission with your direct involvement in charitable organizations.",
+    
+    // trust services
+    "trust services 1"  => "As experienced trustees and executors, we work with clients and their advisors to administer all types of trusts, from simple living trusts to complicated tax-driven estate planning vehicles. We also offer specialized retirement and charitable foundation services.
+                            <br><br>
+                            Our trust offices are located regionally in the U.S. and operated under a national charter, allowing for the local delivery of trust services. Vanward’s Delaware-headquartered trust company offers our clients access to a beneficiary friendly, tax-efficient jurisdiction for trust administration. The firm also maintains a trust company headquartered in the Cayman Islands, primarily to serve the needs of our non-U.S. clients.
+                            <br><br>",
+    "trust services 2"  => "Providing Continuity for Your Family",
+    "trust services 3"  => "By serving as trustee and/or executor, we provide our clients the continuity to help achieve their personal and financial goals over generations. Our comprehensive services include:",
+    "trust services 4"  => "trust and estate administration",
+    "trust services 5"  => "estate plan implementation",
+    "trust services 6"  => "fiduciary tax return preparation",
+    "trust services 7"  => "Delaware trustee services",
+    "trust services 8"  => "foundation management and administration",
+    "trust services 9"  => "fiduciary record-keeping and accounting",
+    "trust services 10" => "income tax planning for trusts, estates, grantors, and beneficiaries",
+    "trust services 11" => "IRA administration",
+    "trust services 12" => "Vanward and its affiliates do not provide legal advice and do not provide tax advice unless Private Banking Private Client Tax Services is engaged for tax return preparation services. Clients should consult with their legal or tax advisor before taking any action relating to the subject matter of this communication.",
+    
+    // private client lending
+    "private client lending 1" => "We offer our customers flexible, secured lending in the form of personal loans and lines of credit. Typically, the proceeds are used to purchase real estate, invest in a business, acquire a valuable asset, or give gifts to family members. Our relationship teams collaborate with you and your family to implement financial strategies that will assist you in achieving your goals.",
+    "private client lending 2" => "Lending to Private Customers",
+    "private client lending 3" => "Deposit Services",
+    "private client lending 4" => "Currency exchange and currency reserve accounts",
+    "private client lending 5" => "Domestic and international electronic funds transfers",
+    "private client lending 6" => "Modular Lending Services",
+    "private client lending 7" => "Investment lines of credit",
+    "private client lending 8" => "Transitional and bridge loans",
+    "private client lending 9" => "Other individual loans",
+    "private client lending 10" => "Advantages of Secured Loans",
+    "private client lending 11" => "We provide advantageous advance rates on extensively held, freely tradable securities.",
+    "private client lending 12" => "Financial statements and tax returns are not required for loans secured by sufficient collateral.",
+    "private client lending 13" => "A client may acquire real estate liens for tax purposes.",
+    "private client lending 14" => "Due to tax concerns or timing issues, or to take advantage of interest deductions, clients may choose to borrow securities rather than liquidate them.",
+
+    // center for women and wealth
+    "center for women and wealth caption 1" => "The Centre for Women and Wealth® (CW&W) is committed to engaging and assisting women in the wealth creation and management processes. We provide women with investment, planning, and philanthropic resources derived from our private banking clients' decades of experience. The CW&W seeks to cultivate an in-person and online community where women can share their experiences and offer guidance to future generations of female leaders.",
+    "center for women and wealth caption 2" => "New America: Better Life Lab",
+    "center for women and wealth caption 3" => "CW&W is thrilled to partner with The Better Life Lab, an initiative of the think tank and social enterprise New America. The Better Life Lab is a protagonist in the national dialogue concerning the evolution of gender roles and norms, family policy, and the way we work and live. They use research, data, and reporting to inform their work and to convey the stories that motivate, enlighten, and inspire change.",
+    
 
     // about vanward
     "about vanward 1" => "Vanward is a private equity strategy that provides lower middle-market companies with highly customised, one-stop junior capital solutions. We presently have approximately $1.1 billion in committed capital that is available for investment.",
@@ -545,7 +564,7 @@ return [
     "corporate advisory 5" => "Contribute to the identification and selection of corporate advisors",
     "corporate advisory 6" => "Assist in identifying and vetting appropriate capital providers",
     "corporate advisory 7" => "Provide guidance and thoughtful, independent counsel throughout a financing or M&A transaction process",
-    "corporate advisory 8" => "Provide guidance and autonomous, thoughtful counsel throughout the duration of a financing or M&A transaction.",
+    "corporate advisory 8" => "Offer access to and support from the WAML network.",
     // corporate banking
     "corporate banking 1" => "Vanward is committed to comprehending the businesses and industries of our clients so that we can provide sound, objective advice to help them expand. We are providers of capital with added value to substantial privately held U.S. companies with outstanding credit profiles. Vanward possesses extensive domain expertise and experience in a variety of industries, such as commodities and logistics, healthcare, manufacturing, and business services. Our principal credit offerings include:",
     "corporate banking 2" => "Commercial financing",

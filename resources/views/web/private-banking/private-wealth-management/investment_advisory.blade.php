@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="paragraph">
-                                <div class="blog-tag">October 1, 2022</div>
+                                {{-- <div class="blog-tag">October 1, 2022</div> --}}
                                 <div class="divider-m"></div>
                                 <h2>
                                     @lang('public.investment advisory')
@@ -30,7 +30,6 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="blog-quote">
-                                <p>Sed ut <span>perspiciatis unde</span> omnis iste natus error sit voluptatem accusantium doloremque laudantium, <span>totam rem</span> aperiam.</p>
                             </div>
                         </div>
                     </div>
@@ -38,8 +37,6 @@
                         <div class="col-md-12">
                             <div class="divider-l"></div>
                             <p class="paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <a class="link-effect" href="#">magna aliqua</a>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <a class="link-effect" href="#">est laborum</a>.
-                                <br><br>
                                 @lang('public.investment advisory 1')
                                 <br><br>
                                 @lang('public.investment advisory 2')

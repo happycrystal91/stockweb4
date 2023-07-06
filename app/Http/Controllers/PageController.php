@@ -40,7 +40,7 @@ class PageController extends Controller
         return view('web.private-banking.private-wealth-management.philanthropic_advisory');
     }
     public function privateClientLanding() {
-        return view('web.private-banking.private-wealth-management.private_client_landing');
+        return view('web.private-banking.private-wealth-management.private_client_lending');
     }
     public function trustServices() {
         return view('web.private-banking.private-wealth-management.trust_services');
