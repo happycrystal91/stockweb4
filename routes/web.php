@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,12 +33,36 @@ Route::prefix('private-banking')->as('web.private-banking.')->group(function () 
     Route::get('/private-wealth-management', function() { return view('web.private-banking.private_wealth_management'); })->name('private_wealth_management');
     Route::get('/corporate-advisory-and-banking', function() { return view('web.private-banking.corporate_advisory_and_banking'); })->name('corporate_advisory_and_banking');
 });
+// Private Banking > Corporate Advisory and Banking
+Route::controller(PageController::class)->prefix('private-banking/corporate-advisory-and-banking')->as('web.private-banking.corporate-advisory-and-banking.')->group(function () {
+    Route::get('/center-for-family-business', 'centerForFamilyBusiness')->name('center_for_family_business');
+    Route::get('/corporate-advisory', 'corporateAdvisory')->name('corporate_advisory');
+    Route::get('/corporate-banking', 'corporateBanking')->name('corporate_banking');
+});
+    // Private Banking > Private Equity
+Route::controller(PageController::class)->prefix('private-banking/private-equity')->as('web.private-banking.private-equity.')->group(function () {
+    Route::get('/about-wingate', 'aboutWingate')->name('about_wingate');
+    Route::get('/invest-profile', 'investProfile')->name('invest_profile');
+    Route::get('/investment-strategy-and-transaction-types', 'investmentStrategyAndTransactionTypes')->name('investment_strategy_and_transaction_types');
+    Route::get('/select-portfolio-companies', 'selectPortfolioCompanies')->name('select_portfolio_companies');
+});
+    // Private Banking > Private Wealth Management
+Route::controller(PageController::class)->prefix('private-banking/private-wealth-management')->as('web.private-banking.private-wealth-management.')->group(function () {
+    Route::get('/center-for-women-and-wealth', 'centerForWomenAndWealth')->name('center_for_women_and_wealth');
+    Route::get('/investment-advisory', 'investmentAdvisory')->name('investment_advisory');
+    Route::get('/philanthropic-advisory', 'philanthropicAdvisory')->name('philanthropic_advisory');
+    Route::get('/private-client-landing', 'privateClientLanding')->name('private_client_landing');
+    Route::get('/trust-services', 'trustServices')->name('trust_services');
+    Route::get('/wealth-planning', 'wealthPlanning')->name('wealth_planning');
+});
+
 // Investment Management
 Route::prefix('investment-management')->as('web.investment-management.')->group(function () {
     Route::get('', function() { return view('web.investment-management.index'); })->name('index');
     Route::get('/public-equity', function() { return view('web.investment-management.public_equity'); })->name('public_equity');
     Route::get('/fixed-income', function() { return view('web.investment-management.fixed_income'); })->name('fixed_income');
     Route::get('/open-account', function() { return view('web.investment-management.open_account'); })->name('open_account');
+    Route::get('/est-approach', function() { return view('web.investment-management.est_approach'); })->name('esg_approach');
 });
 // Investor Services
 Route::prefix('investor-services')->as('web.investor-services.')->group(function () {
