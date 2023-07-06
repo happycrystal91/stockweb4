@@ -93,17 +93,17 @@
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investment-management.public_equity') }}">@lang('public.public equity')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">US Large Cap Equity</a></li>
-                                        <li><a href="#">Global Equity</a></li>
-                                        <li><a href="#">US Small & Mid-Cap Equity</a></li>
+                                        <li><a href="{{ route('web.investment-management.public-equity.us_large_cap_equity') }}">US Large Cap Equity</a></li>
+                                        <li><a href="{{ route('web.investment-management.public-equity.global_equity') }}">Global Equity</a></li>
+                                        <li><a href="{{ route('web.investment-management.public-equity.us_small_and_mid_cap_equity') }}">US Small & Mid-Cap Equity</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investment-management.fixed_income') }}">@lang('public.fixed income')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Taxable Fixed Income Strategies</a></li>
-                                        <li><a href="#">Tax-Exempt Fixed Income Strategy</a></li>
-                                        <li><a href="#">US TIPS Strategy</a></li>
+                                        <li><a href="{{ route('web.investment-management.fixed-income.taxable_fixed_income_strategies') }}">Taxable Fixed Income Strategies</a></li>
+                                        <li><a href="{{ route('web.investment-management.fixed-income.tax_exempt_fixed_income_strategy') }}">Tax-Exempt Fixed Income Strategy</a></li>
+                                        <li><a href="{{ route('web.investment-management.fixed-income.us_tips_strategy') }}">US TIPS Strategy</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
@@ -125,45 +125,45 @@
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investor-services.custody_and_fund_services') }}">@lang('public.custody & fund services')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Custody</a></li>
-                                        <li><a href="#">Depositary & Trustee</a></li>
-                                        <li><a href="#">Fund Accounting</a></li>
-                                        <li><a href="#">Fund Administration</a></li>
-                                        <li><a href="#">Transfer Agency</a></li>
-                                        <li><a href="#">Global Tax</a></li>
-                                        <li><a href="#">Collateral Management</a></li>
-                                        <li><a href="#">Fund Order & Custody</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.custody') }}">Custody</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.depositary_and_trustee') }}">Depositary & Trustee</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.fund_accounting') }}">Fund Accounting</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.fund_administration') }}">Fund Administration</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.transfer_agency') }}">Transfer Agency</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.global_tax') }}">Global Tax</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.collateral_management') }}">Collateral Management</a></li>
+                                        <li><a href="{{ route('web.investor-services.custody-and-fund-services.fund_order_and_custody') }}">Fund Order & Custody</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investor-services.specialist_expertise') }}">@lang('public.specialist expertise')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Cross-Border Funds</a></li>
-                                        <li><a href="#">US Funds</a></li>
-                                        <li><a href="#">Consultants & Advisors</a></li>
-                                        <li><a href="#">Distribution & Intelligence</a></li>
-                                        <li><a href="#">Alternative Funds</a></li>
-                                        <li><a href="#">Exchange Traded Funds</a></li>
-                                        <li><a href="#">Insurance</a></li>
-                                        <li><a href="#">Regulatory Intelligence</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.cross_border_funds') }}">Cross-Border Funds</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.us_funds') }}">US Funds</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.consultants_and_advisors') }}">Consultants & Advisors</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.distribution_intelligence') }}">Distribution Intelligence</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.alternative_funds') }}">Alternative Funds</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.exchange_traded_funds') }}">Exchange Traded Funds</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.insurance') }}">Insurance</a></li>
+                                        <li><a href="{{ route('web.investor-services.specialist-expertise.regulatory_intelligence') }}">Regulatory Intelligence</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investor-services.markets') }}">@lang('public.markets')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Foreign Exchange</a></li>
-                                        <li><a href="#">Active FX Execution</a></li>
-                                        <li><a href="#">InfoFX</a></li>
-                                        <li><a href="#">Currency Hedging</a></li>
-                                        <li><a href="#">Securities Lending</a></li>
-                                        <li><a href="#">Market Intelligence</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.foreign_exchange') }}">Foreign Exchange</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.active_fx_execution') }}">Active FX Execution</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.infofx') }}">InfoFX</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.currency_hedging') }}">Currency Hedging</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.securities_lending') }}">Securities Lending</a></li>
+                                        <li><a href="{{ route('web.investor-services.markets.market_intelligence') }}">Market Intelligence</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.investor-services.investment_operations_and_technology_solutions') }}">@lang('public.investment operations & technology')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Technology Services</a></li>
-                                        <li><a href="#">Middle Office Outsourcing</a></li>
+                                        <li><a href="{{ route('web.investor-services.investment-operations-and-technology-solutions.technology_services') }}">Technology Services</a></li>
+                                        <li><a href="{{ route('web.investor-services.investment-operations-and-technology-solutions.middle_office_outsourcing') }}">Middle Office Outsourcing</a></li>
                                     </ul>
                                 </div>
                             </div>
