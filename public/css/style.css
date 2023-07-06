@@ -4086,6 +4086,16 @@ div .para,
     font-size: inherit;
 
 }
+.italic {
+    font-style: italic !important;
+}
+.justify-content-around {
+    justify-content: space-around !important;
+    display: flex;
+}
+.font-bold{
+    font-weight: 600 !important;
+}
 
 /* news quote */
 
@@ -4266,7 +4276,7 @@ h2.hero-heading.hero-heading-dark,
 p,
 p a,
 p a:hover {
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .team-box {
