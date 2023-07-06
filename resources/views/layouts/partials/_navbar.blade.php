@@ -21,39 +21,38 @@
                     <!-- close btn for mobile view -->
                     <img alt="Logo" class="logo-light" id="logo-mobile" src="{{ asset('logo-2.png') }}">
                     <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
-                    <li><a class="main-menu" href="{{ url('/home') }}">Home</a></li>
+                    <li><a class="main-menu" href="{{ url('/home') }}">@lang('public.home')</a></li>
                     <li>
-                        <a class="main-menu desktop-item" href="{{ route('web.our-firm.index') }}">Our Firm <span class="caret"></span></a>
+                        <a class="main-menu desktop-item" href="{{ route('web.our-firm.index') }}">@lang('public.our firm') <span class="caret"></span></a>
                         <input type="checkbox" id="showDrop1">
-                        <label for="showDrop1" class="mobile-item">Our Firm <span class="caret"></span></label>
+                        <label for="showDrop1" class="mobile-item">@lang('public.our firm') <span class="caret"></span></label>
                         <ul class="drop-menu">
-                            <li><a href="#">The Partnership</a></li>
-                            <li><a href="#">Our Mission & Profile</a></li>
-                            <li><a href="#">Sustainability</a></li>
-                            <li><a href="#">Philanthropy</a></li>
-                            <li><a href="#">Policies & Disclosures</a></li>
+                            <li><a href="{{ route('web.our-firm.the_partnership') }}">The Partnership</a></li>
+                            <li><a href="{{ route('web.our-firm.our_mission_and_profile') }}">Our Mission & Profile</a></li>
+                            <li><a href="{{ route('web.our-firm.sustainability') }}">Sustainability</a></li>
+                            <li><a href="{{ route('web.our-firm.philanthropy') }}">Philanthropy</a></li>
+                            <li><a href="{{ route('web.our-firm.policies_and_disclosures') }}">Policies & Disclosures</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="{{ route('web.careers.index') }}">Careers <span class="caret"></span></a>
+                        <a class="main-menu desktop-item" href="{{ route('web.careers.index') }}">@lang('public.careers') <span class="caret"></span></a>
                         <input type="checkbox" id="showDrop2">
-                        <label for="showDrop2" class="mobile-item">Careers <span class="caret"></span></label>
+                        <label for="showDrop2" class="mobile-item">@lang('public.careers') <span class="caret"></span></label>
                         <ul class="drop-menu">
-                            <li><a href="#">What We Look For</a></li>
-                            <li><a href="#">Total Rewards</a></li>
-                            <li><a href="#">Life At Vanward</a></li>
-                            <li><a href="#">Cares</a></li>
+                            <li><a href="{{ route('web.careers.what_we_look_for') }}">What We Look For</a></li>
+                            <li><a href="{{ route('web.careers.total_rewards') }}">Total Rewards</a></li>
+                            <li><a href="{{ route('web.careers.life_here') }}">Life At Vanward</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="{{ route('web.private-banking.index') }}">Private Banking <span
+                        <a class="main-menu desktop-item" href="{{ route('web.private-banking.index') }}">@lang('public.private banking') <span
                                 class="caret"></span></a>
                         <input type="checkbox" id="showMega1">
-                        <label for="showMega1" class="mobile-item">Private Banking <span class="caret"></span></label>
+                        <label for="showMega1" class="mobile-item">@lang('public.private banking') <span class="caret"></span></label>
                         <div class="mega-box">
                             <div class="content">
                                 <div class="row">
-                                    <a class="header" href="{{ route('web.private-banking.private_wealth_management') }}">Private Wealth Management</a>
+                                    <a class="header" href="{{ route('web.private-banking.private_wealth_management') }}">@lang('public.private wealth management')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Investment Advisory</a></li>
                                         <li><a href="#">Wealth Planning</a></li>
@@ -64,7 +63,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="{{ route('web.private-banking.corporate_advisory_and_banking') }}">Corporate Advisory & Banking</a>
+                                    <a class="header" href="{{ route('web.private-banking.corporate_advisory_and_banking') }}">@lang('public.corporate advisory')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Corporate Advisory</a></li>
                                         <li><a href="#">Corporate Banking</a></li>
@@ -72,7 +71,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="{{ route('web.private-banking.private_equity') }}">Private Equity</a>
+                                    <a class="header" href="{{ route('web.private-banking.private_equity') }}">@lang('public.private equity')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">About Vanward</a></li>
                                         <li><a href="#">Investment Profile</a></li>
@@ -84,15 +83,15 @@
                         </div>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="{{ route('web.investment-management.index') }}">Investment Management <span
+                        <a class="main-menu desktop-item" href="{{ route('web.investment-management.index') }}">@lang('public.investment management') <span
                                 class="caret"></span></a>
                         <input type="checkbox" id="showMega2">
-                        <label for="showMega2" class="mobile-item">Investment Management <span
+                        <label for="showMega2" class="mobile-item">@lang('public.investment management') <span
                                 class="caret"></span></label>
                         <div class="mega-box">
                             <div class="content">
                                 <div class="row">
-                                    <a class="header" href="#">Public Equity</a>
+                                    <a class="header" href="{{ route('web.investment-management.public_equity') }}">@lang('public.public equity')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">US Large Cap Equity</a></li>
                                         <li><a href="#">Global Equity</a></li>
@@ -100,7 +99,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="#">Fixed Income</a>
+                                    <a class="header" href="{{ route('web.investment-management.fixed_income') }}">@lang('public.fixed income')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Taxable Fixed Income Strategies</a></li>
                                         <li><a href="#">Tax-Exempt Fixed Income Strategy</a></li>
@@ -108,7 +107,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="#">Open Account</a>
+                                    <a class="header" href="{{ route('web.investment-management.open_account') }}">@lang('public.open account')</a>
                                     <ul class="mega-links">
                                     </ul>
                                 </div>
@@ -116,15 +115,15 @@
                         </div>
                     </li>
                     <li>
-                        <a class="main-menu desktop-item" href="{{ route('web.investor-services.index') }}">Investor Services <span
+                        <a class="main-menu desktop-item" href="{{ route('web.investor-services.index') }}">@lang('public.investor services') <span
                                 class="caret"></span></a>
                         <input type="checkbox" id="showMega3">
-                        <label for="showMega3" class="mobile-item">Investor Services <span
+                        <label for="showMega3" class="mobile-item">@lang('public.investor services') <span
                                 class="caret"></span></label>
                         <div class="mega-box">
                             <div class="content">
                                 <div class="row">
-                                    <a class="header" href="#">Custody & Fund Services</a>
+                                    <a class="header" href="{{ route('web.investor-services.custody_and_fund_services') }}">@lang('public.custody & fund services')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Custody</a></li>
                                         <li><a href="#">Depositary & Trustee</a></li>
@@ -137,7 +136,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="#">Specialist Expertise</a>
+                                    <a class="header" href="{{ route('web.investor-services.specialist_expertise') }}">@lang('public.specialist expertise')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Cross-Border Funds</a></li>
                                         <li><a href="#">US Funds</a></li>
@@ -150,7 +149,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="#">Markets</a>
+                                    <a class="header" href="{{ route('web.investor-services.markets') }}">@lang('public.markets')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Foreign Exchange</a></li>
                                         <li><a href="#">Active FX Execution</a></li>
@@ -161,7 +160,7 @@
                                     </ul>
                                 </div>
                                 <div class="row">
-                                    <a class="header" href="#">Investment Operations & Technology Solutions</a>
+                                    <a class="header" href="{{ route('web.investor-services.investment_operations_and_technology_solutions') }}">@lang('public.investment operations & technology')</a>
                                     <ul class="mega-links">
                                         <li><a href="#">Technology Services</a></li>
                                         <li><a href="#">Middle Office Outsourcing</a></li>
@@ -171,7 +170,7 @@
                         </div>
                     </li>
                     <li><a class="main-menu" href="#">Contact Us</a></li>
-                    <li><a class="main-menu" href="#">Client Login</a></li>
+                    <li><a class="main-menu" href="https://app.vanwardintl.com/en/accounts/login/">@lang('public.client login')</a></li>
                 </ul>
                 <!-- bar btn for mobile view -->
                 <label for="menu-btn" class="btn menu-btn"><i class="fa fa-bars"></i></label>

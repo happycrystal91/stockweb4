@@ -1,11 +1,11 @@
 @extends('layouts.app')
-@section('title', 'Life At Vanward | Careers | Vanward International')
+@section('title', 'Important Statements & Disclosures | Policies & Disclosures | Our Firm | Vanward International')
 
 @section('content')
 
 @component('components.title1', [
     'imgurl' => url('private-equity.jpg'),
-    'title' => __('public.life at vanward')
+    'title' => __('public.important statements & disclosures')
 ])
 @endcomponent
 
@@ -20,7 +20,9 @@
                             <div class="divider-l"></div>
                             <div>
                                 <p class="paragraph">
-                                    @lang('public.life here 1')
+                                    @lang('public.important statements & disclosures 1')
+                                    <br><br>
+                                    @lang('public.please') <a href="" class="link-effect">@lang('public.contact us')</a> @lang('public.with questions')
                                 </p>
                             </div>
                         </div>
@@ -47,47 +49,51 @@
                     <div class="menu menu-visible" id="menu-1">
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.our culture')</a></h3>
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.data protection notice')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
                             <div class="divider-s"></div>
-                            <p class="paragraph">
-                                @lang('public.life here 2')
-                            </p>
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.core values')</a></h3>
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.online security')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
                             <div class="divider-s"></div>
-                            <p class="paragraph">
-                                @lang('public.life here 3')
-                            </p>
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.affinity network community')</a></h3>
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.BCP statement')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
                             <div class="divider-s"></div>
-                            <p class="paragraph">
-                                @lang('public.life here 4')
-                            </p>
                         </div>
                         <div class="item">
                             <div class="item-wrapper">
-                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.cares')</a></h3>
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.regulation E')</a></h3>
                                 <span class="item-divider"></span>
                                 <span class="item-price"></span>
                             </div>
                             <div class="divider-s"></div>
-                            <p class="paragraph">
-                                @lang('public.life here 5')
-                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="item-wrapper">
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.additional disclosures')</a></h3>
+                                <span class="item-divider"></span>
+                                <span class="item-price"></span>
+                            </div>
+                            <div class="divider-s"></div>
+                        </div>
+                        <div class="item">
+                            <div class="item-wrapper">
+                                <h3 class="item-name"><a href="#" class="link-effect">@lang('public.confidential ethics reporting')</a></h3>
+                                <span class="item-divider"></span>
+                                <span class="item-price"></span>
+                            </div>
+                            <div class="divider-s"></div>
                         </div>
                     </div>
                 </div>
