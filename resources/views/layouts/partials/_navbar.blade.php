@@ -54,29 +54,29 @@
                                 <div class="row">
                                     <a class="header" href="{{ route('web.private-banking.private_wealth_management') }}">@lang('public.private wealth management')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Investment Advisory</a></li>
-                                        <li><a href="#">Wealth Planning</a></li>
-                                        <li><a href="#">Philanthropic Advisory</a></li>
-                                        <li><a href="#">Trust Services</a></li>
-                                        <li><a href="#">Private Client Lending</a></li>
-                                        <li><a href="#">Center For Women & Wealth</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.investment_advisory') }}">Investment Advisory</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.wealth_planning') }}">Wealth Planning</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.philanthropic_advisory') }}">Philanthropic Advisory</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.trust_services') }}">Trust Services</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.private_client_landing') }}">Private Client Lending</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-wealth-management.center_for_women_and_wealth') }}">Center For Women & Wealth</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.private-banking.corporate_advisory_and_banking') }}">@lang('public.corporate advisory')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">Corporate Advisory</a></li>
-                                        <li><a href="#">Corporate Banking</a></li>
-                                        <li><a href="#">Center For Family Business</a></li>
+                                        <li><a href="{{ route('web.private-banking.corporate-advisory-and-banking.corporate_advisory') }}">Corporate Advisory</a></li>
+                                        <li><a href="{{ route('web.private-banking.corporate-advisory-and-banking.corporate_banking') }}">Corporate Banking</a></li>
+                                        <li><a href="{{ route('web.private-banking.corporate-advisory-and-banking.center_for_family_business') }}">Center For Family Business</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
                                     <a class="header" href="{{ route('web.private-banking.private_equity') }}">@lang('public.private equity')</a>
                                     <ul class="mega-links">
-                                        <li><a href="#">About Vanward</a></li>
-                                        <li><a href="#">Investment Profile</a></li>
-                                        <li><a href="#">Investment Strategy & Transaction Types</a></li>
-                                        <li><a href="#">Select Portfolio Companies</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-equity.about_vanward') }}">About Vanward</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-equity.investment_profile') }}">Investment Profile</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-equity.investment_strategy_and_transaction_types') }}">Investment Strategy & Transaction Types</a></li>
+                                        <li><a href="{{ route('web.private-banking.private-equity.select_portfolio_companies') }}">Select Portfolio Companies</a></li>
                                     </ul>
                                 </div>
                             </div>

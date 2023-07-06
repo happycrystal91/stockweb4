@@ -17,11 +17,11 @@ class PageController extends Controller
         return view('web.private-banking.corporate-advisory-and-banking.corporate_banking');
     }
     // Private Banking > Private Equity
-    public function aboutWingate() {
-        return view('web.private-banking.private-equity.about_wingate');
+    public function aboutVanward() {
+        return view('web.private-banking.private-equity.about_vanward');
     }
-    public function investProfile() {
-        return view('web.private-banking.private-equity.invest_profile');
+    public function investmentProfile() {
+        return view('web.private-banking.private-equity.investment_profile');
     }
     public function investmentStrategyAndTransactionTypes() {
         return view('web.private-banking.private-equity.investment_strategy_and_transaction_types');

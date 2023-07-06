@@ -41,8 +41,8 @@ Route::controller(PageController::class)->prefix('private-banking/corporate-advi
 });
     // Private Banking > Private Equity
 Route::controller(PageController::class)->prefix('private-banking/private-equity')->as('web.private-banking.private-equity.')->group(function () {
-    Route::get('/about-wingate', 'aboutWingate')->name('about_wingate');
-    Route::get('/invest-profile', 'investProfile')->name('invest_profile');
+    Route::get('/about-wingate', 'aboutVanward')->name('about_vanward');
+    Route::get('/investment-profile', 'investmentProfile')->name('investment_profile');
     Route::get('/investment-strategy-and-transaction-types', 'investmentStrategyAndTransactionTypes')->name('investment_strategy_and_transaction_types');
     Route::get('/select-portfolio-companies', 'selectPortfolioCompanies')->name('select_portfolio_companies');
 });
